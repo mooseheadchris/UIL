@@ -1,0 +1,14 @@
+# Claude Code internal files
+.claude/
+
+# clasp credentials — never commit
+site/.clasp.json
+site/.clasprc.json
+
+# dependencies / logs
+site/node_modules/
+site/*.log
+
+# OS
+.DS_Store
+Thumbs.db
