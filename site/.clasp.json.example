@@ -1,0 +1,15 @@
+{
+  "scriptId": "PASTE_YOUR_APPS_SCRIPT_PROJECT_ID_HERE",
+  "rootDir": "./src",
+  "filePushOrder": [
+    "Constants.gs",
+    "SheetDB.gs",
+    "Auth.gs",
+    "Users.gs",
+    "Study.gs",
+    "Quiz.gs",
+    "Leaderboard.gs",
+    "Teacher.gs",
+    "Code.gs"
+  ]
+}

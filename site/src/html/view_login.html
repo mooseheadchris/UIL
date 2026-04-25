@@ -1,0 +1,35 @@
+<script>
+  function renderLogin(main) {
+    main.innerHTML = '';
+    const card = el('div', { class: 'card' });
+    card.appendChild(el('h2', null, ['Sign in']));
+    card.appendChild(el('p', { class: 'muted small' }, ['Use your school email and the password your coach gave you.']));
+
+    const form = el('form');
+    form.appendChild(el('label', null, ['Email']));
+    const emailInp = el('input', { type: 'email', required: 'required', autocomplete: 'username' });
+    form.appendChild(emailInp);
+    form.appendChild(el('label', null, ['Password']));
+    const pwInp = el('input', { type: 'password', required: 'required', autocomplete: 'current-password' });
+    form.appendChild(pwInp);
+    const submitBtn = el('button', { type: 'submit', style: 'margin-top:16px;width:100%;' }, ['Sign in']);
+    form.appendChild(submitBtn);
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Signing in…';
+      call('login', emailInp.value, pwInp.value)
+        .then(function (res) {
+          session.set(res);
+          nav('#/');
+        })
+        .catch(function (err) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Sign in';
+          showError(card, err.message);
+        });
+    });
+    card.appendChild(form);
+    main.appendChild(card);
+  }
+</script>

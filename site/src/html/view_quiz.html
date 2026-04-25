@@ -1,0 +1,143 @@
+<script>
+  function renderQuiz(main, s) {
+    main.innerHTML = '';
+    const card = el('div', { class: 'card' });
+    card.appendChild(el('h2', null, ['Take a quiz']));
+    card.appendChild(el('label', null, ['Subject']));
+    const subjSelect = el('select');
+    (window.SUBJECTS || []).forEach(function (subj) {
+      subjSelect.appendChild(el('option', { value: subj }, [subj]));
+    });
+    card.appendChild(subjSelect);
+
+    const sectionLabel = el('label', { style: 'display:none;' }, ['Section']);
+    const sectionSelect = el('select', { style: 'display:none;' });
+    card.appendChild(sectionLabel);
+    card.appendChild(sectionSelect);
+
+    function refreshSections() {
+      sectionSelect.innerHTML = '';
+      sectionSelect.appendChild(el('option', { value: '' }, ['All sections']));
+      if (!subjSelect.value) {
+        sectionLabel.style.display = 'none';
+        sectionSelect.style.display = 'none';
+        return;
+      }
+      callAuth('listSections', subjSelect.value, 'questions').then(function (sections) {
+        if (!sections.length) {
+          sectionLabel.style.display = 'none';
+          sectionSelect.style.display = 'none';
+          return;
+        }
+        sections.forEach(function (name) {
+          sectionSelect.appendChild(el('option', { value: name }, [name]));
+        });
+        sectionLabel.style.display = '';
+        sectionSelect.style.display = '';
+      }).catch(function () { /* ignore */ });
+    }
+    subjSelect.addEventListener('change', refreshSections);
+    refreshSections();
+
+    card.appendChild(el('label', null, ['Number of questions']));
+    const n = el('input', { type: 'number', min: '1', max: '50', value: '10' });
+    card.appendChild(n);
+    const startBtn = el('button', { style: 'margin-top:16px;' }, ['Start quiz']);
+    card.appendChild(startBtn);
+    main.appendChild(card);
+
+    startBtn.addEventListener('click', function () {
+      startBtn.disabled = true;
+      startBtn.textContent = 'Loading…';
+      const sectionVal = sectionSelect.value || null;
+      callAuth('startQuiz', subjSelect.value, sectionVal, Number(n.value) || 10).then(function (res) {
+        runQuiz(main, res);
+      }).catch(function (err) {
+        startBtn.disabled = false;
+        startBtn.textContent = 'Start quiz';
+        showError(card, err.message);
+      });
+    });
+  }
+
+  function runQuiz(main, quiz) {
+    main.innerHTML = '';
+    const header = el('div', { class: 'card' });
+    header.appendChild(el('h2', null, [quiz.subject + ' quiz']));
+    header.appendChild(el('p', { class: 'muted' }, [quiz.questions.length + ' questions. Choose one answer per question, then submit.']));
+    main.appendChild(header);
+
+    const answers = {};
+    const qCards = [];
+    quiz.questions.forEach(function (q, idx) {
+      const qc = el('div', { class: 'card' });
+      qc.appendChild(el('h2', null, ['Question ' + (idx + 1)]));
+      qc.appendChild(el('p', null, [q.prompt]));
+      ['A', 'B', 'C', 'D'].forEach(function (letter) {
+        const id = 'q_' + q.questionId + '_' + letter;
+        const label = el('label', { class: 'choice', for: id });
+        const input = el('input', { type: 'radio', name: 'q_' + q.questionId, id: id, value: letter });
+        input.addEventListener('change', function () { answers[q.questionId] = letter; });
+        label.appendChild(input);
+        label.appendChild(document.createTextNode(letter + '. ' + q.choices[letter]));
+        qc.appendChild(label);
+      });
+      renderMath(qc);
+      main.appendChild(qc);
+      qCards.push(qc);
+    });
+
+    const submitCard = el('div', { class: 'card' });
+    const submitBtn = el('button', null, ['Submit quiz']);
+    submitCard.appendChild(submitBtn);
+    main.appendChild(submitCard);
+
+    submitBtn.addEventListener('click', function () {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Scoring…';
+      callAuth('submitQuiz', quiz.attemptId, answers).then(function (result) {
+        renderQuizResult(main, quiz, result, qCards);
+      }).catch(function (err) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit quiz';
+        showError(submitCard, err.message);
+      });
+    });
+  }
+
+  function renderQuizResult(main, quiz, result, qCards) {
+    const pct = Math.round(100 * result.score / result.total);
+    const topCard = el('div', { class: 'card' });
+    topCard.appendChild(el('h2', null, ['You scored ' + result.score + ' / ' + result.total + '  (' + pct + '%)']));
+    const row = el('div', { class: 'btn-row' });
+    row.appendChild(el('a', { class: 'btn', href: '#/quiz' }, ['Another quiz']));
+    row.appendChild(el('a', { class: 'btn ghost', href: '#/' }, ['Back to dashboard']));
+    topCard.appendChild(row);
+    main.insertBefore(topCard, main.firstChild);
+
+    const byQ = {};
+    result.breakdown.forEach(function (b) { byQ[b.questionId] = b; });
+
+    quiz.questions.forEach(function (q, idx) {
+      const b = byQ[q.questionId];
+      if (!b) return;
+      const qc = qCards[idx];
+      const choices = qc.querySelectorAll('.choice');
+      choices.forEach(function (label) {
+        const input = label.querySelector('input');
+        input.disabled = true;
+        if (input.value === b.correct) label.classList.add('correct');
+        if (b.chosen && input.value === b.chosen && !b.isCorrect) label.classList.add('incorrect');
+      });
+      if (b.explanation) {
+        const expP = el('p', { class: 'muted small' });
+        expP.textContent = 'Explanation: ' + b.explanation;
+        qc.appendChild(expP);
+        renderMath(expP);
+      }
+    });
+    // Hide the submit button card.
+    const last = main.lastElementChild;
+    if (last) last.remove();
+  }
+</script>

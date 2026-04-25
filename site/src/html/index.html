@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AcDec Study</title>
+  <?!= include('html/styles') ?>
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="brand">AcDec Study</div>
+  </header>
+  <main id="main">Loading…</main>
+
+  <script>
+    window.SUBJECTS = <?!= JSON.stringify(subjects) ?>;
+  </script>
+  <?!= include('html/client') ?>
+  <?!= include('html/view_login') ?>
+  <?!= include('html/view_dashboard') ?>
+  <?!= include('html/view_study') ?>
+  <?!= include('html/view_quiz') ?>
+  <?!= include('html/view_leaderboard') ?>
+  <?!= include('html/view_teacher') ?>
+  <?!= include('html/katex') ?>
+</body>
+</html>
