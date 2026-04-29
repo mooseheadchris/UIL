@@ -251,6 +251,7 @@ function ensureSheets() {
     if (!sheet) sheet = ss.insertSheet(name);
     const header = SCHEMA[name];
     migratePreSectionSchema_(sheet, name);
+    migratePreChoiceESchema_(sheet, name);
     const existing = sheet.getRange(1, 1, 1, Math.max(header.length, sheet.getLastColumn() || 1)).getValues()[0];
     const needsHeader = header.some(function (h, i) { return existing[i] !== h; });
     if (needsHeader) {
@@ -258,6 +259,32 @@ function ensureSheets() {
       sheet.setFrozenRows(1);
     }
     invalidate_(name);
+  }
+}
+
+/**
+ * If the Questions sheet is missing the `choiceE` (index 8) and/or
+ * `answerType` (index 10) columns, insert blank columns so existing rows
+ * stay aligned with the new schema. No-op if already current.
+ */
+function migratePreChoiceESchema_(sheet, name) {
+  if (name !== SHEETS.QUESTIONS) return;
+  if (sheet.getLastColumn() < 9) return;
+
+  // Step 1: insert choiceE before correctChoice when choiceE is absent.
+  // Old schema has choiceD at index 7 (col 8) and correctChoice at index 8 (col 9).
+  let existing = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+  if (existing[7] === 'choiceD' && existing[8] === 'correctChoice') {
+    sheet.insertColumnBefore(9); // blank choiceE slot at col 9; correctChoice shifts to col 10
+  }
+
+  // Step 2: insert answerType between correctChoice and explanation when absent.
+  existing = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+  for (let i = 0; i < existing.length - 1; i++) {
+    if (existing[i] === 'correctChoice' && existing[i + 1] === 'explanation') {
+      sheet.insertColumnBefore(i + 2); // blank answerType slot; explanation shifts right
+      break;
+    }
   }
 }
 

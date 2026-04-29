@@ -47,11 +47,13 @@ function startQuiz(token, subject, section, questionCount) {
   const attemptId = genId('attempt');
 
   const sanitized = picked.map(function (q) {
-    return {
-      questionId: q.questionId,
-      prompt: q.prompt,
-      choices: { A: q.choiceA, B: q.choiceB, C: q.choiceC, D: q.choiceD }
-    };
+    const type = q.answerType || 'mcq';
+    if (type !== 'mcq') {
+      return { questionId: q.questionId, prompt: q.prompt, answerType: type };
+    }
+    const choices = { A: q.choiceA, B: q.choiceB, C: q.choiceC, D: q.choiceD };
+    if (q.choiceE) choices.E = q.choiceE;
+    return { questionId: q.questionId, prompt: q.prompt, choices: choices };
   });
 
   const payload = {
@@ -60,7 +62,13 @@ function startQuiz(token, subject, section, questionCount) {
     subject: subject,
     startedAt: new Date().toISOString(),
     questions: picked.map(function (q) {
-      return { questionId: q.questionId, correctChoice: q.correctChoice, explanation: q.explanation };
+      return {
+        questionId: q.questionId,
+        correctChoice: q.correctChoice,
+        choiceA: q.choiceA,
+        answerType: q.answerType || 'mcq',
+        explanation: q.explanation
+      };
     })
   };
   cache_().put(quizCacheKey_(attemptId), JSON.stringify(payload), SESSION.QUIZ_CACHE_TTL_SEC);
@@ -87,13 +95,15 @@ function submitQuiz(token, attemptId, answers) {
   const answerRows = [];
 
   payload.questions.forEach(function (q) {
-    const chosen = String(ans[q.questionId] || '').toUpperCase();
-    const isCorrect = chosen === String(q.correctChoice).toUpperCase();
+    const type = q.answerType || 'mcq';
+    const raw = String(ans[q.questionId] || '');
+    const chosen = type === 'mcq' ? raw.toUpperCase() : raw;
+    const isCorrect = checkAnswer_(q, raw);
     if (isCorrect) score += 1;
     breakdown.push({
       questionId: q.questionId,
       chosen: chosen || null,
-      correct: q.correctChoice,
+      correct: correctDisplay_(q),
       isCorrect: isCorrect,
       explanation: q.explanation || ''
     });
@@ -124,6 +134,55 @@ function submitQuiz(token, attemptId, answers) {
     subject: payload.subject,
     breakdown: breakdown
   };
+}
+
+/**
+ * Validate one answer against a cached question record.
+ * Handles mcq (letter match), numeric (exact), range (inclusive bounds),
+ * and tolerance (±1 last-significant-digit unit).
+ */
+function checkAnswer_(q, raw) {
+  const type = q.answerType || 'mcq';
+  if (type === 'mcq') {
+    return String(raw).toUpperCase() === String(q.correctChoice).toUpperCase();
+  }
+  const n = parseFloat(String(raw).replace(/,/g, '').trim());
+  if (isNaN(n)) return false;
+  if (type === 'range') {
+    return n >= parseFloat(q.correctChoice) && n <= parseFloat(q.choiceA);
+  }
+  if (type === 'tolerance') {
+    const tol = getTolerance_(q.correctChoice);
+    return Math.abs(n - parseFloat(q.correctChoice)) <= tol + 1e-9;
+  }
+  // 'numeric': exact float comparison
+  return parseFloat(q.correctChoice) === n;
+}
+
+/**
+ * Infer ±1 unit in the last significant digit of an answer string.
+ * "2.94" → 0.01,  "846000" → 1000,  "7" → 1.
+ */
+function getTolerance_(s) {
+  const str = String(s).trim().replace(/,/g, '');
+  const dot = str.indexOf('.');
+  if (dot !== -1) {
+    const dec = str.slice(dot + 1).replace(/0+$/, '');
+    return dec.length > 0 ? Math.pow(10, -dec.length) : 1;
+  }
+  const trimmed = str.replace(/0+$/, '');
+  return trimmed.length < str.length ? Math.pow(10, str.length - trimmed.length) : 1;
+}
+
+/** Human-readable correct-answer string returned in breakdown. */
+function correctDisplay_(q) {
+  const type = q.answerType || 'mcq';
+  if (type === 'range') return q.correctChoice + '–' + q.choiceA;
+  if (type === 'tolerance') {
+    const tol = getTolerance_(q.correctChoice);
+    return q.correctChoice + ' (±' + tol + ')';
+  }
+  return q.correctChoice;
 }
 
 /**

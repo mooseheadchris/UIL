@@ -14,7 +14,7 @@ const SHEETS = {
 const SCHEMA = {
   Users: ['email', 'role', 'firstName', 'lastName', 'salt', 'passwordHash', 'createdAt', 'lastLoginAt'],
   Flashcards: ['cardId', 'subject', 'section', 'front', 'back', 'createdAt', 'createdBy', 'mediaType', 'mediaDriveId'],
-  Questions: ['questionId', 'subject', 'section', 'prompt', 'choiceA', 'choiceB', 'choiceC', 'choiceD', 'correctChoice', 'explanation', 'createdAt', 'createdBy'],
+  Questions: ['questionId', 'subject', 'section', 'prompt', 'choiceA', 'choiceB', 'choiceC', 'choiceD', 'choiceE', 'correctChoice', 'answerType', 'explanation', 'createdAt', 'createdBy'],
   StudyProgress: ['userEmail', 'cardId', 'ef', 'interval', 'reps', 'nextDue', 'lastReviewed'],
   QuizAttempts: ['attemptId', 'userEmail', 'subject', 'startedAt', 'completedAt', 'score', 'totalQuestions'],
   QuizAnswers: ['attemptId', 'questionId', 'chosen', 'isCorrect']
@@ -23,16 +23,11 @@ const SCHEMA = {
 const ROLES = { STUDENT: 'student', TEACHER: 'teacher' };
 
 const SUBJECTS = [
-  'Art',
-  'Economics',
-  'Language & Literature',
-  'Mathematics',
-  'Music',
+  'Number Sense',
+  'Calculator',
   'Science',
-  'Social Science',
-  'Essay',
-  'Interview',
-  'Speech'
+  'Mathematics',
+  'Computer Science',
 ];
 
 const SRS = {
