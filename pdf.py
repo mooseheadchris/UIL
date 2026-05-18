@@ -1,7 +1,7 @@
 import fitz
 
-pdf_path = "Number Sense/number sense tricks manual.pdf"  # Replace with your PDF file path
-output_path = "Number Sense/output.txt"  # Replace with your desired output file path
+pdf_path = "Calculator Applications/UIL Calc Number Crunch.pdf"  # Replace with your PDF file path
+output_path = "Calculator Applications/crunch.txt"  # Replace with your desired output file path
 
 
 doc = fitz.open(pdf_path)

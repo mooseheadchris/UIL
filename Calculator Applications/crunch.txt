@@ -1,0 +1,8926 @@
+ 
+ 
+ 
+ 
+ 
+ 
+UIL CALCULATOR APPLICATIONS DRILL MANUAL 
+FOR NUMERICAL PROBLEM PRACTICE 
+ 
+Twenty-six Versions of Pages l-7 
+ 
+ 
+ 
+ 
+ 
+ 
+Professor David L. Bourell, Ph.D., P.E. 
+Temple Foundation Professor 
+Department of Mechanical Engineering 
+ 
+Calculator Applications Directors 
+ 
+University Interscholastic League 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2004 
+Revised 2010 
+ 
+The Board of Regents 
+ 
+The University of Texas at Austin 
+ 
+PREFACE 
+ 
+Even in a culture of high-tech gadgetry and high-power computational tools, there is value in operating a 
+calculator quickly and accurately.  This drives the continued presence of the numerical problems, or 
+number crunchers, on the UIL Calculator Applications Contest.  These problems are the easiest of the 
+three types that appear on the contest, including stated and geometry problems.  The general wisdom in 
+improving speed and accuracy with the number cruncher problems is simply to practice a lot.  That is the 
+purpose of this drill manual.  It provides 26 versions of all seven pages of the contest, 910 problems in all. 
+There are several functions of the number crunchers on the contest.  Perhaps the best argument is that they 
+provide a sense of accomplishment quickly for beginners, since working all the crunchers correctly gives 
+a score of over 100.  They provide a foundation for extension of knowledge into the more complicated 
+stated and geometry problems. 
+The UIL Calculator Applications Contest underwent major revision starting with the 2004-05 contest 
+year.  With the minor exception of some problem location on the test, the contest had not been revised 
+since its inception in 1980.  Since then, instruction of pre-calculus and calculus across the state has 
+become widespread in all conferences.  Equally dramatic changes have taken place in the computational 
+features of calculators.  A strong driver for revision was the ubiquitous use of a single calculator of 
+choice, the Hewlett-Packard hp32SII.  In 2002, Hewlett Packard announced that the calculator was being 
+discontinued without an acceptable replacement being available.  This created an instant competition 
+barrier between “have” schools and “have not” schools.  There was therefore a desire to “calculator-
+proof” the contest to prevent this undesirable situation from occurring in the future. 
+The main changes to the number crunchers in this revision process was a reduction from 54 to 35 
+problems per test.  The old contest was 68% number crunchers, and the current contest is 50% number 
+crunchers.  The method for generating the number crunchers is described in the introduction section of 
+this manual.  Rather than lose variety by eliminating problem forms to reduce the number of problems per 
+page to five, the problem forms have been combined. 
+It is hoped that this new compendium of practice materials becomes a useful tool for coaches and students 
+who participate in the UIL Calculator Applications Contest.  I also trust that you, the reader, have shared 
+or shortly will share the satisfaction of seeing students mature and excel, the joy of working with pleasant 
+and highly-capable coaches, and the intellectual stimulation of grasping at the unknown. 
+ 
+D.L.B. 
+January 15, 2004 
+Austin, Texas 
+PREFACE TO THE 1993 EDITION 
+ 
+We are convinced that the most effective method for mastering the "number crunchers" on the UIL 
+Calculator Applications Contest involves lots of practice.  This belief is the motivation for this drill 
+manual.  It is our intent that these test partials be freely copied and used for this purpose.  The copyright is 
+solely to prohibit their use by others for profit. 
+The UIL Calculator Applications Contest was first given at the district level in 1980.  The driving 
+force for its creation was the demise of the slide rule contest with the advent of relatively inexpensive 
+hand-held calculators.  Those of us who competed in the slide rule contest, or who actually made a living 
+using one, share a little nostalgia over the skills associated with its use.  The pride of mastering the "slip 
+stick" aside, we know that the slide rule taught clearly several mathematical fundamentals not easily 
+transferred to the calculator.  For example, the concept of three-significant-digit answers was really 
+obvious when a slide rule was used, since that's the usual measure of manual precision.  The logarithm 
+and its components, the mantissa and characteristic, were handled with simple elegance on the slide rule.  
+The basic operating rule of the slide rule is that adding logarithms is equivalent to multiplying their 
+arguments.  Thus manual manipulation of slide rules provided a physical model for mathematical 
+manipulation of logarithms. 
+This notwithstanding, we believe that greater causes are being served by a calculator contest.  First, 
+the computational ease of the calculator allows for an increased emphasis on the thinking skills 
+prerequisite to most "real-world" computation.  Try to imagine the response you would get from a slide 
+rule champion when you related that top contestants can now work 54 number crunchers error free in less 
+than 15 minutes!  The intellectual challenge of the contest today is the stated and geometry problems, 
+although proficiency in accurate, rapid button pushing is critical to success on the contest. 
+The calculator better assimilates a wider diversity and complexity of problems than the slide rule.  
+Thus the contest has become increasingly more interesting and complex.  We have tailored the contest to 
+utilize the ability of calculators to "spit out" lots of significant digits in integer, dollar-sign and 
+significant-digit stated problems.  We have retained the default, three-significant-digit requirement for 
+numbers from the slide rule contest, which is now in some sense a legacy to the former contest. 
+We hope that this new compendium of practice materials becomes a useful tool for coaches and 
+students who participate in the UIL Calculator Applications Contest.  We also trust that you, the reader, 
+have shared or shortly will share with us the satisfaction of seeing students mature and excel, the joy of 
+working with pleasant and highly-capable coaches, and the intellectual stimulation of grasping at the 
+unknown. 
+J.R.C. 
+D.L.B. 
+ 
+May 4, 1993 
+Austin, Texas 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+ 
+ 
+ 
+Production of the Numerical Problems and Their Answers ------------------------------------------------ i 
+Organization of Numerical Problems for the Contest and This Drill Manual --------------------------- vi 
+Twenty-Six Versions of Pages 1 Through 7 
+ 
+Page 1 Problems ------------------------------------------------------------------------------------------ 1-1 
+ 
+Page 2 Problems ------------------------------------------------------------------------------------------ 2-1 
+ 
+Page 3 Problems ------------------------------------------------------------------------------------------ 3-1 
+ 
+Page 4 Problems ------------------------------------------------------------------------------------------ 4-1 
+ 
+Page 5 Problems ------------------------------------------------------------------------------------------ 5-1 
+ 
+Page 6 Problems ------------------------------------------------------------------------------------------ 6-1 
+ 
+Page 7 Problems ------------------------------------------------------------------------------------------ 7-1 
+Answer Key for All Numerical Problems ------------------------------------------------------------------ A1 
+ 
+ 
+i 
+PRODUCTION OF THE NUMERICAL PROBLEMS 
+AND 
+THEIR ANSWERS 
+The advent of the calculator led quickly to the obsolescence of the slide rule.  No less dramatic has 
+been the replacement of behemoth computational facilities and awkward programming languages by 
+sleek, compact and incredibly powerful desktop computers with their user-friendly application programs.  
+Until 1990, the numerical part of the contest was created using the former technology.  Since then, the 
+tests have been generated using desktop computers and C++ programming language.  Formatting is done 
+currently in Microsoft Word. 
+To appreciate the advantage of desktop computing, a brief description of the former method for 
+numerical problem generation is needed.  The time necessary to produce a contest was by today's standard 
+extremely excessive, but in the "old days" we told ourselves that it was still far preferable to hand writing 
+the contest.  To summarize the old method, first a FORTRAN program was executed which created a data 
+file of form numbers, computation numbers, and answers.  The form numbers were used to pick out one 
+of several appropriate equations into which numbers were later inserted to make a problem on the contest 
+page.  For every number used in a computation there were three to five B's which maintained sequential 
+order.  This data file was then read by a second program called TECO which translated the data file into a 
+long series of commands to a computer-driven typewriter.  We then logged on to the computer from this 
+typewriter and printed off the numerical problems and their answers.  Since only one font print-wheel was 
+on the typewriter, "π" had to be typed by hand later into blanks left by the typewriter.  [A coach in Port 
+Arthur once told us he used to instruct his students to stick a "π" anywhere on the test where a number 
+was omitted.  This occurred occasionally when we inadvertently failed to hand type the π!]  The 
+typewriter could underline, but it could not insert radicals for square roots or large brackets of any kind.  
+These were also added by hand later, with the probability of an occasional "scribal error" being high. 
+Production of one page of number crunchers required 15 seconds of FORTRAN computing, about 
+a minute of TECO formatting and about 2.5 minutes for the typewriter to type out the page.  Then we 
+spent about two minutes doing hand editing [inserting π's, large brackets and radicals], which including 
+cutting away and formatting the answer key on a separate page.  Invariably, we would encounter 
+misaligned numbers in fractions which required liquid white-out and retyping.  This form of revision 
+added about an extra minute or two per page.  So, on average, we needed about 8 minutes to create one 
+page of number crunchers, not counting log-on/log-off time and the real time burden of having to time 
+share the computers with the rest of the University.  [The 15 seconds of FORTRAN computation time 
+often took several minutes, and we remember waiting over an hour trying to log on in heavy usage 
+periods.]  In reality, a reasonable time estimate was probably 15 minutes per page, and the time 
+compression associated with running many pages together is not great. 
+UIL Calculator Applications Drill Manual for Numerical Problem Practice 
+ 
+ 
+ 
+ii 
+The numerical portion of the contest is now run on a desktop computer.  We can run, format and 
+print one page completely in less than five minutes, and the process is much accelerated when mass 
+production occurs.  For example, the total time needed to completely produce the practice sheets for this 
+drill manual, complete with answers, was approximately three hours, or about 1 minute per page! 
+In general, this present test generation procedure is identical to the old fashioned method.  For each 
+number cruncher there exists three to twelve possible forms.  Each form has specific operators (+,-,x,÷), 
+parentheses and brackets, and sometimes functions (e.g., log, sin), but no numbers.  The computer 
+randomly picks a form, then randomly picks numbers to complete the equation.  Usually, these numbers 
+are “massaged” so a keyboard error by a student taking the test will always effect an incorrect answer, and 
+occasionally π's randomly replace a number as well.  The computer calculates an answer and "typesets" 
+the equation into a format readable by a word processor.  Unlike its predecessor, the word processor can 
+be instructed to insert large brackets, π's, fractions and radicals, so the former necessity of hand editing 
+has been for the most part eliminated.  We then set the margins, spacing, font and tabs.  The answers are 
+stored in a separate word processor file which is similarly prepared for final printing. 
+In actuality, I no longer print out just the number crunchers.  I run currently a year’s worth of tests 
+at once as I prepare the UIL and TMSCA invitational, district, regional and state meet contests.  The 
+number cruncher page is run first, but not printed.  Then I type in the stated problems and compute the 
+answers.  The geometry problems are currently drafted using Microspot MacDraft software.  The calculus 
+plots are made using Microsoft Excel.  As needed, the figures are modified using Adobe Photoshop.  An 
+example is adding the shading to the calculus area geography problems.  The geometry problem "boxes" 
+are added below the stated problems on the computer, and residual typing for the geometry problems is 
+accomplished at the proper location within each box after inserting the geography graphic in jpeg 
+notation, thus finishing up the page. 
+Answer keys are similarly generated.  I start with the number cruncher answers which are already 
+formatted in final form.  I then add answers for stated and geometry problems using the word processor.  
+The answer sheets are then printed in final form, and no additional hand editing is needed. 
+The crux of the numerical problem generation is the program written in C++ computer 
+programming language that creates the word processor readable file.  Figure 1 shows a computational 
+flow chart for the C program.  Each of the seven contest pages has a separate program since the number of 
+problems and their forms varies from page to page.  However, the general tasks seen in the flow chart do 
+not vary. 
+UIL Calculator Applications Drill Manual for Numerical Problem Practice 
+ 
+ 
+ 
+iii 
+Two special functions are defined.  The first generates random numbers.  The second function takes 
+a fixed point number of any size and rounds it to three significant digits, not only in terms of display but 
+in actual fact.  This is necessary because the answers calculated using unrounded numbers often differ in 
+the third significant digit from answers calculated using the rounded numbers.  The rounding equation is 
+straightforward.  First, for a number x (positive or negative), we calculate the characteristic (c), the power 
+of 10, as 
+c = FLOOR[log10(ABS(x))] 
+where ABS() takes the absolute value of a number and FLOOR() rounds a number down to the nearest 
+smaller integer.  Next, we scale the number to be always between 1 and 10: 
+M = (10-c)x. 
+Now we round the number to three significant digits.  To do this, we multiply M by 100 and take the 
+integer value of the result.  This is equivalent to taking the integer value of the product of the number x 
+and 10 raised to the (2-c) power.  The program steps to do this are in essence: 
+if{ABS[100x - INT(100x)]<0.5} 
+       x = 10c-2 {FLOOR[x(102-c)]} 
+else 
+       x = 10c-2 {CEIL[x(102-c)]} 
+ 
+where CEIL() rounds a number up to the next larger integer.   
+The beauty of the C programming language (and its curse as well!) is that numbers and text can be 
+read and interpreted either as numbers, characters or integers.  Therefore, we can in one program line 
+perform calculations to get an answer and then in the next program line write a line of text into which the 
+active numbers are easily written as text.  Another advantage of this broad approach to test generation is 
+the elimination of time sharing.  We have the complete, undivided attention of our desktop’s 
+computational power, and we don't have to worry about the machine getting swamped with other users, a 
+real threat when the mainframe computers were employed in contest preparation. 
+We implied that C's robustness is also something of a detriment.  C is happy to read a bit of text and 
+treat it as a number.  Indeed, many errors that would cause a FORTRAN program to crash run just fine in 
+C.  The unfortunate result is that debugging new programs becomes nightmarish, because the programs  
+UIL Calculator Applications Drill Manual for Numerical Problem Practice 
+ 
+ 
+ 
+iv 
+ 
+Figure 1 - Flow Chart for the C Program to Generate Numerical Problems and Answers 
+UIL Calculator Applications Drill Manual for Numerical Problem Practice 
+ 
+ 
+ 
+v 
+we wrote we thought were correct, and they ran just fine, but the output was clearly incorrect.  To 
+illustrate, one particularly difficult problem to fix was in answer calculation.  We write our numbers into 
+the selected form, but if we're not careful, the computer interprets the numbers as text; that is, it thinks a 
+number 5 in an equation is a text "5".  No problem so far.  However, when we tell the computer to 
+calculate a numerical answer for an equation containing a text-number, the computer faces a dilemma.  
+The computer tries to comply, but it sees this text "5" (which could just as well be a letter like "g" as far 
+as the computer is concerned) instead of a number.  Well, the FORTRAN program would crash here, 
+giving us at least a little information respecting the location and nature of the fatal error, but C simply 
+converts the text character to its ASCII code number and proceeds with the calculation.  That's nice, but 
+the ASCII code number for the text "5" is 53, not 5!  The result is an undesirable answer generated 
+without a hint as to its origin. 
+With much patience in debugging, we believe that the programs are now correct.  They have been 
+used for contest generation since 2001, and we are not aware of even one problem in the numerical 
+problem section.  However, this does not mean that errors are impossible.  For example, rarely a π will be 
+substituted where it doesn't belong.  To illustrate, take problem DrF-21 from this drill manual. 
+2
+94
+.
+9
+)
+162
+.
+0
+(
+65
+.
+9
+464
+.
+0
+747
+.
+0
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
++
+−
+ 
+If the number "0.464" were switched with a "π", then the square root of a negative number would 
+ensue.  Remember that π's are inserted when the numbers are recast into exact three-significant digit 
+numbers, before the answer is calculated.  We resolve the problem by instructing the computer not to 
+place a random π in this problem when it rounds the numbers.  However, there is always the increasingly 
+remote possibility that one of our 112 forms has not been duly "π protected". 
+A second type of error can occur.  Here, random numbers are selected and modified to generate a 
+reasonable problem, but recasting to three significant digits fouls up the works.  A rare feature is for the 
+random number generator to select exactly the same number twice in a row, AND for these numbers to be 
+placed in a problem format in a compromising location, such as a difference in a denominator that yields 
+infinity as an answer.  We have mitigated this problem in the following way.  Fortunately, the C 
+programming language has an error flag which is set when any type of mathematical error occurs.  The 
+computer checks this error flag after each problem is created, and if it is set, we ask the computer to write 
+a message both to the screen and to the answer page, telling us which problem is in trouble.  We fix the 
+errant problem by changing a number by hand in the word processor text file and calculating a new 
+answer by hand. 
+UIL Calculator Applications Drill Manual for Numerical Problem Practice 
+ 
+ 
+ 
+vi 
+ORGANIZATION OF NUMERICAL PROBLEMS FOR THE CONTEST 
+AND THIS DRILL MANUAL 
+ 
+The form of the numerical problems changes depending on the contest page number, although all 
+seven pages each have five numerical problems.  Page 1 contains problems involving simple operations 
+(+, -, x, ÷) with three to eight numbers.  Page 2 problems use these simple operators on nine to twelve 
+numbers.  Pages 3 through 7 each involve the simple operators.  Page 3 adds use of squares and square 
+roots on problems of five or six numbers.  Page 4 involves seven to nine numbers in equations which 
+generally contain nested fractions, square roots and squares.  Page 5 problems contain four numbers and 
+deal with exponents, natural/base 10 logarithms and anti-logarithms, and sine and cosine trigonometric 
+functions in degree measure.  Page 6 problems also treat exponents, natural/base 10 logarithms and 
+anti-logarithms, as well as the inverse trigonometric functions arcsine and arctangent in radian measure.  
+Page 7 problems each contain between four and eight numbers.  The treatment here is of general roots 
+and powers (natural and base 10), natural and base 10 logarithms, the trigonometric functions (sine, 
+cosine, tangent, arcsine, arctangent) in degree and radian measure and truncated series expansions.  
+Occasionally, knowledge of a series or trigonometric identity may prove helpful in solving these 
+problems. 
+The layout of the remainder of this drill manual follows the page format of the contest.  Twenty-six 
+versions of Page 1 problems come first, followed by 26 versions of Page 2 problems, etc.  Each problem 
+in this manual has a format like "DrA-12".  On an actual contest, the "Dr" is replaced by the contest year, 
+"07" for example.  To conserve paper, we have placed two or more sets of five problems on each 
+drill-manual page.  This sometimes necessitated slight reduction in the spacing between problems.  This 
+may cause problems by making this drill manual a little more difficult to read than an actual contest page.  
+Following Page 7 problems is an answer key for the entire drill manual.   
+Page 1-1 
+        Page DrA-1 
+DrA-1.  (4.45 - 0.777)/(5.51)  -------------------------------   1=________________ 
+DrA-2.  (-1.39 - 0.612)/(9.35) + 0.0595  -----------------------   2=________________ 
+DrA-3.  (25.4 - 17.8 + 21.6 + 3.82)/(19.2)  --------------------   3=________________ 
+DrA-4.  {(-783)(0.343 + 0.371 - 0.34)(-341)} + 42100  -----------   4=________________ 
+DrA-5.  (-0.0013 - 0.00105)(-0.436)
+{(-0.0621)/(0.758)}
+  - (-0.0149 - 0.00953)  ------   5=________________ 
+        Page DrB-1 
+DrB-1.  (-3.2 + 6.22) x 1.25  --------------------------------   1=________________ 
+DrB-2.  -5.56/81.5 + 0.053 - 0.0683  --------------------------   2=________________ 
+DrB-3.  (42.7 - 16.2 - 126 + 14.9) x (-51.3)  ------------------   3=________________ 
+DrB-4.  {(-25.8)(0.114 + 0.227 - 0.0919)(284)} + 738  -----------   4=________________ 
+DrB-5.  
+)
+2
+.
+6
+)(
+154
+.
+0
+)(
+56
+.
+4
+(
+)
+)(
+9
+.
+14
+58
+.
+6
+76
+.
+6
+(
+−
+π
+−
++
+−
+ -----------------------------   5=________________ 
+        Page DrC-1 
+DrC-1.  (0.916/0.132) + 5.9  ---------------------------------   1=________________ 
+DrC-2.  (2.76 + 4.89) x (62.2) - 539  -------------------------   2=________________ 
+DrC-3.  (60 - 57.6 + 172) x (90.9) - 21900  --------------------   3=________________ 
+DrC-4.  {(7.32)(0.785 + 0.804 - 0.636)(π)} + 24.6  --------------   4=________________ 
+DrC-5.  {(-215 - 197 + 202)/(713)}
+{(260)(92.9)/(482)}
+   --------------------------   5=________________ 
+        Page DrD-1 
+DrD-1.  (1.51 x 3.63) + 1.6  ---------------------------------   1=________________ 
+DrD-2.  (0.111 + 0.0605 - 0.0173) x 0.239  ---------------------   2=________________ 
+DrD-3.  (77.3 + 120 - 65.2)/(-97.5) + 0.718  -------------------   3=________________ 
+DrD-4.  {(-5.11)(0.556 + π - 0.279)(-4.66)} + 11.3  -------------   4=________________ 
+DrD-5.  
+85900 + 52300
+(9.77)(1.7)(3.45)  + 6790 - 766  -----------------------   5=________________ 
+        Page DrE-1 
+DrE-1.  -61.4 + 38.8 - 215  ----------------------------------   1=________________ 
+DrE-2.  (1.94 - 1.71)/(π) + 0.0438  ---------------------------   2=________________ 
+DrE-3.  (0.946)(-0.576)(0.591)
+-0.627
+  + 0.165  -----------------------   3=________________ 
+DrE-4.  {(24.7)(0.327 + 2.57 - 1.7)(16)} + 166  -----------------   4=________________ 
+DrE-5.  -2.40x108  + 2.01x108  - 3.34x108  + (-80200 + 19400)
+(0.0248)(0.0207)   ---   5=________________ 
+Page 1-2 
+        Page DrF-1 
+DrF-1.  (62.1 - 60.3)/(42.3)  --------------------------------   1=________________ 
+DrF-2.  2.77/4.83 + 0.181 - 0.574  ----------------------------   2=________________ 
+DrF-3.  (-0.882 - 0.796 + 0.835 + 0.109)/(0.669)  ---------------   3=________________ 
+DrF-4.  {(-996)(0.998 + 1.66 - 0.247)(785)} + 6.31x105   ---------   4=________________ 
+DrF-5.  (-83.2 + 61.9 - 79.9)(35.7)
+(41.1)(32.5)(6.91)
+   -------------------------   5=________________ 
+        Page DrG-1 
+DrG-1.  (-1.43 + 3.5) x 0.0266  ------------------------------   1=________________ 
+DrG-2.  (0.36 x 0.1) - (0.0235 - 0.0801)  ----------------------   2=________________ 
+DrG-3.  (-0.709 - 0.414 - 1.6 + 0.348) x (-0.0361)  -------------   3=________________ 
+DrG-4.  {(-0.239)(0.769 + 4.31 - 2.31)(-0.59)} + 0.124  ----------   4=________________ 
+DrG-5.  {(-37.1 - 25.5 + 62.4)/(-42.9)}
+{(-87.2)(40.3)/(-6.87)}
+   ----------------------   5=________________ 
+        Page DrH-1 
+DrH-1.  (-0.908/0.717) + 0.95  -------------------------------   1=________________ 
+DrH-2.  (44.4 + 43.7 - 26) x 68  ------------------------------   2=________________ 
+DrH-3.  (-0.536 - 0.142 + 0.305) x (-0.509) - 0.294  ------------   3=________________ 
+DrH-4.  {(5.19)(0.54 + 0.825 - 0.76)(0.355)} + 0.335  -----------   4=________________ 
+DrH-5.  
+63100 + 59400
+(-0.0156)(0.048)(-0.0206)  + 8.73x109  - 2.72x109   ------   5=________________ 
+        Page DrI-1 
+DrI-1.  (32.7 x 48.6) + 300  ---------------------------------   1=________________ 
+DrI-2.  (52.7 - 22.2)/(-31.6) + 0.868  ------------------------   2=________________ 
+DrI-3.  (-0.363 - 0.307 + 0.457 + 0.138)/(0.555)  ---------------   3=________________ 
+DrI-4.  {(-72.4)(0.311 + 1.35 - 0.551)(66.1)} + 1510  -----------   4=________________ 
+DrI-5.  8580 + 1170 - 3130 + (-57400 + 33000)
+(5.58)(-3.44)    -----------------   5=________________ 
+        Page DrJ-1 
+DrJ-1.  -4.38 + 2.31 - 5.34  ---------------------------------   1=________________ 
+DrJ-2.  π/1.51 + 3.06 - 4.04  --------------------------------   2=________________ 
+DrJ-3.  (-0.19 - 0.1 - 0.114 + 0.0254) x (-0.15)  ---------------   3=________________ 
+DrJ-4.  {(33.7)(0.982 + 1.39 - 1.1)(-714)} + 8130  --------------   4=________________ 
+DrJ-5.  (-987 + 510 - 2450)(-784)
+(-722)(635)(-482)
+   ---------------------------   5=________________ 
+Page 1-3 
+        Page DrK-1 
+DrK-1.  (0.798 - 0.692)/(0.295)  ------------------------------   1=________________ 
+DrK-2.  (6.93 x 4.32) - (5.73 - 9.51)  ------------------------   2=________________ 
+DrK-3.  (-0.0169 - 0.00353 + 0.0191) x (-0.16) - 2.21x10-4   -----   3=________________ 
+DrK-4.  (0.0791)(0.0521 - 0.0392 + 0.14)
+(-0.00887)(0.0729)
+   ---------------------   4=________________ 
+DrK-5.  {(-5.26 - 2.42 + 3.27)/(4.3)}
+{(-0.0522)(7.13)/(-6.2)}
+   -----------------------   5=________________ 
+        Page DrL-1 
+DrL-1.  0.0328 + 0.0101 - 0.105  ------------------------------   1=________________ 
+DrL-2.  (77.6 + 40.9 - 37) x 40.2  ----------------------------   2=________________ 
+DrL-3.  (1.56 + 1.98 - 0.771)/(-0.434) + 4.85  -----------------   3=________________ 
+DrL-4.  
+)
+)(
+37
+.
+5
+(
+)
+66
+.
+3
+77
+.
+2
+29
+.
+5
+)(
+51
+.
+4
+(
+π
++
+−
+−
+−
+ -------------------------   4=________________ 
+DrL-5.  
+40300 + 15100
+(0.712)(0.79)(-0.758)  + 2.30x105  - 1.18x105   ----------   5=________________ 
+        Page DrM-1 
+DrM-1.  (-7.32 - 4.73)/(-5.56)  ------------------------------   1=________________ 
+DrM-2.  (0.86 - 0.741)/(-0.941) + 0.039  -----------------------   2=________________ 
+DrM-3.  (3.29)(-7.81)(-6.29)
+-2.64
+  + 28.8  -------------------------   3=________________ 
+DrM-4.  
+)
+54
+.
+2
+)(
+38
+.
+8
+(
+)
+72
+.
+3
+24
+.
+1
+2
+.
+4
+)(
+(
+−
++
+−
+π
+ -------------------------------   4=________________ 
+DrM-5.  5840 + 1960 - 13300 + (-34600 + 31400)
+(0.868)(-0.895)    ----------------   5=________________ 
+        Page DrN-1 
+DrN-1.  (50.3 + 51.1) x 98.2  --------------------------------   1=________________ 
+DrN-2.  0.943/0.181 + 1.54 - 5.21  ----------------------------   2=________________ 
+DrN-3.  (π - 0.758 + 0.944 + 0.281)/(-9.69)  -------------------   3=________________ 
+DrN-4.  (-93.7)(-63.1 - 61 + 75.5)
+(-21.3)(-98.4)
+   --------------------------   4=________________ 
+DrN-5.  (-0.00289 - 0.00156)(-8.51)
+{(9.45)/(9.67)}
+  - (0.0461 - 0.00737)  -------   5=________________ 
+        Page DrO-1 
+DrO-1.  (-26.2/89.5) + 0.124  --------------------------------   1=________________ 
+DrO-2.  (-9.74 x 7.64) - (47 - 51.5)  -------------------------   2=________________ 
+DrO-3.  (6.75 - 4.94 - 45.3 + 0.868) x (3.26)  -----------------   3=________________ 
+DrO-4.  (-179)(318 - 234 + 610)
+(412)(-222)
+   -----------------------------   4=________________ 
+DrO-5.  {(-682 - 158 + 908)/(-711)}
+{(862)(-977)/(829)}
+   -------------------------   5=________________ 
+Page 1-4 
+        Page DrP-1 
+DrP-1.  (9.74 x 8.75) + 65  ----------------------------------   1=________________ 
+DrP-2.  (-8.91 + 8.61 - 2.72) x 5.17  -------------------------   2=________________ 
+DrP-3.  (8.48 - 3.5 + 11.1) x (4.22) - 77.2  -------------------   3=________________ 
+DrP-4.  (0.578)(-0.733 - 0.372 + 0.433)
+(-0.962)(0.54)
+   ----------------------   4=________________ 
+DrP-5.  
+)
+91
+.
+6
+)(
+)(
+21
+.
+4
+(
+12400
+17500
+π
+−
++
++ 521 - 370  --------------------------   5=________________ 
+        Page DrQ-1 
+DrQ-1.  0.209 + 0.0423 - 0.247  ------------------------------   1=________________ 
+DrQ-2.  (-80.8 - 32.5)/(43.4) + 1.61  -------------------------   2=________________ 
+DrQ-3.  (-9.8 + 9.86 - 5.14)/(5.39) + 0.645  -------------------   3=________________ 
+DrQ-4.  (-6.64)(2.16 - 0.601 + 1.38)
+(-3.37)(-6.98)
+   ------------------------   4=________________ 
+DrQ-5.  4.78x106  + 2.55x106  - 3.12x106  + (-11800 + 4010)
+(-0.0823)(0.0553)   ---   5=________________ 
+        Page DrR-1 
+DrR-1.  (-55.6 - 30.1)/(-68.4)  ------------------------------   1=________________ 
+DrR-2.  (-72.5 + 37.8) x (27.8) - 1050  -----------------------   2=________________ 
+DrR-3.  (π - 5.44 - 7.48 + 2.66) x (2.12)  ---------------------   3=________________ 
+DrR-4.  (0.932)(-8.35 - 7.93 + 8.71)
+(2.88)(0.644)
+   ------------------------   4=________________ 
+DrR-5.  (-0.00961 - 0.0084)(56)
+{(-74.5)/(41.6)}
+  - (1.13 - 0.407)  --------------   5=________________ 
+        Page DrS-1 
+DrS-1.  (6.79 + 7.71) x 8.9  ---------------------------------   1=________________ 
+DrS-2.  (-64.1 x 90.4) - (997 - 3090)  ------------------------   2=________________ 
+DrS-3.  (-6.34 - 2.25 + 2.41) x (7.72) - 163  ------------------   3=________________ 
+DrS-4.  (851)(114 - 82 + 169)
+(913)(827)
+   ------------------------------   4=________________ 
+DrS-5.  (-83.8 + 75.7 - 149)(14.8)
+(-27.1)(-66.8)(27.8)
+   --------------------------   5=________________ 
+        Page DrT-1 
+DrT-1.  (-0.0853/0.0463) + 0.59  ------------------------------   1=________________ 
+DrT-2.  (-5.58 + 2.83 - 1.77) x 5.64  -------------------------   2=________________ 
+DrT-3.  (-4.61 + 4.92 - 1.18)/(8.88) + 0.0975  -----------------   3=________________ 
+DrT-4.  (-0.0392)(-0.0937 - 0.046 + 0.0479)
+(-0.0461)(-0.0411)
+   ------------------   4=________________ 
+DrT-5.  
+84700 + 11900
+(0.0446)(-0.059)(0.014)  + 3.39x109  - 3.08x109   --------   5=________________ 
+Page 1-5 
+        Page DrU-1 
+DrU-1.  (-8.5 x 2.77) + 15.5  --------------------------------   1=________________ 
+DrU-2.  (-4.75 - π)/(-1.91) + 4.25  ---------------------------   2=________________ 
+DrU-3.  (-2.88)(-9.87)(1.51)
+0.984
+  + 26.9  -------------------------   3=________________ 
+DrU-4.  (0.366)(0.012 - 0.00315 + 0.00586)
+(0.164)(0.351)
+   -------------------   4=________________ 
+DrU-5.  2.35x105  + 1.72x105  - 2.91x105  + (-79000 + 53200)
+(-5.13)(0.0235)    ----   5=________________ 
+        Page DrV-1 
+DrV-1.  3.85 + 3.85 - 7.99  ----------------------------------   1=________________ 
+DrV-2.  (-0.392 + 0.234) x (-0.347) - 0.166  -------------------   2=________________ 
+DrV-3.  (-1.15 - 0.343 + 0.526 + 0.208)/(π)  -------------------   3=________________ 
+DrV-4.  (-8.77)(9.61 - 8.97 + 79.7)
+(7.89)(-8.87)
+   -------------------------   4=________________ 
+DrV-5.  (-0.00733 - 0.00225)(-29.5)
+{(-435)/(-135)}
+  - (0.583 - 0.325)  ----------   5=________________ 
+        Page DrW-1 
+DrW-1.  (-38 - 16.6)/(-81.2)  --------------------------------   1=________________ 
+DrW-2.  (-0.309 x 0.572) - (0.108 - 0.171)  --------------------   2=________________ 
+DrW-3.  (0.579 - 0.509 - 0.593 + 0.209) x (6.89)  ---------------   3=________________ 
+DrW-4.  (-12)(-8.99 - 6.33 + 10.8)
+(-58.6)(-12.5)
+   --------------------------   4=________________ 
+DrW-5.  
+)
+73
+.
+2
+)(
+58
+.
+3
+)(
+96
+.
+5
+(
+)
+94
+.
+9
+)(
+72
+.
+6
+94
+.
+9
+(
+−
+−
+−
+π
+−
++
+−
+ ----------------------------   5=________________ 
+        Page DrX-1 
+DrX-1.  (8.56 + 11) x 7.62  ----------------------------------   1=________________ 
+DrX-2.  (-0.225 + 0.213 - 0.2) x 0.354  -----------------------   2=________________ 
+DrX-3.  (2.31 - 1.29 + 7.87) x (-6.46) - 267  ------------------   3=________________ 
+DrX-4.  (0.0638)(0.0859 - 0.0408 + 0.249)
+(0.00397)(0.0637)
+   --------------------   4=________________ 
+DrX-5.  
+61900 + 29300
+(-0.687)(-0.28)(-0.411)  + 2.69x106  - 5.58x105   --------   5=________________ 
+        Page DrY-1 
+DrY-1.  (0.909 - 0.197)/(3.36)  ------------------------------   1=________________ 
+DrY-2.  -1.42/5.94 + 0.0915 - 0.239  --------------------------   2=________________ 
+DrY-3.  (π + 16.7 - 6.2)/(-5.3) + 2.53  ------------------------   3=________________ 
+DrY-4.  (-0.605)(-0.192 - 0.0472 + 0.0738)
+(0.665)(-0.601)
+   -------------------   4=________________ 
+DrY-5.  -7.97x105  + 7.43x105  - 2.04x106  + (-56200 + 5950)
+(-0.203)(-0.549)   ---   5=________________ 
+ 
+Page 1-6 
+        Page DrZ-1 
+DrZ-1.  (-0.674 + 1.21) x 0.0891  -----------------------------   1=________________ 
+DrZ-2.  (-0.589 + 5.9) x (-9.72) - 80.7  -----------------------   2=________________ 
+DrZ-3.  (5.77)(-6.15)(-6.12)
+5.75
+  + 31  ---------------------------   3=________________ 
+DrZ-4.  
+)
+62
+.
+1
+)(
+(
+)
+3
+.
+32
+95
+.
+6
+57
+.
+7
+)(
+53
+.
+1
+(
+π
++
+−
+ ---------------------------   4=________________ 
+DrZ-5.  (-0.00505 - 0.00323)(-6.19)
+{(-1.25)/(-6.87)}
+  - (0.398 - 0.301)  ----------   5=________________ 
+ 
+Page 2-1 
+        Page DrA-2 
+DrA-11.  
+(29 + 7.8)(41.6 + 52.4)
+(-1.26)(0.604)(6740 - 26600)   --------------------  11=____________ 
+DrA-12.  
+0.0622 + 0.0377
+(0.714)(2.71)(1.27x10-7)  + (766 + 4180)(566 - 537) 12=____________ 
+DrA-13.  (-55.7)(856 - 745){1680 - (-79.7)(-19)}
+(62.4 + 21.8)(38.4 - 45.3)
+   ---------  13=____________ 
+DrA-14.  (2330 + 1930 - 1130)(0.0099 + 0.0115 - 0.00989)
+(0.017 - 0.0127)(0.45)(-0.102 - 0.0505)
+   -  14=____________ 
+DrA-15.  (26300 + 4680 - 4740)(0.102 - 0.0257 - 0.0353)
+(-76)(-25.1)(-22.1)(1.4 + 0.412 + 3.97)
+   --  15=____________ 
+        Page DrB-2 
+DrB-11.  (-4.75)(9.99) - (2.28)(-8.88) + 10.8
+-25 + (-8.83)(2.57)
+   ------------  11=____________ 
+DrB-12.  
+)
+874
+.
+0
+18
+.
+1
+)(
+00397
+.
+0
+)(
+42
+.
+1
+352
+.
+0
+(
+)}
+69
+.
+3
+)(
+24
+.
+9
+)(
+(
+5
+.
+19
+{
++
+−
++
+−
+π
++
+−
+ ---------------  12=____________ 
+DrB-13.  (95.7)(681 - 247){2410 - (41.8)(52.7)}
+(70.2 + 33.6)(-13.5 - 27.8)
+   ----------  13=____________ 
+DrB-14.  1770
+-1.11  + 919 + 737 - 984
+0.245 - 0.444   + (-0.0094 + 0.0164)
+{(4.99x10-6)/(-6.7)}    14=____________ 
+DrB-15.  (0.395 + 0.483)
+4.49 - 7.73
+  + 
+-0.168
+68.7 + 96.3  + (0.692)(561 - 299)
+(-767)(0.556)
+  15=__________ 
+        Page DrC-2 
+DrC-11.  
+(760)(191) + (-435)(-437)
+-3.3 + 0.573 - (-4.53)(0.409)   -------------------  11=____________ 
+DrC-12.  -0.0243(1.74x10-5 + 7.44x10-6)
+(139 - 311)(0.0458)
+  - 
+6.37x10-8
+-0.421 - 0.0948   12=____________ 
+DrC-13.  (4.72)(505 - 382){30 - (-3.68)(-7.56)}
+(7.79 + 4.75)(-6.54 - 54.3)
+   ----------  13=____________ 
+DrC-14.  {(0.71 + 6.23)(8.64 + 2.69) + 120 - 34.4}
+(-165 - 106)(7.16 + 17.7 - 4.38)
+   -------  14=____________ 
+DrC-15.  60600 + 3.48x105 - (70500 + 1.84x105)(1.15 - 0.39)
+(-313)(9.42)(89.8)(386 - 1210 + 3560)
+  15=____________ 
+        
+Page 2-2 
+ Page DrD-2 
+DrD-11.  (9580 + 8500)
+(0.897 - 1.47)  + (-80000 + 1.87x105)
+(7.93 - 3.86)
+   -----------  11=____________ 
+DrD-12.  (-3.95 + 3.39 - 4.77)(1.77)(4.77)
+(6.45 - 5.98)(-9.44 - 15.4)
+   ---------------  12=____________ 
+DrD-13.  -52400 + 17300 - 69300 + 16300 + 19400
+(-39.3)(51.3 + 38)(827 + 543)
+   ----------  13=____________ 
+DrD-14.  (9480 + 1980 - 651)(0.00268 + 0.00487 - 0.00438)
+(-36.8 - 5.34)(84.9)(48.6 - 27.9)
+    14=____________ 
+DrD-15.  23900 + 2.38x105 - (11300 + 11700)(3.59 - 0.519)
+(-338)(267)(458)(959 - 1390 + 1710)
+    15=____________ 
+        Page DrE-2 
+DrE-11.  (-7.69 + 6.83)(7.14 - 0.773 + 2.33)
+(3.65)(-5.7) - 23.6
+   -------------  11=____________ 
+DrE-12.  
+-548 + 351
+(0.698)(2.12)(-5.54x10-4)  + (992 + 1510)(612 - 517) 12=___________ 
+DrE-13.  
+)
+901
+.
+0
+)(
+67
+9
+.
+76
+)(
+77
+.
+6
+(
+13200
+9800
+16000
+10300
+66300
++
+π
++
++
++
+−
++
+−
+ ---------------  13=____________ 
+DrE-14.  286 + 86.8 - 160
+(0.953)(-1.77)   - (-21400)(4.46x10-4 + 2.73x10-4)
+0.138 + 0.068 - 0.0755
+  14=___________ 
+DrE-15.  (36300 + 34000 - 80600)(0.662 - 0.389 - 0.458)
+(-529)(440)(18)(6.32 + 2.45 + 21.7)
+   --  15=____________ 
+        Page DrF-2 
+DrF-11.  (0.466 + 0.381)(0.288 + 0.369)
+(-1.5)(0.316)(5710 - 8890)
+   ------------------  11=____________ 
+DrF-12.  (1.92)(8.67) - (2.57 + 2.56)(5.63)
+(-4.55 + 9.69 + 9.18)(-2.19)
+   --------------  12=____________ 
+DrF-13.  -80100 + 70500 - 5.19x105 + 68300 + 1.06x105
+(-0.606)(12.5 + 1.28)(-0.211 + 0.175)
+   ----  13=____________ 
+DrF-14.  
+)
+41
+.
+5
+5
+.
+16
+86
+.
+8
+)(
+848
+897
+(
+}
+31
+.
+9
+7
+.
+28
+)
+32
+.
+1
+)(
+32
+.
+1
+525
+.
+0
+{(
+−
++
+−
+−
+−
+−
++
+π
++
++
+ --------------  14=____________ 
+DrF-15.  
+)
+64
+.
+4
+63
+.
+2
+)(
+422
+)(
+612
+)(
+8
+.
+28
+(
+)
+481
+.
+0
+315
+.
+0
+352
+.
+0
+)(
+35900
+26200
+38800
+(
++
++
+π
+−
+−
+−
+−
++
+ --------  15=____________ 
+Page 2-3 
+  
+       Page DrG-2 
+DrG-11.  (-0.0299)(0.015) - (0.0065)(-0.0631) + 4.59x10-5
+-0.00146 + (0.0305)(-0.0297)
+    11=____________ 
+DrG-12.  
+{1.14x107 + (983)(-448)(-111)}
+(0.186 + 0.544)(290)(1.91 + 1.66)   ---------------  12=____________ 
+DrG-13.  -94000 + 66200 - 1.25x105 + 65100 + 1.21x105
+(0.111)(38.1 + 8.89)(-0.73 + 0.339)
+   ----  13=____________ 
+DrG-14.  (7630 + 3750 - 3640)(0.00446 + 0.0187 - 0.0175)
+(-0.754 - 0.336)(-0.753)(-0.926 - 0.607)
+   -  14=____________ 
+DrG-15.  (0.148 + 0.357)
+1.25 - 1.37
+  + 
+-0.424
+74.6 + 85  + (0.942)(306 - 141)
+(-433)(0.117)
+  15=____________ 
+        Page DrH-2 
+DrH-11.  (0.937)(0.0509) + (-0.563)(-0.179)
+-6.39 + 2.57 - (-3.5)(0.798)
+   --------------  11=____________ 
+DrH-12.  
+)
+2
+.
+19
+84
+.
+6
+)(
+92
+.
+4
+4
+.
+5
+(
+)
+49
+.
+6
+)(
+)(
+48
+.
+9
+87
+.
+8
+95
+.
+9
+(
+−
+−
+−
+π
+−
++
+ ------------------------  12=____________ 
+DrH-13.  -17900 + 9460 - 10300 + 9430 + 21800
+(8.28)(63.8 + 23.2)(7.51 + 0.757)
+   ------------  13=____________ 
+DrH-14.  101 + 59.4 - 209
+(0.784)(80.2)
+  - (-442)(1.34x10-4 + 8.70x10-5)
+0.626 + 0.393 - 0.4
+   14=____________ 
+DrH-15.  60600 + 8.98x105 - (44800 + 70900)(1.63 - 0.433)
+(-439)(958)(697)(551 - 877 + 967)
+    15=____________ 
+        Page DrI-2 
+DrI-11.  (6070 + 3610)
+(0.772 - 2.38)  + 
+)
+89
+.
+6
+(
+)
+2540
+1050
+(
+π
+−
++
+−
+ -------------------  11=____________ 
+DrI-12.  
+0.0842 + 0.0569
+(0.682)(1.74)(2.99x10-7)  + (317 + 1400)(659 - 487) 12=____________ 
+DrI-13.  -31700 + 11200 - 27100 + 1250 + 35100
+(-0.0455)(89.4 + 44.2)(0.0232 + 0.0148)   ---------  13=____________ 
+DrI-14.  
+)
+97
+.
+2
+25
+.
+7
+87
+.
+4
+)(
+252
+728
+(
+}
+51
+.
+1
+18
+.
+4
+)
+63
+.
+2
+)(
+499
+.
+0
+34
+.
+0
+{(
+−
++
+−
+−
+−
+−
++
++
+π
++
+ --------------  14=____________ 
+DrI-15.  
+)
+1840
+882
+224
+)(
+257
+)(
+870
+)(
+464
+(
+)
+05
+.
+1
+)(
+5
+10
+x
+35
+.
+2
+75600
+(
+12200
+4470
++
+−
+−
+−
+−
+π
++
+−
++
+ -----------  15=____________ 
+Page 2-4 
+        Page DrJ-2 
+DrJ-11.  (-0.0593 + 0.0318)(0.0586 - 0.042 + 0.202)
+(0.0135)(0.0617) - 1.90x10-4
+   ------  11=____________ 
+DrJ-12.  
+)
+72
+.
+1
+)(
+35
+.
+2
+7
+.
+15
+(
+)
+35
+.
+7
+)(
+2
+.
+3
+62
+.
+5
+(
+)
+68
+.
+6
+)(
+289
+.
+0
+(
+−
++
++
+π
++
+−
+−
+−
+ -------------------  12=____________ 
+DrJ-13.  -45600 + 8140 - 10100 + 1020 + 39500
+(2.61)(25 + 15.6)(-2.87 + 0.784)
+   ------------  13=____________ 
+DrJ-14.  (5780 + 4480 - 3190)(0.00623 + 0.00754 - 0.00735)
+(8.61 - 6.43)(-3.55)(-3.38 - 2.49)
+   14=____________ 
+DrJ-15.  (0.103 + 0.194)
+1.11 - 2.81
+  + 
+-0.0204
+78.2 + 98.1  + (0.912)(333 - 258)
+(-954)(0.574)
+  15=__________ 
+        Page DrK-2 
+DrK-11.  (0.642 + 0.299)(0.16 + 0.208)
+(-1.84)(0.929)(4680 - 35600)    -------------------  11=____________ 
+DrK-12.  {1.33x10-4 + (-0.0551)(0.0733)(-0.0495)}
+(0.232 + 0.983)(0.0123)(1.6 + 0.982)
+   --------  12=____________ 
+DrK-13.  -59500 + 53700 - 1.78x105 + 7470 + 54200
+(0.0978)(50.6 + 38.3)(-0.0806 + 0.0652)    --------  13=____________ 
+DrK-14.  816 + 710 - 767
+(0.616)(-0.22)   - (1.08x106)(7.22x10-4 + 4.96x10-4)
+0.214 + 0.163 - 0.994
+  14=__________ 
+DrK-15.  42200 + 3.02x105 - (47300 + 78700)(1.56 - 0.907)
+(-514)(-52.4)(-62.3)(470 - 1960 + 3720)
+    15=____________ 
+        Page DrL-2 
+DrL-11.  
+1
+.
+61
+)
+)(
+58
+.
+3
+(
+)
+9
+.
+2
+55
+.
+2
+65
+.
+2
+)(
+485
+.
+0
+23
+.
+1
+(
+−
+π
+−
++
+−
+−
++
+−
+ ------------------  11=____________ 
+DrL-12.  3.85(9.26x10-5 + 2.42x10-5)
+(919 - 2110)(5.81)
+  - 
+1.12x10-8
+-0.201 - 0.0203   --  12=____________ 
+DrL-13.  -73300 + 53400 - 76900 + 8180 + 60800
+(-0.305)(76.3 + 67.6)(0.675 + 0.3)
+   -----------  13=____________ 
+DrL-14.  
+)}
+784
+.
+0
+/(
+)
+547
+.
+0
+){(
+89
+.
+0
+)(
+91
+.
+3
+(
+)
+155
+8
+.
+61
+)(
+9
+.
+16
+39
+.
+2
+)(
+9
+.
+14
+4
+.
+15
+(
+−
++
+π
+−
++
++
+ ----------------  14=____________ 
+DrL-15.  
+)
+247
+7
+.
+24
+143
+)(
+936
+.
+0
+)(
+352
+.
+0
+)(
+539
+(
+)
+407
+.
+0
+)(
+5
+10
+x
+68
+.
+2
+78200
+(
+5
+10
+x
+45
+.
+2
+5
+10
+x
+20
+.
+1
++
+−
+−
+−
+−
+π
++
+−
++
+     15=____________ 
+       
+Page 2-5 
+  Page DrM-2 
+DrM-11.  
+)
+8600
+2470
+)(
+634
+.
+0
+)(
+2
+.
+3
+(
+)
+691
+.
+0
+)(
+289
+.
+0
+887
+.
+0
+(
+−
+−
+π
++
+−
++
+−
+ ------------------------  11=____________ 
+DrM-12.  
+232 + 165
+(0.666)(1.48)(5.77x10-4)  + (543 + 776)(706 - 447)  12=____________ 
+DrM-13.  -87200 + 48200 - 2.57x105 + 8060 + 63100
+(4.12)(11.9 + 1.4)(1.55 + 1.53)
+   --------  13=____________ 
+DrM-14.  
+)
+51
+.
+2
+)(
+439
+.
+0
+)(
+701
+.
+0
+75
+.
+4
+(
+)
+00175
+.
+0
+0156
+.
+0
+00801
+.
+0
+)(
+282
+623
+3930
+(
+π
+−
+−
+−
++
+−
++
+ --------  14=____________ 
+DrM-15.  (56400 + 36700 - 1.93x105)(0.881 - 0.317 - 1.65)
+(-0.671)(-1.79)(4.96)(7.16 + 4.11 + 31.4)
+    15=____________ 
+        Page DrN-2 
+DrN-11.  (0.0348)(-0.0238) - (-0.0108)(0.053) + 5.36x10-4
+4.96x10-4 + (0.0367)(0.0126)
+    11=____________ 
+DrN-12.  
+)
+24
+.
+1
+)(
+733
+.
+0
+9
+.
+2
+27
+.
+1
+(
+)
+07
+.
+9
+)(
+879
+.
+0
+19
+.
+6
+(
+)
+)(
+2
+.
+17
+(
+−
++
++
+−
++
+−
+π
+−
+ ---------------------  12=____________ 
+DrN-13.  {(-0.111 + 0.0418)(58.1 + 320) + (-40.1)}(-871)
+(-369)(583 + 1130)(-604)
+   -  13=____________ 
+DrN-14.  631 + 160 - 240
+(0.448)(75.8)   - (-15900)(4.10x10-4 + 2.97x10-4)
+0.702 + 0.628 - 2.57
+  14=____________ 
+DrN-15.  (59000 + 23000 - 46100)(0.571 - 0.382 - 0.426)
+(4.91)(-0.0626)(0.56)(3.89 + 0.571 + 0.979)
+   --  15=____________ 
+        Page DrO-2 
+DrO-11.  (-4.17)(-4.58) + (4.58)(9.82)
+-4.17 + 1.39 - (-9.26)(0.443)   -------------------  11=____________ 
+DrO-12.  
+{-1280 + (-8.57)(-8.52)(-87.8)}
+(0.279 + 2.12)(-4.46)(1.37 + 0.494)   -------------  12=____________ 
+DrO-13.  {(-0.249 + 0.0504)(97.4 + 498) + (-221)}(-1.55)
+(-2.91)(4.45 + 5.75)(5.67)
+   -  13=____________ 
+DrO-14.  
+(86.9 + 30.2)(8.8 + 27.6)(30.6 - 70)
+(0.218 + 0.207)(0.309){(0.643)/(-0.697)}   --------  14=____________ 
+DrO-15.  (1.43 + 11)
+6.87 - 9.44  + 
+-0.729
+84.1 + 87.5  + (0.261)(978 - 688)
+(-620)(0.135)
+    15=____________ 
+Page 2-6 
+        Page DrP-2 
+DrP-11.  
+(1140 + 624)
+(0.418 - 0.651)  + (-11700 + 15500)
+(3.65 - 1.9)
+   -------------  11=____________ 
+DrP-12.  -0.225(9.60x10-5 + 4.67x10-5)
+(966 - 2920)(0.414)
+  - 
+1.59x10-8
+-0.304 - 0.227   -  12=____________ 
+DrP-13.  {(-0.388 + 0.36)(46.7 + 223) + (-18.2)}(562)
+(-214)(307 + 2360)(-261)
+   ----  13=____________ 
+DrP-14.  (2070 + 917 - 177)(0.00978 + 0.0483 - 0.00726)
+(0.901 - 0.404)(4.42)(8.39 - 7.54)
+   --  14=____________ 
+DrP-15.  38200 + 77700 - (21600 + 25400)(2.58 - 1.31)
+(-640)(3.39)(-8.25)(635 - 209 + 1080)
+   ----  15=____________ 
+        Page DrQ-2 
+DrQ-11.  (53.6 + 50.6)(-393 - 263 + 349)
+(-588)(680) - 5.78x105
+   -----------------  11=____________ 
+DrQ-12.  (-0.378 + 0.281 - 0.366)(0.93)(-0.964)
+(5.29 - 3.44)(-0.597 - 2.58)
+   ----------  12=____________ 
+DrQ-13.  {(-0.527 + 0.396)(86 + 384) + (-200)}(-72.1)
+(-13.6)(16.9 + 43.7)(91)
+   ----  13=____________ 
+DrQ-14.  446 + 239 - 588
+(0.279)(-0.264)  - (-1.17x105)(9.98x10-4 + 7.62x10-4)
+0.289 + 0.0375 - 0.115
+  14=_________ 
+DrQ-15.  98000 + 2.90x105 - (52500 + 97000)(1.44 - 0.451)
+(-665)(5.12)(7.35)(308 - 1470 + 2200)
+    15=____________ 
+        Page DrR-2 
+DrR-11.  (-71.1 + 62.1)(-81.9 + 387)
+(-5.32)(0.347)(1440 - 2120)   ---------------------  11=____________ 
+DrR-12.  (26.2)(26.4) - (-19.9 + 12.2)(-92.1)
+(-96.3 + 229 + 81.2)(-7.7)
+   ------------  12=____________ 
+DrR-13.  {(-0.665 + 0.383)(35.3 + 148) + (-269)}(-0.412)
+(-5.87)(3.15 + 4.89)(8.13)
+   -  13=____________ 
+DrR-14.  (68.4 + 43.2)(6.21 + 12.5)(89.5 - 188)
+(-16.7 + 5.82)(70.8){(-76.9)/(52.7)}    ----------  14=____________ 
+DrR-15.  (69000 + 17100 - 20500)(0.231 - 0.0243 - 0.203)
+(7.21)(6.84)(2.95)(8.81 + 2.12 + 3.57)
+   -  15=____________ 
+Page 2-7 
+        Page DrS-2 
+DrS-11.  (5.24)(9.13) - (1.67)(7.88) + 25
+29.4 + (-4.45)(-4.28)
+   ----------------  11=____________ 
+DrS-12.  
+{-0.161 + (0.38)(-0.904)(0.738)}
+(0.326 + 0.351)(-0.212)(1.2 + 0.125)   ------------  12=____________ 
+DrS-13.  {(-0.804 + 0.322)(74.6 + 296) + (-182)}(713)
+(18.7)(-106 + 118)(-747)
+   ----  13=____________ 
+DrS-14.  -6000
+-2.95  + 726 + 605 - 2360
+0.749 - 1.22
+  + 
+(-0.00376 + 0.02)
+{(-6.41x10-6)/(-3.98)}  14=___________ 
+DrS-15.  (71500 + 63400 - 2.62x105)(0.821 - 0.34 - 0.412)
+(-7.21)(8.57)(-1.45)(5.53 + 3.95 + 27.3)
+    15=____________ 
+        Page DrT-2 
+DrT-11.  
+(-24.1)(13.9) + (33)(-76)
+-7.97 + 6.51 - (-8.22)(0.832)   -------------------  11=____________ 
+DrT-12.  -83.5(9.95x10-5 + 7.08x10-5)
+(112 - 499)(24.6)
+  - 
+2.02x10-8
+0.406 - 0.199   ---  12=____________ 
+DrT-13.  {(-0.943 + 0.213)(23.9 + 89.9) + (-96.1)}(-5.71)
+(0.962)(-2.44 + 9.45)(4.24)
+    13=____________ 
+DrT-14.  260 + 214 - 1440
+(0.111)(7.14)
+  - (-4.34x105)(6.87x10-4 + 5.50x10-4)
+0.777 + 0.205 - 0.503
+  14=________ 
+DrT-15.  61700 + 1.33x105 - (55100 + 1.08x105)(1.38 - 0.871)
+(-740)(-0.97)(-0.585)(226 - 109 + 379)
+  15=___________ 
+        Page DrU-2 
+DrU-11.  (6630 + 1690)
+(0.293 - 0.828)  + (-1730 + 2320)
+(2.62 - 2.38)    ---------------  11=____________ 
+DrU-12.  (-9.88 + 7.69 - 7.74)(5.46)(-7.92)
+(4.24 - 2.69)(-3.37 - 3.84)
+   --------------  12=____________ 
+DrU-13.  {(-0.181 + 0.172)(63.2 + 226) + (-3.46)}(146)
+(174)(-382 + 741)(-405)
+   ---  13=____________ 
+DrU-14.  
+(49.9 + 45.6)(3.62 + 5.36)(58.3 - 113)
+(-0.552 + 0.359)(-0.894){(-0.18)/(-0.248)}   ------  14=____________ 
+DrU-15.  
+)
+8
+.
+40
+99
+.
+7
+)(
+974
+.
+0
+)(
+797
+.
+0
+)(
+395
+.
+0
+(
+)
+0609
+.
+0
+0265
+.
+0
+201
+.
+0
+)(
+32600
+28000
+76600
+(
++
+π
++
+−
+−
+−
+−
++
+ ------  15=____________ 
+        
+Page 2-8 
+ Page DrV-2 
+DrV-11.  (2.3 + 1.36)(-5.21 - 1.96 + 3.13)
+(-8.19)(-1.33) - 67.9
+   ---------------  11=____________ 
+DrV-12.  
+0.086 + 0.0483
+(0.405)(2.19)(1.04x10-7)  + (375 + 2020)(586 - 365) 12=____________ 
+DrV-13.  {(-0.32 + 0.248)(12.5 + 42.6) + (-6.23)}(0.863)
+(0.251)(-0.52 + 0.673)(0.767)
+   -  13=____________ 
+DrV-14.  2300
+-68.1  + 109 + 62.7 - 145
+0.15 - 0.741
+  + (-0.0512 + 0.226)
+{(-0.111)/(82.7)}   --  14=____________ 
+DrV-15.  (79100 + 8310 - 31000)(0.791 - 0.349 - 1.45)
+(0.952)(-0.625)(0.534)(4.72 + 1.58 + 2.62)    ----  15=____________ 
+        Page DrW-2 
+DrW-11.  
+)
+57000
+9400
+)(
+959
+.
+0
+)(
+(
+)
+476
+7
+.
+94
+)(
+9
+.
+27
+5
+.
+53
+(
+−
+π
++
+−
++
+−
+ --------------------------  11=____________ 
+DrW-12.  
+)
+179
+.
+0
+)(
+27
+9
+.
+28
+08
+.
+5
+(
+)
+)(
+47
+.
+1
+77
+.
+2
+(
+)
+46
+.
+8
+)(
+588
+.
+0
+(
+−
++
++
+−
+π
++
+−
+−
+ ---------------------  12=____________ 
+DrW-13.  
+)
+0622
+.
+0
+)(
+657
+.
+0
+)(
+329
+.
+0
+(
+)
+42
+.
+0
+)}(
+3
+.
+77
+(
+)
+168
+8
+.
+51
+)(
+275
+.
+0
+459
+.
+0
+{(
+−
+π
++
+−
+−
+−
++
++
++
+−
+ --------  13=____________ 
+DrW-14.  
+)
+)(
+843
+.
+0
+(
+252
+198
+975
+π
+−
++
+- (-21200)(3.75x10-4 + 3.14x10-4)
+0.365 + 0.145 - 0.297
+     14=___________ 
+DrW-15.  (0.379 + 0.509)
+3.49 - 6.45
+  + 
+-0.0904
+93.6 + 645  + (0.481)(750 - 710)
+(-807)(0.153)
+  15=___________ 
+        Page DrX2 
+DrX-11.  (700)(64.4) - (-35.9)(-954) + 18000
+-2.02x106 + (742)(-982)
+   -------------  11=____________ 
+DrX-12.  0.0555(1.29x10-5 + 1.21x10-5)
+(159 - 1320)(0.00787)
+  - -8.68x10-8
+0.509 - 0.12   ---  12=____________ 
+DrX-13.  {(-0.597 + 0.254)(91.2 + 283) + (-315)}(0.0297)
+(0.0406)(-0.0795 + 0.206)(-0.0891)
+   -  13=____________ 
+DrX-14.  
+)}
+6
+.
+97
+/(
+)
+8
+.
+40
+){(
+5
+.
+49
+)(
+1
+.
+89
+8
+.
+93
+(
+)
+1
+.
+49
+1
+.
+27
+)(
+2
+.
+1
+)(
+34
+.
+9
+3
+.
+31
+(
+−
++
+−
+−
++
+π
++
+ -----------------  14=____________ 
+DrX-15. 7.97x105 + 1.96x106 - (88500 + 5.19x105)(6.28 - 4.72)
+(-841)(-0.0279)(-0.0346)(718 - 451 + 1190)
+  15=__________ 
+ 
+Page 2-9 
+        Page DrY-2 
+DrY-11.  (-6.45 + 2.46)(20.2 + 36.4)
+(-1.36)(0.664)(7190 - 22400)   --------------------  11=____________ 
+DrY-12.  
+)
+22
+.
+1
+76
+.
+0
+)(
+97
+.
+1
+19
+.
+3
+(
+)
+2
+.
+6
+)(
+62
+.
+1
+)(
+3
+.
+10
+27
+.
+3
+(
+−
+−
+−
+−
+−
++
+π
+ ------------------------  12=____________ 
+DrY-13.  
+7.36x105 + 2.95x106
+(-1.21)(-0.494) + 0.761  + 4050 - 1360 + 4640
+(6.19x10-4)(2.8)    ---  13=____________ 
+DrY-14.  -799
+0.934  + 392 + 124 - 203
+0.451 - 0.653   + (-6.47x10-4 + 0.00245)
+{(-2.89x10-8)/(0.051)}  14=____________ 
+DrY-15.  55700 + 2.88x105 - (29400 + 38600)(2.14 - 1.19)
+(-866)(-0.0107)(-0.0787)(391 - 2110 + 2480)
+   -  15=____________ 
+        Page DrZ-2 
+DrZ-11.  (-8.29)(5.25) - (81.7)(-0.508) + 7.33
+0.163 + (-3.83)(-0.0412)
+   -----------  11=____________ 
+DrZ-12.  
+250 + 149
+(0.389)(1.79)(1.34x10-4)  + (600 + 913)(632 - 328)  12=____________ 
+DrZ-13.  
+8.75x105 + 8.98x105
+(-0.16)(-0.75) + 0.131  + 7980 - 2800 + 15600
+(-0.0481)(-0.0548)    ---  13=____________ 
+DrZ-14.  {(0.79 + 1.62)(1.89 + 0.0087) + 4.75 - 4.16}
+(-675 - 574)(-2.3 + 4.32 - 2.46)
+   ----  14=____________ 
+DrZ-15.  (89100 + 76900 - 1.28x105)(0.451 - 0.35 - 0.967)
+(-0.0817)(0.0066)(0.0773)(9.64 + 4.12 + 6.75)
+    15=____________ 
+ 
+Page 2-10 
+ 
+ 
+ 
+Page 3-1 
+        Page DrA-3 
+DrA-21.  ⎣⎢⎡
+⎦⎥⎤
+1.5 - 0.648
+7.07
+ + (0.454)
+4.45
+2
+   ----------------------------  21=____________ 
+DrA-22.  
+1
+-6.83 + 8.33  + 
+1
+0.588 - 1.22  + 
+1
+(0.756)   ----------------  22=____________ 
+DrA-23.  0.0536 + 0.0526 + (6.83x10-4)/(0.0346)
+0.0177 + 0.004
+   ---------------  23=____________ 
+DrA-24.  (166)(0.0331) + (12.3)/(2.78)  + [
+]
+(0.173)(9.11) 2   -----  24=____________ 
+DrA-25.  (-89.2)(-0.00656) (-0.488)2/0.174  + 1/ 0.589 + 0.703   ---  25=____________ 
+        Page DrB-3 
+DrB-21.  
+45
+.
+2
+)
+/(
+1
+)
+965
+.
+0
+/(
+1
+278
+.
+0
++
+π
++
++ 
+1
+(0.381)   -------------------------  21=____________ 
+DrB-22.  ⎣⎢⎡
+⎦⎥⎤
+(0.849)(0.776)
+-7.58
+  + 0.0356
+2
+  + 1.13x10-6   --------------  22=____________ 
+DrB-23.  (-0.0145)(-750) + (4.71)/(1.74)  + [
+]
+(0.208)(8.4) 2   -----  23=____________ 
+DrB-24.  [
+]
+-34.9 + 506 2  x [
+]
+898 + 2220 2  x 1.48/7.27   --------  24=____________ 
+DrB-25.  (8.75)(0.0796) (-0.219)2/0.384  + 1/ 8.15 + 40.6   -------  25=____________ 
+        Page DrC-3 
+DrC-21.  
+325
+327
+)
+27
+.
+3
+)(
+(
++
+π
++ 0.0712  ---------------------------------  21=____________ 
+DrC-22.  
+73
+.
+7
+)
+301
+.
+0
+/(
+1
+)
+/(
+1
+0752
+.
+0
++
+π
++
++ 
+1
+(40.7)   ---------------------------  22=____________ 
+DrC-23.  (0.00154)(982) + (6.28)/(7.66)  + [
+]
+(0.56)(1.91) 2   -----  23=____________ 
+DrC-24.  [
+]
+-60.7 + 1740 2  x [
+]
+882 + 1590 2  x 2.27/5.35   -------  24=____________ 
+DrC-25.  954 + 222 + (2.47x105)/(834)
+-242 + 39
+   ------------------------  25=____________ 
+        Page DrD-3 
+Page 3-2 
+DrD-21.  
+1
+5.57 + 8.3  + 
+1
+3.56 - 16.5  + 
+1
+(9.83)   -------------------  21=____________ 
+DrD-22.  ⎣⎢⎡
+⎦⎥⎤
+(0.659)(0.215)
+9.46
+  + 0.0103
+2
+  + 1.82x10-7   --------------  22=____________ 
+DrD-23.  [
+]
+-54.1 + 1990 2  x [
+]
+399 + 1170 2  x 0.101/0.167   -----  23=____________ 
+DrD-24.  (1.49)(0.279) (-0.515)2/0.694  + 1/ 8.29 + 28.6   --------  24=____________ 
+DrD-25.  
+2
+0339
+.
+0
+329
+.
+0
+427
+.
+0
+/
+985
+.
+0
+27
+.
+1
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
++
++
++
+π
+ -------------------------  25=____________ 
+        Page DrE-3 
+DrE-21.  ⎣⎢⎡
+⎦⎥⎤
+(0.479)(0.583)
+-3.16
+  + 0.0826
+2
+  + 2.24x10-10   -------------  21=____________ 
+DrE-22.  
+1
+-4.67 + 9.98  + 
+1
+0.566 - 0.821  + 
+1
+(4.24)   ----------------  22=____________ 
+DrE-23.  (-99.4)(-0.00171) (-0.817)2/0.433  + 1/ 3.51 + 19   ------  23=____________ 
+DrE-24.  ⎣⎢⎡
+⎦⎥⎤
+4.17 + 0.619 + 0.832/0.372
+-0.38 + 0.321
+2
+   ------------------------  24=____________ 
+DrE-25.  
+49
+.
+4
+44
+.
+5
+)
+9
+/(
+)
+99
+(
+56
+.
+8
++
+−
++
+π
++
+ ---------------------------------  25=____________ 
+        Page DrF-3 
+DrF-21.  ⎣⎢⎡
+⎦⎥⎤
+0.747 - 0.464
+9.65
+ + (0.162)
+9.94
+2
+   --------------------------  21=____________ 
+DrF-22.  
+(8.26)(9.6)
+487 + 335    + 0.187  ------------------------------  22=____________ 
+DrF-23.  ⎣⎢⎡
+⎦⎥⎤
+12.7 + 2.23 + 0.841/0.393
+381 + 52.9
+2
+   ------------------------  23=____________ 
+DrF-24.  (1.63)(4.67) + (10.1)/(1.97)  + [
+]
+(0.176)(8.6) 2   -------  24=____________ 
+DrF-25.  [
+]
+-79.6 + 4120 2  x [
+]
+986 + 1000 2  x 
+π
+/
+47
+.
+6
+ ---------  25=____________
+ 
+ 
+Page 3-3 
+        Page DrG-3 
+DrG-21.  
+π
++
+−
++
+−
+)
+348
+.
+0
+/(
+1
+)
+52
+.
+7
+/(
+1
+122
+.
+0
++ 
+1
+(-12.9)   -----------------------  21=____________ 
+DrG-22.  
+(7.79)(2.15)
+506 + 186    + 0.0872  ----------------------------  22=____________ 
+DrG-23.  (-0.0177)(-9.7) + (0.1)/(8.68)  + [
+]
+(0.305)(1.22) 2   -----  23=____________ 
+DrG-24.  
+16
+.
+5
+)
+9
+.
+5
+/(
+)
+8
+.
+10
+(
+14
+.
+1
+68
+.
+4
++
+π
++
++
+ --------------------------  24=____________ 
+DrG-25.  ⎣⎢⎡
+⎦⎥⎤
+1.57 + 1.54 + 0.484/0.366
+0.423 + 0.351
+2
+   ------------------------  25=____________ 
+        Page DrH-3 
+DrH-21.  
+(7.81)(5.22)
+875 + 615    + 0.136  -----------------------------  21=____________ 
+DrH-22.  ⎣⎢⎡
+⎦⎥⎤
+2.61 - 1.94
+8.84
+ + (0.172)
+3.62
+2
+   ----------------------------  22=____________ 
+DrH-23.  (0.42)(1.36) (-0.383)2/0.444  + 1/ 6.39 + 61.2   ---------  23=____________ 
+DrH-24.  [
+]
+-18.7 + 297 2  x [
+]
+348 + 467 2  x 1.47/9.75   ---------  24=____________ 
+DrH-25.  (97.3)(0.613) + (4180)/(3.65)  + [
+]
+(0.85)(7.3) 2   -------  25=____________ 
+        Page DrI-3 
+DrI-21.  
+1
+-2.92 + 16  + 
+1
+10.5 - 12.7  + 
+1
+(5.99)   -------------------  21=____________ 
+DrI-22.  ⎣⎢⎡
+⎦⎥⎤
+2.76 - 1.19
+-3.62
+ + (-0.311)
+1.89
+2
+   ---------------------------  22=____________ 
+DrI-23.  [
+]
+-37.5 + 1080 2  x [
+]
+154 + 167 2  x 10.2/57.1   --------  23=____________ 
+DrI-24.  (0.0899)(445) + (107)/(4.87)  + [
+]
+(0.571)(4.56) 2   ------  24=____________ 
+DrI-25.  ⎣⎢⎡
+⎦⎥⎤
+0.454 + 0.208 + 0.15/0.925
+-815 + 582
+2
+   ------------------------  25=____________ 
+        Page DrJ-3 
+Page 3-4 
+DrJ-21.  ⎣⎢⎡
+⎦⎥⎤
+(0.229)(0.771)
+2.33
+  + 0.0338
+2
+  + 1.06x10-4   --------------  21=____________ 
+DrJ-22.  
+1
+0.186 + 0.432  + 
+1
+0.348 - 1.12  + 
+1
+(0.601)   ---------------  22=____________ 
+DrJ-23.  ⎣⎢⎡
+⎦⎥⎤
+7.99 + 7.75 + 0.825/0.495
+-6.57 + 6.37
+2
+   ------------------------  23=____________ 
+DrJ-24.  [
+]
+-11.4 + 81.6 2  x [
+]
+396 + 466 2  x 750/574   ----------  24=____________ 
+DrJ-25.  (2.83)(0.108) (-0.375)2/0.656  + 1/ 17.9 + 18.5   --------  25=____________ 
+        Page DrK-3 
+DrK-21.  ⎣⎢⎡
+⎦⎥⎤
+2.7 - 2.18
+-7.77
+ + (-0.3)
+4.58
+2
+   ------------------------------  21=____________ 
+DrK-22.  
+57
+.
+1
+)
+/(
+1
+)
+63
+.
+7
+/(
+1
+0165
+.
+0
++
+π
++
++ 
+1
+(6.52)   --------------------------  22=____________ 
+DrK-23.  (-1040)(-0.0923) + (38700)/(9.71)  + [
+]
+(0.95)(9.52) 2   ---  23=____________ 
+DrK-24.  6.24 + 5.71 + (20.8)/(2.69)
+-0.382 + 0.131
+   -------------------------  24=____________ 
+DrK-25.  ⎣⎢⎡
+⎦⎥⎤
+7.69 + 6.42 + 0.717/0.585
+32.7 + 19.6
+2
+   ------------------------  25=____________ 
+        Page DrL-3 
+DrL-21.  0.168 + 1/(3.99)
+1/(0.198) + 8.52  + 
+1
+(31.5)   ---------------------------  21=____________ 
+DrL-22.  ⎣⎢⎡
+⎦⎥⎤
+(0.378)(0.344)
+-0.154
+  + 0.511
+2
+  + 0.00733   -----------------  22=____________ 
+DrL-23.  ⎣⎢⎡
+⎦⎥⎤
+2.39 + 0.878 + 0.546/0.436
+-0.139 + 0.0636
+2
+   ------------------------  23=____________ 
+DrL-24.  [
+]
+-85.9 + 2070 2  x [
+]
+903 + 955 2  x 0.0163/0.0474   -----  24=____________ 
+DrL-25.  (-0.0578)(-14.9) (-0.52)2/0.541  + 1/ 0.94 + 4.98   ------  25=____________ 
+ 
+ 
+Page 3-5 
+        Page DrM-3 
+DrM-21.  ⎣⎢⎡
+⎦⎥⎤
+1.32 - 1.16
+1.26
+ + (0.168)
+1.62
+2
+   ----------------------------  21=____________ 
+DrM-22.  
+2
+0133
+.
+0
+)
+961
+.
+0
+)(
+23
+.
+0
+(
+⎥⎦
+⎤
+⎢⎣
+⎡
++
+π
++ 6.72x10-6   ----------------  22=____________ 
+DrM-23.  [
+]
+-42.1 + 1180 2  x [
+]
+138 + 1130 2  x 93.5/49.5   -------  23=____________ 
+DrM-24.  (0.0129)(502) + (10.9)/(1.41)  + [
+]
+(0.77)(2.28) 2   ------  24=____________ 
+DrM-25.  ⎣⎢⎡
+⎦⎥⎤
+4.19 + 1.3 + 0.383/0.244
+-5.31 + 2.56
+2
+   -------------------------  25=____________ 
+        Page DrN-3 
+DrN-21.  0.0244 + 1/(8.59)
+1/(0.417) + 5.28   + 
+1
+(32.4)   --------------------------  21=____________ 
+DrN-22.  ⎣⎢⎡
+⎦⎥⎤
+(0.283)(0.643)
+6.75
+  + 0.00695
+2
+  + 8.48x10-7   -------------  22=____________ 
+DrN-23.  0.0189 + 0.0163 + (2.46x10-5)/(8.64x10-4)
+0.0306 + 0.0275
+   ------------  23=____________ 
+DrN-24.  
+2
+97
+.
+6
+2
+.
+11
+28
+.
+0
+/
+447
+.
+0
+1
+.
+12
+⎥
+⎦
+⎤
+⎢
+⎣
+⎡
++
++
+π
++
+ --------------------------  24=____________ 
+DrN-25.  [
+]
+-49.9 + 538 2  x [
+]
+524 + 787 2  x 17.8/71.2   ---------  25=____________ 
+        Page DrO-3 
+DrO-21.  
+(5.72)(9.11)
+383 + 251    + 0.246  -----------------------------  21=____________ 
+DrO-22.  
+1
+2.56 + 3.87  + 
+1
+3.31 - 3.48  + 
+)
+(
+1
+π
+ ----------------------  22=____________ 
+DrO-23.  (-2590)(-0.0904) + (1770)/(6.94)  + [
+]2
+)
+)(
+883
+.
+0
+(
+π
+ --------  23=____________ 
+DrO-24.  (2.21)(0.19) (-0.419)2/0.114  + 1/ 3.66 + 7.17   ---------  24=____________ 
+DrO-25.  8.7 + 6.99 + (28.5)/(6.31)
+0.249 + 0.0918
+   --------------------------  25=____________ 
+Page 3-6 
+        Page DrP-3 
+DrP-21.  
+1
+-6.8 + 31  + 
+1
+7.58 - 9.77  + 
+1
+(15.8)   --------------------  21=____________ 
+DrP-22.  
+(7.7)(4.86)
+680 + 134    + 0.0368  -----------------------------  22=____________ 
+DrP-23.  (-0.00415)(-864) + (13.6)/(6.49)  + [
+]
+(0.18)(8.66) 2   ----  23=____________ 
+DrP-24.  [
+]
+-25.9 + 422 2  x [
+]
+613 + 1100 2  x 0.454/0.473   ------  24=____________ 
+DrP-25.  (-8.37)(-0.0935) (-0.183)2/0.81  + 1/ 12.2 + 36.2   ------  25=____________ 
+        Page DrQ-3 
+DrQ-21.  ⎣⎢⎡
+⎦⎥⎤
+(0.42)(0.133)
+-5.99
+  + 0.00448
+2
+  + 1.31x10-10   -------------  21=____________ 
+DrQ-22.  ⎣⎢⎡
+⎦⎥⎤
+1.32 - 0.782
+-3.29
+ + (-0.231)
+8.06
+2
+   --------------------------  22=____________ 
+DrQ-23.  [
+]
+-46.8 + 1230 2  x [
+]
+122 + 541 2  x 0.0275/0.418   -----  23=____________ 
+DrQ-24.  (1730)(0.0559) + (9940)/(6.96)  + [
+]2
+)
+)(
+969
+.
+0
+(
+π
+ ----------  24=____________ 
+DrQ-25.  (0.995)(0.619) (-0.462)2/0.432  + 1/ 1.34 + 1.71   -------  25=____________ 
+        Page DrR-3 
+DrR-21.  ⎣⎢⎡
+⎦⎥⎤
+0.571 - 0.097
+3.84
+ + (0.947)
+7.11
+2
+   --------------------------  21=____________ 
+DrR-22.  
+(0.248)(2.72)
+459 + 307
+   + 0.0213  ---------------------------  22=____________ 
+DrR-23.  [
+]
+-76 + 4580 2  x [
+]
+700 + 735 2  x 89.9/6.88   ----------  23=____________ 
+DrR-24.  ⎣⎢⎡
+⎦⎥⎤
+1.98 + 1.55 + 0.835/0.794
+6.27 + 0.81
+2
+   ------------------------  24=____________ 
+DrR-25.  (0.141)(8.38) + (1.21)/(9.55)  + [
+]
+(0.194)(3.32) 2   -----  25=____________ 
+ 
+ 
+Page 3-7 
+        Page DrS-3 
+DrS-21.  8.22 + 1/(0.105)
+1/(48.7) + 0.202  + 
+1
+(0.00133)   ------------------------  21=____________ 
+DrS-22.  
+1
+7.2 + 7.64  + 
+1
+11 - 78.5  + 
+)
+(
+1
+π
+ -------------------------  22=____________ 
+DrS-23.  ⎣⎢⎡
+⎦⎥⎤
+1.52 + 1.46 + 0.564/0.276
+509 + 414
+2
+   ------------------------  23=____________ 
+DrS-24.  
+39
+.
+2
+)
+135
+.
+0
+/(
+)
+759
+.
+0
+(
+3
+.
+4
+35
+.
+9
++
+π
++
++
+ ------------------------  24=____________ 
+DrS-25.  (π)(-0.266) + (0.13)/(1.22)  + [
+]
+(0.577)(1.36) 2   -------  25=____________ 
+        Page DrT-3 
+DrT-21.  
+(3.96)(2.41)
+931 + 338    + 0.0319  ----------------------------  21=____________ 
+DrT-22.  
+1
+-5.36 + 5.96  + 
+1
+0.456 - 0.633  + 
+1
+(0.359)   ---------------  22=____________ 
+DrT-23.  (-7.27)(-8.17) + (4700)/(7.51)  + [
+]
+(0.825)(7.97) 2   -----  23=____________ 
+DrT-24.  [
+]
+-56.7 + 1300 2  x [
+]
+946 + 4460 2  x 0.413/0.782   -----  24=____________ 
+DrT-25.  ⎣⎢⎡
+⎦⎥⎤
+1.95 + 0.225 + 0.401/0.2
+-0.674 + 0.219
+2
+   -------------------------  25=____________ 
+        Page DrU-3 
+DrU-21.  
+1
+4.71 + 7.46  + 
+1
+10.5 - 21.7  + 
+1
+(4.88)   ------------------  21=____________ 
+DrU-22.  
+14
+.
+1
+)
+13
+.
+1
+/(
+1
+)
+/(
+1
+311
+.
+0
++
+π
++
++ 
+1
+(2.2)   -----------------------------  22=____________ 
+DrU-23.  (0.767)(0.595) (-0.105)2/0.327  + 1/ 43.9 + 56.3   -------  23=____________ 
+DrU-24.  [
+]
+-34.6 + 694 2  x [
+]
+351 + 1310 2  x 860/766   ----------  24=____________ 
+DrU-25.  153 + 130 + (7360)/(38.3)
+517 + 399
+   ---------------------------  25=____________ 
+         
+Page DrV-3 
+Page 3-8 
+DrV-21.  ⎣⎢⎡
+⎦⎥⎤
+(0.171)(0.32)
+-0.507
+  + 0.0961
+2
+  + 1.38x10-8   ---------------  21=____________ 
+DrV-22.  0.0736 + 1/(9.54)
+1/(2.14) + 0.586   + 
+1
+(4.79)   --------------------------  22=____________ 
+DrV-23.  [
+]
+-30.1 + 596 2  x [
+]
+776 + 967 2  x 231/823   -----------  23=____________ 
+DrV-24.  ⎣⎢⎡
+⎦⎥⎤
+0.914 + 0.264 + 0.213/0.489
+-0.153 + 0.0255
+2
+   -----------------------  24=____________ 
+DrV-25.  (11.3)(0.784) + (509)/(9.61)  + [
+]
+(0.344)(8.62) 2   ------  25=____________ 
+        Page DrW-3 
+DrW-21.  ⎣⎢⎡
+⎦⎥⎤
+2.52 - 0.901
+6.42
+ + (0.376)
+7.41
+2
+   ---------------------------  21=____________ 
+DrW-22.  ⎣⎢⎡
+⎦⎥⎤
+(0.754)(0.49)
+2.31
+  + 0.123
+2
+  + 0.00518   -----------------  22=____________ 
+DrW-23.  
+94
+.
+3
+29
+.
+5
+)
+33
+.
+5
+/(
+)
+53
+.
+5
+(
+873
+.
+0
++
+−
++
++
+π
+ ---------------------------  23=____________ 
+DrW-24.  ⎣⎢⎡
+⎦⎥⎤
+3.78 + 2.82 + 0.628/0.817
+-0.985 + 0.197
+2
+   ------------------------  24=____________ 
+DrW-25.  [
+]
+-38.9 + 780 2  x [
+]
+340 + 393 2  x 900/531   -----------  25=____________ 
+        Page DrX-3 
+DrX-21.  -0.0729 + 1/(-8.38)
+1/(0.27) + 5.69
+  + 
+1
+(-25.3)   -----------------------  21=____________ 
+DrX-22.  
+(0.746)(4.43)
+835 + 288
+   + 0.0394  ---------------------------  22=____________ 
+DrX-23.  (-288)(-0.0769) + (804)/(8.54)  + [
+]
+(0.57)(7.28) 2   -----  23=____________ 
+DrX-24.  [
+]
+-87.5 + 1340 2  x [
+]
+379 + 494 2  x 720/908   ----------  24=____________ 
+DrX-25.  (0.658)(0.529) (-0.62)2/0.489  + 1/ 7.85 + 25.1   --------  25=____________ 
+ 
+ 
+Page 3-9 
+        Page DrY-3 
+DrY-21.  ⎣⎢⎡
+⎦⎥⎤
+1.14 - 0.494
+-4.55
+ + (-0.168)
+1.22
+2
+   --------------------------  21=____________ 
+DrY-22.  
+(3.2)(8.13)
+855 + 791    + 0.0859  -----------------------------  22=____________ 
+DrY-23.  (-97.2)(-0.00362) (-0.989)2/0.43  + 1/ 3.39 + 4.78   -----  23=____________ 
+DrY-24.  [
+]
+-11.8 + 127 2  x [
+]
+905 + 1940 2  x 8.3/6.83   ---------  24=____________ 
+DrY-25.  (43.4)(0.824) + (750)/(1.12)  + [
+]
+(0.689)(7.59) 2   ------  25=____________ 
+        Page DrZ-3 
+DrZ-21.  -0.04 + 1/(-3.78)
+1/(0.242) + 8.12   + 
+1
+(-5.74)   -------------------------  21=____________ 
+DrZ-22.  ⎣⎢⎡
+⎦⎥⎤
+2.73 - 1.2
+4.58
+ + (1.3)
+7.5
+2
+   ------------------------------  22=____________ 
+DrZ-23.  [
+]
+-34.8 + 667 2  x [
+]
+760 + 840 2  x 
+47
+.
+7
+/
+π
+ -----------  23=____________ 
+DrZ-24.  ⎣⎢⎡
+⎦⎥⎤
+15 + 14.4 + 0.545/0.144
+7.14 + 5.98
+2
+   --------------------------  24=____________ 
+DrZ-25.  (7.4)(5.32) + (654)/(2.79)  + [
+]
+(0.634)(6.31) 2   --------  25=____________ 
+ 
+Page 3-10 
+ 
+ 
+ 
+Page 4-1 
+        Page DrA-4 
+DrA-31.  (-2.10x10-6 + 6.65x10-6)2
+66.6 - 65.3 
+   +  
+5.76x10-14
+7.55x10-5 + 2.64x10-4 
+   -----  31=___________ 
+DrA-32.  
+1/(806 - 514)
+(631)(1.87 + 1.45)2     +  (-2150)2(2.06x10-10)   ---------  32=___________ 
+DrA-33.  (1.19x105)2(3.19x10-11 + 1.75x10-11)
+163 + (-0.373)(-1570)
+   +  
+1
+1
+3.39x10-4 + 
+1
+(-2.04x10-4)
+  33=_______ 
+DrA-34.  [(3.54 - 2.43)(0.881/0.359)]1/2
+(0.535)2 + (0.105 + 0.46)2 + 0.238
+   -----------------------  34=___________ 
+DrA-35.  
+(158 + 390)2 - (1410 - 43.7)2
+(351)(0.612)(335 + 316 - 1500)2   ------------------------  35=___________ 
+        Page DrB-4 
+DrB-31.  
+5.78
+92.9 + 61.2   x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(5.96 - 1.2)2  +  
+1
+(12.4 + 4.37)2    -----  31=___________ 
+DrB-32.  (-3.13 + 5.13)2
+64.3 - 32.1    +  
+0.853
+3.82 + 3.98    -----------------------  32=___________ 
+DrB-33.  [0.00351/(0.772 + 0.583) + 1/(190)]1/2
+(91.5 + 295)2 x 2250 - (-822)
+   -------------------  33=___________ 
+DrB-34.  (9.59x105)2(5.95x10-13 + 4.65x10-13)
+0.00108 + (-0.509)(-0.00254)
+   +  
+1
+1
+303 + 
+1
+(-69.8)
+   -----  34=___________ 
+DrB-35.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+ 
+8610 + 19600 
+(2120)(4840)+(3200)2 
+4640 + 7740  + (6.28 - 5.15)2   --------------------------  35=___________ 
+Page 4-2 
+        Page DrC-4 
+DrC-31.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+-4.50x106
+-7.75x106 + 6.51x106 + 6.91   x {
+}
+502 + (-32.3)2 - 2.07x106
+   31=_________ 
+DrC-32.  
+4.14
+30.9 + 8.29   x  
+⎣⎢⎡
+⎦⎥⎤
+1
+(6.49 - 5.45)2  +  
+1
+(2.12 + 2.11)2    ----  32=___________ 
+DrC-33.  
+(1.76)/{
+}
+(0.863)/ 9.99
+0.793 + (0.618)(5.13)
+   +  {
+}
+0.102 + 0.779 1/2   ----------  33=___________ 
+DrC-34.  
+(9.41)2 + 1070
+(0.00471)(-73.5)2    +  
+(2.44x10-4)(0.788) 
+0.00197 + 0.00321
+   ----------  34=___________ 
+DrC-35.  
+2
+)
+2030
+255
+989
+)(
+932
+.
+0
+)(
+258
+(
+2
+)
+9
+.
+29
+(
+2
+)
+18
+51
+.
+5
+(
+−
++
+π
+−
+−
++
+ -------------------------  35=___________ 
+        Page DrD-4 
+DrD-31.  
+1
+0.0247  + 
+1
+4.52x10-4  + 
+22
+.
+1
+73
+.
+1
+2
+)
+98
+.
+1
+45
+.
+4
+(
+−
+−
++
+π
+ ----------------  31=___________ 
+DrD-32.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+-3.32x105
+4.44x106 + 9.71x105 + 0.0937   x {
+}
+723 + (-28.1)2 - 9.59x105
+  32=__________ 
+DrD-33.  [(0.065 - 0.0558)(0.517/0.653)]1/2
+(0.532)2 + (0.536 + 0.672)2 + 1.4
+   -----------------------  33=___________ 
+DrD-34.  
+(4.77)/{
+}
+(4.87)/ 3.84
+0.235 + (0.922)(4.68)    +  {
+}
+0.0415 + 0.247 1/2   ----------  34=___________ 
+DrD-35.  
+1
+3470  +  
+7.47
+(142 + 108)2  -  3.78x10-5 
+(-7.16)2
+(-5.86 + 14.3)2 + (-87.2)
+   --------------------  35=___________ 
+ 
+ 
+Page 4-3 
+        Page DrE-4 
+DrE-31.  
+1/(465 - 179)
+(176)(1.48 + 1.31)2     +  (4.45x106 )2(1.81x10-17)   ------  31=___________ 
+DrE-32.  
+1
+0.00353  + 
+1
+1.71x10-5  + (9.23 + 14 - 8.71)2
+1.33 - 0.41 
+   --------------  32=___________ 
+DrE-33.  
+2
+)
+8
+.
+68
+)(
+4830
+(
+547
+2
+)
+(
+−
++
+π
++  
+(4.24x1011)(0.564) 
+8740 + 70200
+   ----------------  33=___________ 
+DrE-34.  (2.98x105)2(3.28x10-12 + 6.89x10-13)
+0.00322 + (-0.281)(0.086)
+   +  
+1
+1
+-11.2 + 
+1
+(4.68)
+   ----  34=___________ 
+DrE-35.  
+)
+75
+.
+3
+(
+)
+45
+.
+2
+11
+.
+1
+(
+)
+(
+10
+x
+76
+.
+7
+)
+448
+483
+(
+43
+.
+9
+68400
+1
+2
+2
+8
+2
+−
++
++
+−
+π
+−
++
++
+−
+ ---------------------------  35=___________ 
+        Page DrF-4 
+DrF-31.  (1.55x106 + 2.13x106)2
+31.4 - 21.6 
+   +  
+3.34x1015
+9.88x106 + 1.28x107 
+   ---------  31=___________ 
+DrF-32.  
+1/(727 - 483)
+(104)(1.15 + 0.997)2     +  (-0.977)2(0.00251)   ----------  32=___________ 
+DrF-33.  (1.52x105)2(1.14x10-11 + 8.24x10-12)
+5.41 + (-0.963)(26.3)
+   +  
+1
+1
+-0.0223 + 
+1
+(0.0042)
+    33=___________ 
+DrF-34.  
+[(7.4 - 2.73)(0.398/0.114)]1/2
+(0.296)2 + (0.138 + 0.21)2 + 0.0731
+   ----------------------  34=___________ 
+DrF-35.  (-0.562 + 2.97)2 - (5.94 - 0.0957)2
+(44.6)(0.218)(132 + 117 - 202)2    ----------------------  35=___________ 
+Page 4-4 
+        Page DrG-4 
+DrG-31.  
+9.9
+80.4 + 29.8   x  
+⎣⎢⎡
+⎦⎥⎤
+1
+(2.44 - 1.98)2  +  
+1
+(0.534 + 0.181)2    ---  31=___________ 
+DrG-32.  (55.2 + 104)2
+67 - 27 
+   +  
+17600
+20 + 50.4    --------------------------  32=___________ 
+DrG-33.  [0.0133/(0.585 + 0.758) + 1/(52.6)]1/2
+(19.9 + 22.1)2 x 51.8 - (-51.7)
+   -------------------  33=___________ 
+DrG-34.  [(6.92 - 3.83)(0.446/0.586)]1/2
+(0.905)2 + (0.118 + 1.1)2 + 0.415
+   ------------------------  34=___________ 
+DrG-35.  
+⎣⎢⎡
+⎦⎥⎤
+(-66.5 + 7.14)
+(352 + 647)
+2
+  +  
+6.22x10-6 + 9.01x10-6
+0.115 
+ 
+{
+}
+(-16.9)/(51.7) 2
+   ------------  35=___________ 
+        Page DrH-4 
+DrH-31.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+-6.26x10-5
+9.94x10-5 + 3.50x10-5 + 2.68   x {
+}
+8380 + (-93.2)2 - 1.46x108
+   31=________ 
+DrH-32.  
+3.36
+12.7 + 9.85   x  
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
++
++
+π
+−
+2
+)
+385
+.
+0
+09
+.
+2
+(
+1
+2
+)
+75
+.
+6
+(
+1
+ ---------  32=___________ 
+DrH-33.  
+(0.00547)/{
+}
+(0.00122)/ 0.00454
+0.189 + (0.793)(1.1)
+   +  {
+}
+0.224 + 0.293 1/2   ---  33=___________ 
+DrH-34.  [18.4/(0.524 + 0.774) + 1/(0.0371)]1/2
+(0.0845 + 0.124)2 x 0.189 - (0.0729)
+   -------------------  34=___________ 
+DrH-35.  
+⎣⎢⎡
+⎦⎥⎤
+(-469 + 238)
+(514 + 874)
+2
+  +  
+6.31x10-4 + 0.00181
+0.247 
+ 
+{
+}
+(-704)/(286) 2
+   ---------------  35=___________ 
+ 
+ 
+Page 4-5 
+        Page DrI-4 
+DrI-31.  
+1
+6.96x10-5  + 
+1
+1.43x10-8  + (6.14 + 59.4 - 9.1)2
+0.486 - 0.337 
+   -----------  31=___________ 
+DrI-32.  
+1/(140 - 95.5)
+(540)(2.85 + 2.11)2     +  (5.65x106 )2(7.32x10-17)   ------  32=___________ 
+DrI-33.  
+[(9.79 - 8.73)(0.33/0.827)]1/2
+(0.334)2 + (0.129 + 0.243)2 + 0.124
+   ----------------------  33=___________ 
+DrI-34.  (8.11)2 + 2600
+(92.3)(-96.2)2    +  
+(2590)(0.666) 
+-59.6 + 116
+   ------------------  34=___________ 
+DrI-35.  
+⎣⎢⎡
+⎦⎥⎤
+(-0.0273 + 0.0248)
+(677 + 1070)
+2
+  +  
+1.08x10-24 + 1.19x10-24
+0.379 
+ 
+{
+}
+(0.0761)/(0.00548) 2
+   -------  35=___________ 
+        Page DrJ-4 
+DrJ-31.  
+1/(877 - 818)
+(364)(3.86 + 3.36)2     +  (3170)2(2.31x10-10)   ----------  31=___________ 
+DrJ-32.  (-929 + 1100)2
+68.6 - 36.1    +  
+72700
+549 + 706    -------------------------  32=___________ 
+DrJ-33.  [0.00834/(0.653 + 0.862) + 1/(64.5)]1/2
+(77.4 + 108)2 x 293 - (86.7)
+   -------------------  33=___________ 
+DrJ-34.  (9.39)2 + 5290
+(9.71)(-24.9)2    +  
+(1.19x105)(0.946) 
+2.31 + 6.65
+   --------------  34=___________ 
+DrJ-35.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+ 
+768 + 1880 
+(5690)(12400)+(8400)2 
+5440 + 9390  + (8.29 - 4.23)2   --------------------------  35=___________ 
+Page 4-6 
+        Page DrK-4 
+DrK-31.  (0.00331 + 0.0139)2
+86.3 - 34.2 
+   +  
+1.02x10-6
+0.0073 + 0.0205    ----------------  31=___________ 
+DrK-32.  
+6.49
+37.8 + 27.2   x  
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
++
+π
++
+−
+2
+)
+89
+.
+2
+(
+1
+2
+)
+99
+.
+5
+91
+.
+6
+(
+1
+ ---------  32=___________ 
+DrK-33.  
+(310)/{
+}
+(5530)/ 9270
+0.43 + (0.897)(1.03)    +  {
+}
+2
+/
+1
+94
+.
+1
+π
++
+ -----------------  33=___________ 
+DrK-34.  [(0.0372 - 0.0282)(0.437/0.18)]1/2
+(0.432)2 + (0.307 + 0.541)2 + 0.228
+   ----------------------  34=___________ 
+DrK-35.  
+⎣⎢⎡
+⎦⎥⎤
+(8130 + 831)
+(723 + 798)
+2
+  +  
+267 + 416
+0.895  
+{
+}
+(-4070)/(625) 2
+   ------------------------  35=___________ 
+        Page DrL-4 
+DrL-31.  
+8
+.
+66
+9
+.
+67
++
+π
+x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(7.93 - 4.11)2  +  
+1
+(8.43 + 2.75)2    ------  31=___________ 
+DrL-32.  ⎣⎢⎡
+⎦⎥⎤
+-5840
+-3230 + 1470 + 4.74   x {
+}
+694 + (-30.8)2 - 1.46x106
+   -----  32=___________ 
+DrL-33.  [(0.443 - 0.324)(0.398/0.932)]1/2
+(0.321)2 + (0.169 + 0.232)2 + 0.109
+   ----------------------  33=___________ 
+DrL-34.  (2.96x105)2(9.52x10-12 + 5.95x10-12)
+106 + (-0.913)(613)
+   +  
+1
+1
+-7.75x10-4 + 
+1
+(0.00211)
+  34=_________ 
+DrL-35.  
+⎣⎢
+⎢⎡
+⎦⎥
+⎥⎤
+ 3.15x10-5 + 1.02x10-4 
+(2030)(3450)+(2650)2
+ 
+9.63x10-5 + 2.90x10-4  + (0.124 - 0.0959)2   ---------------  35=___________ 
+ 
+ 
+Page 4-7 
+        Page DrM-4 
+DrM-31.  (80.2 + 105)2
+72.2 - 46.2    +  
+23700
+17.3 + 31.5    ------------------------  31=___________ 
+DrM-32.  
+1
+0.0425  + 
+1
+9.65x10-4  + (2.58 + 3.67 - 2.38)2
+0.778 - 0.214 
+   -------------  32=___________ 
+DrM-33.  (3.78)2 + 147
+(65.1)(-96.7)2    +  
+(8900)(0.495) 
+99.2 + 188
+   ------------------  33=___________ 
+DrM-34.  
+[(9.71 - 4.12)(0.911/0.813)]1/2
+(0.128)2 + (0.134 + 0.151)2 + 0.058
+   ----------------------  34=___________ 
+DrM-35.  
+⎣⎢⎡
+⎦⎥⎤
+51200
+709
+2
+  +  
+(0.428)(0.812)
+(2.44x10-8)     +  (11900)
+0.731 + (-0.906)(-0.811) 
+   ---------------  35=___________ 
+        Page DrN-4 
+DrN-31.  
+1.26
+45 + 31   x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(6.52 - 4.96)2  +  
+1
+(2.4 + 1.64)2    ---------  31=___________ 
+DrN-32.  
+1/(962 - 680)
+(101)(1.46 + 1.21)2     +  (-1.97x10-4 )2(58700)   --------  32=___________ 
+DrN-33.  (9.25x105)2(1.67x10-13 + 1.70x10-14)
+8300 + (-0.466)(21400)
+   +  
+1
+1
+-4.88x10-5 + 
+1
+(7.92x10-5)
+  33=_______ 
+DrN-34.  
+[(582 - 322)(0.989/0.101)]1/2
+(0.313)2 + (0.173 + 0.653)2 + 0.228
+   ----------------------  34=___________ 
+DrN-35.  
+⎣⎢⎡
+⎦⎥⎤
+70800
+209
+2
+  +  
+(0.59)(0.857)
+(7.56x10-11)     +  (1.15x105)
+0.441 + (-0.138)(-0.319) 
+   -------------  35=___________ 
+Page 4-8 
+        Page DrO-4 
+DrO-31.  
+⎥⎦
+⎤
+⎢⎣
+⎡
++
+π
++
+−
+32
+.
+3
+71
+.
+2
+28
+.
+7
+x {
+}
+5800 + (-88.3)2 - 7.09x107
+   -------  31=___________ 
+DrO-32.  (-0.649 + 0.847)2
+71.3 - 30.7 
+   +  
+0.0213
+8.69 + 40.7    ---------------------  32=___________ 
+DrO-33.  [0.0813/(0.466 + 0.137) + 1/(7.02)]1/2
+(93.5 + 231)2 x 89.2 - (-82.8)
+   -------------------  33=___________ 
+DrO-34.  (2.89x105)2(4.95x10-12 + 2.70x10-12)
+155 + (-0.857)(737)
+   +  
+1
+1
+-0.00127 + 
+1
+(0.00128)
+  34=___________ 
+DrO-35.  (-7880 + 8740)2 - (21100 - 5150)2
+(1030)(0.754)(270 + 197 - 1790)2   -----------------------  35=___________ 
+        Page DrP-4 
+DrP-31.  
+1
+0.00101  + 
+1
+8.35x10-6  + (6.51 + 12.7 - 1.34)2
+2.52 - 0.344 
+   ------------  31=___________ 
+DrP-32.  
+5.71
+19.6 + 6.38   x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(7.18 - 5.54)2  +  
+1
+(2.56 + 0.384)2    ---  32=___________ 
+DrP-33.  
+(0.339)/{
+}
+(0.344)/ 0.383
+0.17 + (0.171)(1.27)
+   +  {
+}
+2
+/
+1
+39
+.
+1
+π
++
+ -------------  33=___________ 
+DrP-34.  
+2
+)
+7
+.
+47
+)(
+51
+.
+6
+(
+1040
+2
+)
+(
+−
++
+π
++  
+(0.173)(0.824) 
+-0.262 + 1.06
+   --------------------  34=___________ 
+DrP-35.  (-900 + 8190)2 - (8950 - 852)2
+(205)(0.761)(741 + 231 - 1840)2   ------------------------  35=___________ 
+ 
+ 
+Page 4-9 
+        Page DrQ-4 
+DrQ-31.  
+1/(913 - 403)
+(441)(1.07 + 0.335)2     +  (-6.63)2(2.25x10-5)   ---------  31=___________ 
+DrQ-32.  
+7.23
+60.7 + 20.7   x  
+⎣⎢⎡
+⎦⎥⎤
+1
+(2.12 - 0.355)2  +  
+1
+(2.49 + 2.19)2    ---  32=___________ 
+DrQ-33.  (2.11x105)2(4.65x10-12 + 1.30x10-12)
+252 + (-0.461)(-1550)
+   +  
+1
+1
+1.77x10-4 + 
+1
+(-2.36x10-4)
+  33=_______ 
+DrQ-34.  [(86900 - 27900)(0.664/0.979)]1/2
+(2.6)2 + (0.492 + 4.82)2 + 24.6
+   ------------------------  34=___________ 
+DrQ-35.  (-7.39 + 41.5)2 - (41.9 - 1.24)2
+(7.32)(0.702)(870 + 465 - 1350)2   -----------------------  35=___________ 
+        Page DrR-4 
+DrR-31.  (97.8 + 355)2
+37.1 - 12.9    +  
+3.91x105
+43.1 + 320    -------------------------  31=___________ 
+DrR-32.  
+7.28
+88.9 + 60.7   x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(5.53 - 3.29)2  +  
+1
+(6.12 + π)2    -------  32=___________ 
+DrR-33.  
+(5.39)/{
+}
+(6.35)/ 8.99
+0.851 + (0.218)(4.15)    +  {
+}
+0.188 + 0.785 1/2   -----------  33=___________ 
+DrR-34.  (3.99x105)2(5.36x10-12 + 4.35x10-12)
+349 + (-0.483)(888)
+   +  
+1
+1
+-0.0132 + 
+1
+(0.00435)
+    34=___________ 
+DrR-35.  
+1
+0.175  +  
+3.36x105
+(294 + 39.8)2  -  1.28x1020 
+(61200)2
+(-55100 + 1.11x105)2 + (-4.74x109)
+   ------------------  35=___________ 
+Page 4-10 
+        Page DrS-4 
+DrS-31.  
+5.38
+32.5 + 13   x  
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
++
++
+−
+π
+2
+)
+59
+.
+4
+86
+.
+6
+(
+1
+2
+)
+41
+.
+1
+(
+1
+ -----------  31=___________ 
+DrS-32.  
+1/(734 - 656)
+(822)(1.08 + 0.483)2     +  (-4.03x10-6 )2(5.25x107)   -----  32=___________ 
+DrS-33.  
+(8.56)2 + 1480
+(3.68x10-4)(-15.6)2    +  
+(3.56x10-6)(0.766) 
+-9.84x10-4 + 0.0011
+   ---------  33=___________ 
+DrS-34.  
+(0.616)/{
+}
+(0.854)/ 0.838
+0.387 + (0.646)(7.14)
+   +  {
+}
+0.0202 + 0.0817 1/2   ------  34=___________ 
+DrS-35.  
+)
+(
+)
+18
+.
+7
+9
+.
+5
+(
+)
+36
+.
+5
+(
+10
+x
+46
+.
+9
+)
+9
+.
+35
+199
+(
+89
+.
+5
+1740
+1
+2
+2
+6
+2
+π
++
++
+−
+−
++
+−
++
+−
+−
+ -------------------------  35=___________ 
+        Page DrT-4 
+DrT-31.  ⎣⎢⎡
+⎦⎥⎤
+-0.0551
+0.00409 + 0.00327 + 32.6   x {
+}
+1150 + (-59.2)2 - 1.45x107
+    31=___________ 
+DrT-32.  
+1/(739 - 247)
+(182)(1.72 + 0.395)2     +  (-287)2(1.54x10-8)   ----------  32=___________ 
+DrT-33.  
+[(57.7 - 16.1)(0.311/0.994)]1/2
+(0.36)2 + (0.151 + 0.385)2 + 0.0522
+   ----------------------  33=___________ 
+DrT-34.  (5.54)2 + 308
+(9.26)(-47.9)2    +  
+(4850)(0.769) 
+-4.17 + 29.4
+   ------------------  34=___________ 
+DrT-35.  
+⎣⎢⎡
+⎦⎥⎤
+(4860 + 3240)
+(225 + 903)
+2
+  +  
+1970 + 2120
+0.969 
+ 
+{
+}
+(-4860)/(3150) 2
+   ----------------------  35=___________ 
+ 
+ 
+Page 4-11 
+        Page DrU-4 
+DrU-31.  
+1
+0.051  + 
+1
+2.79x10-4  + (1.62 + 10.2 - 7.26)2
+1.28 - 0.158 
+   --------------  31=___________ 
+DrU-32.  
+1/(744 - 503)
+(102)(4.15 + 3.79)2     +  (-1.7)2(6.49x10-4)   -----------  32=___________ 
+DrU-33.  (6.01x105)2(9.57x10-13 + 8.93x10-13)
+5.14 + (-0.427)(-96.7)
+   +  
+1
+1
+0.0141 + 
+1
+(-0.00749)
+    33=___________ 
+DrU-34.  [0.0095/(0.516 + 0.312) + 1/(66.4)]1/2
+(50.5 + 120)2 x 139 - (54.5)
+   -------------------  34=___________ 
+DrU-35.  
+⎣⎢⎡
+⎦⎥⎤
+(-0.439 + 0.364)
+(270 + 468)
+2
+  +  
+4.37x10-17 + 2.70x10-16
+0.477 
+ 
+{
+}
+(-0.717)/(-0.323) 2
+   ---------  35=___________ 
+        Page DrV-4 
+DrV-31.  
+1/(425 - 420)
+(120)(1.91 + 0.576)2     +  (-7910)2(1.87x10-10)   --------  31=___________ 
+DrV-32.  ⎣⎢⎡
+⎦⎥⎤
+-0.00652
+-0.00155 + 0.00116 + 144   x {
+}
+2020 + (-50.3)2 - 9.17x106
+    32=___________ 
+DrV-33.  
+(0.00306)/{
+}
+(0.00671)/ 0.00672
+0.179 + (0.87)(2.63)
+   +  {
+}
+0.00119 + 0.00217 1/2  33=__________ 
+DrV-34.  [(0.0763 - 0.0541)(0.704/0.145)]1/2
+(0.245)2 + (0.143 + 0.156)2 + 0.0518
+   ---------------------  34=___________ 
+DrV-35.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+ 
+0.0635 + 0.0641 
+(2840)(3480)+(3150)2 
+0.00396 + 0.00413  + (0.163 - 0.144)2   -------------------  35=___________ 
+Page 4-12 
+        Page DrW-4 
+DrW-31.  (-8.46x10-4 + 0.00123)2
+91.9 - 87.9 
+   +  
+1.51x10-9
+6.89x10-4 + 0.00111 
+   ---------  31=___________ 
+DrW-32.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+-1.78x10-6
+-1.12x10-6 + 8.48x10-7 + 14.2   x {
+}
+3960 + (-93)2 - 1.55x108
+  32=__________ 
+DrW-33.  (3.46)2 + 59.6
+(2.15)(-80.8)2    +  
+(91.9)(0.174) 
+8.6 + 10
+   ------------------  33=___________ 
+DrW-34.  (7.86x105)2(1.44x10-12 + 1.27x10-12)
+69.8 + (-0.981)(136)
+   +  
+1
+1
+-0.00578 + 
+1
+(0.0138)
+    34=___________ 
+DrW-35.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+ 
+0.029 + 0.114 
+(1190)(10900)+(3590)2 
+0.0435 + 0.0704  + (0.379 - 0.149)2   ---------------------  35=___________ 
+        Page DrX-4 
+DrX-31.  
+9.5
+20 + 2.27   x  
+⎣
+⎢⎡
+⎦
+⎥⎤
+1
+(8.49 - 1.51)2  +  
+1
+(9.73 + 6.38)2    ------  31=___________ 
+DrX-32.  (29600 + 39000)2
+79.8 - 36.5    +  
+1.60x1011
+74900 + 6.46x105 
+   -----------------  32=___________ 
+DrX-33.  [8.48x10-6/(0.45 + 0.746) + 1/(78900)]1/2
+(17600 + 28100)2 x 61200 - (-42900)
+   -----------------  33=___________ 
+DrX-34.  
+(98400)/{
+}
+(98900)/ 43000
+12.4 + (0.711)(5.58)
+   +  {
+}
+0.277 + 1.74 1/2   ---------  34=___________ 
+DrX-35.  
+⎣⎢⎡
+⎦⎥⎤
+0.785
+416
+2
+  +  
+(0.404)(0.657)
+(2.18x1010)     +  (6.37x10-6)
+0.437 + (-0.802)(-0.24) 
+   -----------  35=___________ 
+ 
+ 
+Page 4-13 
+        Page DrY-4 
+DrY-31.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+-3.75x105
+-1.90x105 + 59100 + 3.69   x {
+}
+732 + (-30)2 - 9.70x105
+   --  31=___________ 
+DrY-32.  (77.1 + 101)2
+23.9 - 21.1    +  
+59800
+4.45 + 6.6    -------------------------  32=___________ 
+DrY-33.  (9.91x105)2(4.94x10-13 + 3.38x10-13)
+0.79 + (-0.392)(-2.53)
+   +  
+1
+1
+0.19 + 
+1
+(-0.0801)
+   --  33=___________ 
+DrY-34.  (9.41)2 + 2880
+(0.0227)(-54.5)2    +  
+(14.4)(0.681) 
+0.0438 + 0.0685    ----------------  34=___________ 
+DrY-35.  
+⎣⎢⎡
+⎦⎥⎤
+-0.0014
+579
+2
+  +  
+(0.449)(0.985)
+(2.43x1022)     +  (8.49x10-12)
+0.399 + (-0.311)(-0.85) 
+   ---------  35=___________ 
+        Page DrZ-4 
+DrZ-31.  
+5.74
+87 + 62.5   x  
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
++
++
+−
+π
+2
+)
+5
+.
+0
+5
+.
+4
+(
+1
+2
+)
+98
+.
+2
+(
+1
+ -------------  31=___________ 
+DrZ-32.  (-1.63x106 + 3.94x106)2
+77.1 - 44.7 
+   +  
+1.17x1015
+4.12x106 + 1.00x107 
+   ---------  32=___________ 
+DrZ-33.  (2.84)2 + 26.9
+(50500)(-52)2    +  
+(1.67x109)(0.159) 
+68400 + 1.10x105
+   --------------  33=___________ 
+DrZ-34.  
+[(9210 - 2690)(0.119/0.555)]1/2
+(0.327)2 + (0.265 + 0.288)2 + 0.0927
+   ---------------------  34=___________ 
+DrZ-35.  
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+ 
+9390 + 18300 
+(3660)(15000)+(7420)2 
+971 + 2360  + (5.33 - 4.38)2   ---------------------------  35=___________ 
+ 
+Page 4-14 
+ 
+Page 5-1 
+        Page DrA-5 
+DrA-41.  10-{(0.26 - 0.43)/(0.38 + 0.284)}    --------------------  41=____________ 
+DrA-42.  -535 e0.553   + (-439) e-0.841    ----------------------  42=____________ 
+DrA-43.  (0.00865 - 0.0194) Ln{(-0.0063)(-0.00348)}  --------------  43=____________ 
+DrA-44.  (929 + 1200)1/3   + 1/{(790)-0.0849  }  -----------------  44=____________ 
+DrA-45.(deg)  sin 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+90° x (-3.89x105)
+(2.73x106)    + cos {
+}
+112° - 69°     -------  45=____________ 
+        Page DrB-5 
+DrB-41.  (-9.41x105  )(2.91x105  )10{-4.13x105/-73300}    ---------  41=____________ 
+DrB-42.  -2.65x106   e0.767   + (-2.38x106  ) e-0.773    ----------  42=____________ 
+DrB-43.  (0.0077)Log(0.00281 - 0.00221)
+(0.00806)
+    ----------------------  43=____________ 
+DrB-44.  (1.80x105   + 1.97x105  )-(0.557 + 0.158)    -------------  44=____________ 
+DrB-45.(deg)  {(-82.4)sin(-177°)} x {(76)cos(-45.9°)}  -------------  45=____________ 
+        Page DrC-5 
+DrC-41.  10-(1.19 - 8.24)
+-0.00839 + 0.00381    ---------------------------------  41=____________ 
+DrC-42.  0.00571 e0.98   + (0.00557) e-0.704    ------------------  42=____________ 
+DrC-43.  (6740)Log {
+}
+(3240)(2.77 + 1/0.227)     -------------------  43=____________ 
+DrC-44.  (8.66)3   + (35.8 - 12.1)1.9    ------------------------  44=____________ 
+DrC-45.(deg)  cos{(83.6°)/(7.88)}
+sin{161° - 625°}     ----------------------------  45=____________ 
+        Page DrD-5 
+DrD-41.  10-{(0.465 - 0.571)/(0.492 + 0.312)}    -----------------  41=____________ 
+DrD-42.  e+0.154 + e-0.294
+(65900 + 56500)     ----------------------------------  42=____________ 
+DrD-43.  (5780 - 10200) Ln{(-7570)(-2770)}  ----------------------  43=____________ 
+DrD-44.  (877 + 7300)1/3   + 1/{(503)-0.207  }  ------------------  44=____________ 
+DrD-45.(deg)  sin 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+90° x (-3.95x10-4)
+(4.53x10-4)    + cos {
+}
+75.8° - 10°     -----  45=____________
+Page 5-2 
+        Page DrE-5 
+DrE-41.  
+10-(1.86 - 3.18)
+3.10x10-7 + 1.64x10-7    ------------------------------  41=____________ 
+DrE-42.  e+0.232 + e-0.507
+(-94700 + 8180)     ----------------------------------  42=____________ 
+DrE-43.  (0.00482)Log(0.0041 - 0.00373)
+(0.00181)
+    ----------------------  43=____________ 
+DrE-44.  (4.66x105   + 5.42x105  )-(0.802 + 0.781)    -------------  44=____________ 
+DrE-45.(deg)  {(82)sin(-147°)} x {(99.3)cos(-172°)}  --------------  45=____________ 
+        Page DrF-5 
+DrF-41.  10-{(0.342 - 0.965)/(0.567 + 0.147)}    -----------------  41=____________ 
+DrF-42.  e+0.31 + e-0.721
+(-5.52 + 2.99)     ----------------------------------  42=____________ 
+DrF-43.  (0.00386)Log {
+}
+(0.00453)(0.314 + 1/0.35)     -------------  43=____________ 
+DrF-44.  (13.9)3   + (33.7 - 19.7)2.63    -----------------------  44=____________ 
+DrF-45.(deg)  cos{(68.2°)/(5.88)}
+sin{73.7° - 117°}     ----------------------------  45=____________ 
+        Page DrG-5 
+DrG-41.  (-7650)(-5580)10{-5410/-3850}    -----------------------  41=____________ 
+DrG-42.  
+e+0.387 + e-0.934
+(-1.58x106 + 2.81x106)    -----------------------------  42=____________ 
+DrG-43.  -0.299 + (0.671)Ln(1.29 - 0.691)  ----------------------  43=____________ 
+DrG-44.  (825 + 2260)1/3   + 1/{(244)-0.329  }  ------------------  44=____________ 
+DrG-45.(deg)  sin ⎣⎢⎡
+⎦⎥⎤
+90° x (-7.51)
+(10.7)    + cos {
+}
+39.7° - 21.8°     --------  45=____________ 
+        Page DrH-5 
+DrH-41.  
+10-(3.65 - 4.59)
+-9.67x10-5 + 6.21x10-5    -----------------------------  41=____________ 
+DrH-42.  (-643)
+(89.4) [
+]
+1 - e-(0.465)(0.247)
+    ----------------------  42=____________ 
+DrH-43.  
+1940 - 14800
+Log(4070 + 3920)    ----------------------------------  43=____________ 
+DrH-44.  (7.52 + 9.31)-(0.147 + 0.503)    -----------------------  44=____________ 
+DrH-45.(deg)  {(4.64x10-5  )sin(-116°)} x {(-7.75x10-5  )cos(-136°)}   45=____________ 
+Page 5-3 
+        Page DrI-5 
+DrI-41.  (-2.94)(-0.974)10
+}
+25
+.
+1
+/
+{π
+ ----------------------------  41=____________ 
+DrI-42.  (-0.0372)
+(0.0834)  [
+]
+1 - e-(0.543)(0.461)
+    -------------------  42=____________ 
+DrI-43.  Ln(981 + 2080 - 481)
+(134)
+    -------------------------------  43=____________ 
+DrI-44.  (3.86)3   + (31.6 - 26.2)0.663    ----------------------  44=____________ 
+DrI-45.(deg)  cos{(52.8°)/(3.87)}
+sin{149° - 1410°}     ----------------------------  45=____________ 
+        Page DrJ-5 
+DrJ-41.  10-(2.86 - 8.52)
+1.82x105 + 1.30x105    --------------------------------  41=____________ 
+DrJ-42.  (-1.02x106)
+(-4.21x106) [
+]
+1 - e-(0.621)(0.674)
+    ------------------  42=____________ 
+DrJ-43.  -0.304 + (0.546)Ln(0.886 - 0.813)  ----------------------  43=____________ 
+DrJ-44.  (773 + 1270)1/3   + 1/{(710)-0.451  }  ------------------  44=____________ 
+DrJ-45.(deg)  sin ⎣⎢⎡
+⎦⎥⎤
+90° x (893)
+(1690)    + cos {
+}
+166° - 160°     -----------  45=____________ 
+        Page DrK-5 
+DrK-41.  10-{(0.063 - 0.599)/(0.754 + 0.506)}    -----------------  41=____________ 
+DrK-42.  (1.68)
+(3.23) [
+]
+1 - e-(0.699)(0.888)
+    ----------------------  42=____________ 
+DrK-43.  
+0.00938 - 0.037
+Log(0.028 + 0.0125)    --------------------------------  43=____________ 
+DrK-44.  (-9610 + 12700)-(0.392 + 0.226)    ----------------------  44=____________ 
+DrK-45.(deg)  {(1.08x10-5  )sin(-85.1°)} x {(-5.42x10-5  )cos(-99.6°)}  45=___________ 
+        Page DrL-5 
+DrL-41.  (-0.589)(0.593)10{-0.669/-0.232}    ---------------------  41=____________ 
+DrL-42.  4.39x10-4   e0.201   + (3.41x10-4  ) e-0.986    ----------  42=____________ 
+DrL-43.  Ln(190 + 319 - 165)
+(-612)
+    --------------------------------  43=____________ 
+DrL-44.  (10.6)3   + (29.5 - 5.12)1.4    ------------------------  44=____________ 
+DrL-45.(deg)  cos{(37.4°)/(1.87)}
+sin{61.5° - 128°}     ----------------------------  45=____________ 
+Page 5-4 
+        Page DrM-5 
+DrM-41.  10-{(0.542 - 0.993)/(0.829 + 0.245)}    -----------------  41=____________ 
+DrM-42.  70900 e0.415   + (60600) e-0.918    ---------------------  42=____________ 
+DrM-43.  -0.0666 + (0.421)Ln(2.34 - 0.936)  ----------------------  43=____________ 
+DrM-44.  (721 + 844)1/3   + 1/{(462)-0.123  }  -------------------  44=____________ 
+DrM-45.(deg)  sin 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+90° x (5.37x106)
+(1.50x107)    + cos {
+}
+130° - 62.2°     ------  45=____________ 
+        Page DrN-5 
+DrN-41.  (-0.118)(-0.946)10{0.48/0.355}    ----------------------  41=____________ 
+DrN-42.  9.8 e0.628   + (9.13) e-0.849    -----------------------  42=____________ 
+DrN-43.  
+382 - 1010
+Log(153 + 126)    ------------------------------------  43=____________ 
+DrN-44.  (-6.75x10-7   + 9.58x10-7  )-(0.637 + 0.848)    ----------  44=____________ 
+DrN-45.(deg)  {(-248)sin(-54.3°)} x {(-310)cos(-63.6°)}  -----------  45=____________ 
+        Page DrO-5 
+DrO-41.  10-(4.8 - 4.87)
+539 + 487
+    -----------------------------------  41=____________ 
+DrO-42.  -7.50x10-6   e0.841   + (-8.24x10-7  ) e-0.78    ---------  42=____________ 
+DrO-43.  Ln(0.0478 + 0.0666 - 0.0169)
+(0.0762)
+    ------------------------  43=____________ 
+DrO-44.  (2.48)3   + (27.5 - 11.5)2.13    -----------------------  44=____________ 
+DrO-45.(deg)  cos{(22°)/(8.86)}
+sin{136° - 160°}     ------------------------------  45=____________ 
+        Page DrP-5 
+DrP-41.  10-{(0.177 - 0.234)/(0.941 + 0.172)}    -----------------  41=____________ 
+DrP-42.  -480 e0.155   + (-90) e-0.712    -----------------------  42=____________ 
+DrP-43.  (-0.0573)Log(0.0883 - 0.014)
+(-0.078)
+    ------------------------  43=____________ 
+DrP-44.  (7.78)3   + (26.8 - 5.35)1.47    -----------------------  44=____________ 
+DrP-45.(deg)  sin 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+90° x (1.81x10-4)
+(9.66x10-4)    + cos {
+}
+93.5° - 83.8°     ----  45=____________ 
+Page 5-5 
+        Page DrQ-5 
+DrQ-41.  (-4.13)(-2.56)10
+}
+/
+97
+.
+7
+{
+π
+−
+ ----------------------------  41=____________ 
+DrQ-42.  e+0.265 + e-0.368
+(-0.0214 + 0.0509)    ---------------------------------  42=____________ 
+DrQ-43.  (-669)Log {
+}
+(926)(0.616 + 1/0.499)     -------------------  43=____________ 
+DrQ-44.  (652 + 740)1/3   + 1/{(372)-0.136  }  -------------------  44=____________ 
+DrQ-45.(deg)  {(-60.4)sin(-23.5°)} x {(-7.75)cos(-27.5°)}  ---------  45=____________ 
+        Page DrR-5 
+DrR-41.  10-{(0.186 - 0.627)/(0.116 + 0.0821)}    ----------------  41=____________ 
+DrR-42.  
+e+0.343 + e-0.582
+(1.80x10-6 + 2.67x10-6)    ----------------------------  42=____________ 
+DrR-43.  (-765 - 911) Ln{(-683)(-137)}  -------------------------  43=____________ 
+DrR-44.  (0.00374 + 0.00589)-(0.663 + 0.778)    ------------------  44=____________ 
+DrR-45.(deg)  cos{(87.6°)/(6.86)}
+sin{49.2° - 150°}     ----------------------------  45=____________ 
+        Page DrS-5 
+DrS-41.  (579)(2050)10{3510/1320}    ----------------------------  41=____________ 
+DrS-42.  e+0.421 + e-0.795
+(5.75 + 1.42)
+    ----------------------------------  42=____________ 
+DrS-43.  (-0.0861)Log(0.0988 - 0.0277)
+(0.0595)
+    -----------------------  43=____________ 
+DrS-44.  (13.5)3   + (24.7 - 11)2.21    -------------------------  44=____________ 
+DrS-45.(deg)  sin ⎣⎢⎡
+⎦⎥⎤
+90° x (-0.175)
+(0.191)    + cos {
+}
+57.4° - 23.7°     -------  45=____________ 
+        Page DrT-5 
+DrT-41.  10-(0.892 - 1.21)
+-0.00741 + 0.00142    ---------------------------------  41=____________ 
+DrT-42.  
+e+0.499 + e-0.109
+(9.69x10-4 + 4.27x10-4)    ----------------------------  42=____________ 
+DrT-43.  (-0.0957)Log {
+}
+(0.0945)(1.11 + 1/0.622)     --------------  43=____________ 
+DrT-44.  (600 + 2650)1/3   + 1/{(176)-0.258  }  ------------------  44=____________ 
+DrT-45.(deg)  {(-9.60x10-5  )sin(-155°)} x {(1.55x10-5  )cos(-153°)}   45=____________
+Page 5-6 
+        Page DrU-5 
+DrU-41.  10-{(0.389 - 0.768)/(0.228 + 0.136)}    -----------------  41=____________ 
+DrU-42.  (8.72x10-4)
+(-2.31x10-4) [
+]
+1 - e-(0.577)(0.322)
+    -----------------  42=____________ 
+DrU-43.  (94.7 - 98.4) Ln{(-81)(-48.9)}  ------------------------  43=____________ 
+DrU-44.  (6.60x10-7   + 1.13x10-6  )-(0.908 + 0.5)    -------------  44=____________ 
+DrU-45.(deg)  cos{(72.2°)/(4.85)}
+sin{124° - 177°}     ----------------------------  45=____________ 
+        Page DrV-5 
+DrV-41.  10-(1.42 - 5.15)
+-92.5 + 24.6
+    ----------------------------------  41=____________ 
+DrV-42.  (-85.8)
+(51.4)  [
+]
+1 - e-(0.654)(0.535)
+    ---------------------  42=____________ 
+DrV-43.  (85.1)Log(85.9 - 34.6)
+(-3.07)
+    -----------------------------  43=____________ 
+DrV-44.  (4.97)3   + (22.6 - 15.6)2.94    -----------------------  44=____________ 
+DrV-45.(deg)  sin ⎣⎢⎡
+⎦⎥⎤
+90° x (-531)
+(712)    + cos {
+}
+21.3° - 17.7°     ---------  45=____________ 
+        Page DrW-5 
+DrW-41.  10-{(0.248 - 0.262)/(0.303 + 0.0663)}    ----------------  41=____________ 
+DrW-42.  (-5.87x10-6)
+(-7.42x10-6) [
+]
+1 - e-(0.732)(0.749)
+    -----------------  42=____________ 
+DrW-43.  (75.5)Log {
+}
+(81.6)(0.228 + 1/0.744)     ------------------  43=____________ 
+DrW-44.  (548 + 1160)1/3   + 1/{(502)-0.38  }  -------------------  44=____________ 
+DrW-45.(deg)  {(6.84x10-6  )sin(-124°)} x {(3.87x10-6  )cos(-117°)}  -  45=____________ 
+        Page DrX-5 
+DrX-41.  (2.34x105  )(-6.44x105  )10{2.23x105/2.03x105}    ---------  41=____________ 
+DrX-42.  (-0.0317)
+(2.78x10-4) [
+]
+1 - e-(0.81)(0.962)
+    ------------------  42=____________ 
+DrX-43.  (0.659 - 3.56) Ln{(-0.938)(-0.886)}  --------------------  43=____________ 
+DrX-44.  (9470 + 17800)-(0.253 + 0.223)    ----------------------  44=____________ 
+DrX-45.(deg)  cos{(56.8°)/(2.85)}
+sin{37° - 210°}
+    ----------------------------  45=____________ 
+Page 5-7 
+        Page DrY-5 
+DrY-41.  
+764
+.
+0
+)
+56
+.
+6
+19
+.
+3
+(
+10
++
+π
+−
+−
+ -------------------------------------  41=____________ 
+DrY-42.  -465 e0.276   + (-413) e-0.994    ----------------------  42=____________ 
+DrY-43.  
+)
+0439
+.
+0
+353
+.
+0
+(
+Log
+563
+.
+0
++
+π
+−
+ ---------------------------------  43=____________ 
+DrY-44.  (0.576)3   + (20.5 - 19.2)0.971    ----------------------  44=____________ 
+DrY-45.(deg)  sin 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+90° x (-8.87x106)
+(1.54x107)    + cos {
+}
+147° - 50.7°     -----  45=____________ 
+        Page DrZ-5 
+DrZ-41.  (7.05x10-6  )(-1.84x10-6  )10{-6.28x10-6/-2.53x10-6}    ---  41=____________ 
+DrZ-42.  2.24x10-6   e0.489   + (2.16x10-6  ) e-0.926    ----------  42=____________ 
+DrZ-43.  Ln(46.7 + 53.9 - 25.8)
+(-19.8)
+    -----------------------------  43=____________ 
+DrZ-44.  (496 + 693)1/3   + 1/{(317)-0.0526  }  ------------------  44=____________ 
+DrZ-45.(deg)  {(328)sin(-93.2°)} x {(620)cos(-81.2°)}  -------------  45=____________ 
+Page 5-8 
+ 
+Page 6-1 
+        Page DrA-6 
+DrA-51.  
+7
+.
+23
+9
+.
+84
+)
+66
+.
+1
+(
+10
+)
+2
+.
+33
+(
++
+−
+π
+−
+−
+ ------------------------------------  51=____________ 
+DrA-52.  
+{
+}
+)
+)
+228
+.
+0
+(
+e
+)(
+5
+10
+x
+10
+.
+4
+(
+)
+94
+.
+2
+)(
+1
+(
+61
+.
+0
+e
+1
+−
+−
+π
+−
+−
++
++
++
+ ----------------------------  52=____________ 
+DrA-53.  Ln(4.05x10-4 + 0.00101)
+2.58x10-5
+   +  
+Ln(8.51x10-4)
+2.34x10-4 - 1.99x10-4   -------  53=____________ 
+DrA-54.  
+1
+(0.463)(-0.231)  + (0.125 + 0.786)(0.825 - 0.133)   --------  54=____________ 
+DrA-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(9830)(0.333)
+(7.75)(61.1)   + (0.1)(2.71)  --------------  55=____________ 
+        Page DrB-6 
+DrB-51.  10+(0.877)  + 10-(0.84)  + [
+]
+10(0.541/0.993) - 10(0.36)
+1/2   51=____________ 
+DrB-52.  1 + e+{
+}
+0.293 + (0.956)(2.78)
+(3.44x10-6)(2.89 - e(-0.434))
+   -------------------------  52=____________ 
+DrB-53.  Ln(0.837 + 4.87)
+-0.116
+   +  
+Ln(0.39)
+0.392 - 0.167   --------------------  53=____________ 
+DrB-54.  
+1
+(0.477)(-0.116)  + (0.658 + 0.924)(0.65 - 0.526)   ---------  54=____________ 
+DrB-55.(rad)   
+arctan{
+}
+8.94 + (6.08)(0.89)
+arcsin{
+}
+(0.0335 + 0.00922)/0.0782    ----------------  55=____________ 
+        Page DrC-6 
+DrC-51.  10(0.647) x 10-(0.878) + 0.803
+10(0.638 + 0.782)
+   ------------------------  51=____________ 
+DrC-52.  (5.75x10-7 - 5.04x10-7) e(0.913)(1.9)
+e-(8.7 - 5.57)
+   ------------------  52=____________ 
+DrC-53.  Ln(0.796 + 0.945)
+0.274
+   +  
+Ln(3.7)
+9.83 - 8.86   ---------------------  53=____________ 
+DrC-54.  (-433 + 1490)-0.163
+(476)-(0.474 + 0.919)   --------------------------------  54=____________ 
+DrC-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(2280)(0.217)
+(4.42)(27)
+  + (0.994)(2.05)  -------------  55=____________ 
+Page 6-2 
+        Page DrD-6 
+DrD-51.  10+(0.417)  + 10-(0.915)  + [
+]
+10(0.166/0.852) - 10(0.176)
+1/2   51=__________ 
+DrD-52.  (9.69x10-6 - 5.42x10-6) e(0.87)(1.99)
+e-(5.51 - 4.67)
+   ------------------  52=____________ 
+DrD-53.  Ln(6780 + 11000)
+305
+   +  Ln(8710)
+3580 - 1710   ----------------------  53=____________ 
+DrD-54.  
+π
++
+−
+−
+4
+.
+42
+412
+.
+0
+)
+99
+.
+2
+(
+302
+.
+0
+)
+24
+.
+8
+(
+ ----------------------------  54=____________ 
+DrD-55.(rad)   
+arctan{
+}
+2.01 + (2.75)(0.55)
+arcsin{
+}
+(34900 + 5560)/74900    --------------------  55=____________ 
+        Page DrE-6 
+DrE-51.  10(0.187) x 10-(0.953) + 0.428
+10(0.22 + 0.125)
+   ------------------------  51=____________ 
+DrE-52.  
+)
+354
+.
+0
+32
+.
+2
+(
+e
+)
+)(
+827
+.
+0
+(
+e
+)
+5
+10
+x
+54
+.
+1
+5
+10
+x
+36
+.
+6
+(
+−
+−
+π
+−
+−
+ ----------------------  52=____________ 
+DrE-53.  Ln(5.65x10-5 + 1.47x10-4)
+5.11x10-7
+   +  
+Ln(1.12x10-5)
+2.67x10-5 - 2.55x10-5   -----  53=____________ 
+DrE-54.  
+1
+(0.519)(-0.674)  + (0.457 + 0.44)(0.124 - 0.805)   ---------  54=____________ 
+DrE-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(3730)(0.102)
+(1.08)(82.9)   + (0.987)(1.65)  -------------  55=____________ 
+        Page DrF-6 
+DrF-51.  (-1.56x10-7) 10-(8.58 - 8.49)
+-8.93x10-7 + 6.16x10-7
+   -------------------------  51=____________ 
+DrF-52.  560 + e(4.12 + 3.23)
+1.2 - e-(0.437 - 0.813)   ------------------------------  52=____________ 
+DrF-53.  Ln(0.0193 + 0.124)
+0.0276
+   +  
+Ln(0.0648)
+0.0893 - 0.0471   -----------------  53=____________ 
+DrF-54.  
+1
+(0.533)(-0.56)  + (0.991 + 0.579)(0.849 - 0.298)   ---------  54=____________ 
+DrF-55.(rad)   
+arcsin{
+}
+(8.53)(-8.67)/(-88)
+15 + (-9.1)(-7.88)
+   ---------------------  55=____________ 
+Page 6-3 
+        Page DrG-6 
+DrG-51.  10+(0.628)  + 10-(0.127)  + [
+]
+10(0.953/0.641) - 10(0.547)
+1/2   51=__________ 
+DrG-52.  
+46.7 + e(2.54 + 1.88)
+0.649 - e-(0.457 - 0.494)   -----------------------------  52=____________ 
+DrG-53.  
+π
++
+)
+5
+.
+11
+5
+.
+9
+(
+Ln
++  
+Ln(5.93)
+4.82 - 0.499   -------------------------  53=____________ 
+DrG-54.  (9.78 + 15.7)-0.718
+(1.66)-(0.673 + 0.691)   -------------------------------  54=____________ 
+DrG-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(5180)(0.886)
+(6.74)(48.8)   + (0.98)(1.38)  --------------  55=____________ 
+        Page DrH-6 
+DrH-51.  (3.15) 10-(3.98 - 0.656)
+0.103 + 0.0324
+   -----------------------------  51=____________ 
+DrH-52.  3.88 + e(0.951 + 0.664)
+0.318 - e-(0.476 - 0.175)   -----------------------------  52=____________ 
+DrH-53.  Ln(29.2 + 48.9)
+7.43
+   +  Ln(16.6)
+14.3 - 8.29   -----------------------  53=____________ 
+DrH-54.  (2.57)0.856 - (4.98)-0.184
+-12.7 + 2.12
+   ----------------------------  54=____________ 
+DrH-55.(rad)   
+arcsin{
+}
+(-821)(-28600)/(4.64x107)
+4.74x108 + (-28400)(-21800)
+   ----------------  55=____________ 
+        Page DrI-6 
+DrI-51.  10+(0.168)  + 10-(0.202)  + [
+]
+10(0.577/0.5) - 10(0.706)
+1/2   51=____________ 
+DrI-52.  
+{
+}
+)
+)
+977
+.
+0
+(
+e
+56
+.
+7
+)(
+377
+(
+)
+)(
+654
+.
+0
+(
+773
+.
+0
+e
+1
+−
+−
+−
+π
++
++
++
+ ------------------------------  52=____________ 
+DrI-53.  Ln(4.65x10-4 + 0.00126)
+1.67x10-4
+   +  
+Ln(9.26x10-4)
+7.68x10-4 - 1.19x10-4   -------  53=____________ 
+DrI-54.  (7.9)0.995 - (3.23)-0.577
+-26.5 + 4.42
+   -----------------------------  54=____________ 
+DrI-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(6630)(0.77)
+(3.41)(14.8)   + (0.974)(1.18)  --------------  55=____________ 
+Page 6-4 
+        Page DrJ-6 
+DrJ-51.  10(0.838) x 10-(0.24) + 0.84
+10(9.22 + 0.733)
+   --------------------------  51=____________ 
+DrJ-52.  1 + e+{
+}
+0.456 + (0.611)(1.94)
+(37.7)(4.37 - e(-0.283))
+   -------------------------  52=____________ 
+DrJ-53.  Ln(7.78x10-4 + 0.00557)
+9.39x10-5
+   +  
+Ln(3.15x10-4)
+6.06x10-4 - 3.82x10-4   -------  53=____________ 
+DrJ-54.  
+1
+(0.59)(-0.103)  + (0.423 + 0.234)(0.148 - 0.971)   ---------  54=____________ 
+DrJ-55.(rad)   
+arcsin{
+}
+(-0.869)(0.294)/(-1.47)
+0.0516 + (0.343)(0.352)
+   ------------------  55=____________ 
+        Page DrK-6 
+DrK-51.  
+128
+.
+0
+635
+.
+0
+)
+69
+.
+1
+(
+10
+)
+0207
+.
+0
+(
++
+−
+−
+π
+−
+ -----------------------------------  51=____________ 
+DrK-52.  1 + e+{
+}
+0.139 + (0.568)(1.87)
+(-8.69)(1.18 - e(-0.489))
+   -------------------------  52=____________ 
+DrK-53.  
+0922
+.
+0
+)
+48
+.
+2
+(
+Ln
++
+π
++  Ln(44.5)
+1.9 - 0.392   ---------------------------  53=____________ 
+DrK-54.  (3890 + 4060)-0.372
+(1440)-(0.872 + 0.464)   -------------------------------  54=____________ 
+DrK-55.(rad)   
+arctan{
+}
+7.94 + (9.07)(0.707)
+arcsin{
+}
+(6.88 + 4.51)/11.8
+   --------------------  55=____________ 
+        Page DrL-6 
+DrL-51.  
+)
+977
+.
+0
+(
+10
+464
+.
+0
+)
+315
+.
+0
+(
+10
+x
+)
+378
+.
+0
+(
+10
++
+π
++
+−
+ ---------------------------  51=____________ 
+DrL-52.  (1.25 - 0.899) e(0.525)(2.77)
+e-(6.99 - 4.86)
+   -------------------------  52=____________ 
+DrL-53.  Ln(7.37 + 12.7)
+1.6
+   +  Ln(7.96)
+6.44 - 4.39   -----------------------  53=____________ 
+DrL-54.  (5.9)0.511 - (6.97)-0.857
+-0.00678 + 0.00113
+   -----------------------------  54=____________ 
+DrL-55.(rad)   
+arcsin{
+}
+(0.0269)(0.0875)/(0.00319)
+0.00882 + (0.0969)(0.0923)
+   ---------------  55=____________ 
+Page 6-5 
+        Page DrM-6 
+DrM-51.  (4.91x10-6) 10-(1.48 - 0.522)
+2.68x10-6 + 1.95x10-6
+   -------------------------  51=____________ 
+DrM-52.  (0.519 - 0.21) e(0.482)(2.86)
+e-(3.8 - 3.42)
+   -------------------------  52=____________ 
+DrM-53.  Ln(0.00505 + 0.0143)
+0.00251
+   +  Ln(3.67x10-4)
+0.0073 - 0.00188   --------------  53=____________ 
+DrM-54.  (2.23)0.65 - (5.22)-0.35
+-81600 + 13600
+   -----------------------------  54=____________ 
+DrM-55.(rad)   
+arctan{
+}
+2.21 + (5.73)(0.366)
+arcsin{
+}
+(9.29x10-4 + 5.01x10-4)/0.00149
+   ----------  55=____________ 
+        Page DrN-6 
+DrN-51.  10+(0.818)  + 10-(0.389)  + [
+]
+10(0.989/0.149) - 10(2.13)
+1/2  51=____________ 
+DrN-52.  
+)
+61
+.
+9
+(
+e
+)
+96
+.
+2
+)(
+438
+.
+0
+(
+e
+)
+0902
+.
+0
+0913
+.
+0
+(
+π
+−
+−
+−
+ ------------------------  52=____________ 
+DrN-53.  Ln(2.52x10-5 + 2.04x10-4)
+1.02x10-6
+   +  
+Ln(7.23x10-5)
+1.05x10-5 - 7.71x10-6   -----  53=____________ 
+DrN-54.  
+1
+(0.646)(-0.547)  + (0.756 + 0.788)(0.346 - 0.743)   --------  54=____________ 
+DrN-55.(rad)   
+arcsin{
+}
+(-0.00592)(-0.00544)/(7.92x10-5)
+1.32x10-5 + (-0.00404)(-0.00507)
+   ----------  55=____________ 
+        Page DrO-6 
+DrO-51.  10(0.589) x 10-(0.427) + 0.351
+10(1.48 + 0.442)
+   ------------------------  51=____________ 
+DrO-52.  
+44.5 + e(3.35 + 1.33)
+0.886 - e-(0.612 - 0.642)   -----------------------------  52=____________ 
+DrO-53.  Ln(9900 + 12500)
+3360
+   +  Ln(5180)
+5200 - 1600   ----------------------  53=____________ 
+DrO-54.  (-2.01x10-5 + 5.15x10-5)-0.927
+(4.54x10-5)-(0.171 + 0.236)    ------------------------  54=____________ 
+DrO-55.(rad)   
+arctan{
+}
+11.3 + (2.4)(0.926)
+arcsin{
+}
+(0.547 + 0.231)/0.815    --------------------  55=____________ 
+Page 6-6 
+        Page DrP-6 
+DrP-51.  10+(0.359)  + 10-(0.464)  + [
+]
+10(0.614/0.908) - 10(0.381)
+1/2   51=__________ 
+DrP-52.  6.76 + e(1.77 + 0.622)
+0.488 - e-(0.631 - 0.323)   -----------------------------  52=____________ 
+DrP-53.  Ln(2.33 + 4.12)
+1.11
+   +  Ln(2.41)
+8.55 - 6.7   -----------------------  53=____________ 
+DrP-54.  (9.23)0.166 - (8.96)-0.629
+77100 + 12800
+   ----------------------------  54=____________ 
+DrP-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(7190)(0.366)
+(9.73)(30.5)   + (0.501)(2.74)  -------------  55=____________ 
+        Page DrQ-6 
+DrQ-51.  10(0.129) x 10-(0.502) + 0.876
+10(0.506 + 0.685)
+   ------------------------  51=____________ 
+DrQ-52.  
+379 + e(4.68 + 1.45)
+0.603 - e-(0.65 - 0.904)   -----------------------------  52=____________ 
+DrQ-53.  Ln(52.5 + 156)
+11.4
+   +  Ln(99.9)
+22.9 - 8.25   -----------------------  53=____________ 
+DrQ-54.  (5.56)0.304 - (7.21)-0.122
+0.00633 + 0.00105
+   ----------------------------  54=____________ 
+DrQ-55.(rad)   
+arctan{
+}
+13.8 + (8.06)(0.585)
+arcsin{
+}
+(1640 + 505)/2260
+   --------------------  55=____________ 
+        Page DrR-6 
+DrR-51.  (66.7) 10-(7.99 - 4.31)
+52.6 + 12.5
+   ------------------------------  51=____________ 
+DrR-52.  
+)
+584
+.
+0
+67
+.
+0
+(
+e
+251
+.
+0
+)
+823
+.
+0
+(
+e
+67
+.
+6
+−
+−
+−
++
+π
++
+ -------------------------------  52=____________ 
+DrR-53.  Ln(7.18x10-4 + 0.00669)
+6.04x10-6
+   +  
+Ln(2.40x10-4)
+3.96x10-4 - 3.31x10-4   -------  53=____________ 
+DrR-54.  
+1
+(0.703)(-0.99)  + (0.189 + 0.443)(0.545 - 0.515)   ---------  54=____________ 
+DrR-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(8640)(0.25)
+(6.39)(86.4)   + (0.494)(2.06)  --------------  55=____________ 
+Page 6-7 
+        Page DrS-6 
+DrS-51.  10+(0.569)  + 10-(0.577)  + [
+]
+10(0.501/0.697) - 10(0.667)
+1/2   51=__________ 
+DrS-52.  1 + e+{
+}
+0.302 + (0.223)(1.45)
+(-8.36x106)(2.65 - e(-0.339))
+   -------------------------  52=____________ 
+DrS-53.  Ln(3940 + 5060)
+26300
+   +  
+Ln(52000)
+97900 - 40200   ---------------------  53=____________ 
+DrS-54.  (-0.079 + 0.109)-0.582
+(0.0764)-(0.37 + 0.908)   ------------------------------  54=____________ 
+DrS-55.(rad)   
+arctan{
+}
+2.37 + (4.72)(0.244)
+arcsin{
+}
+(2190 + 420)/2770
+   --------------------  55=____________ 
+        Page DrT-6 
+DrT-51.  
+6
+10
+x
+36
+.
+4
+6
+10
+x
+71
+.
+5
+)
+39
+.
+3
+(
+10
+)
+6
+10
+x
+62
+.
+8
+(
++
+−
+π
+−
+−
+−
+ --------------------------------  51=____________ 
+DrT-52.  1 + e+{
+}
+0.885 + (0.179)(1.41)
+(-8.17x106)(8.46 - e(-0.545))
+   -------------------------  52=____________ 
+DrT-53.  Ln(79.7 + 145)
+4.72
+   +  Ln(72.1)
+35.4 - 31.4   -----------------------  53=____________ 
+DrT-54.  
+(56.3 + 158)-0.72
+(84.1)-(0.195 + 0.402)   -------------------------------  54=____________ 
+DrT-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(1090)(0.134)
+(3.05)(52.4)   + (0.488)(1.66)  -------------  55=____________ 
+        Page DrU-6 
+DrU-51.  10+(0.109)  + 10-(0.652)  + [
+]
+10(0.126/0.557) - 10(0.0612)
+1/2   51=_________ 
+DrU-52.  1 + e+{
+}
+0.568 + (0.136)(1.37)
+(6.72x106)(5.27 - e(-0.751))
+   -------------------------  52=____________ 
+DrU-53.  Ln(4.46 + 13.9)
+-1.85
+   +  Ln(0.384)
+2.72 - 1.26   -----------------------  53=____________ 
+DrU-54.  (8.88)0.859 - (9.19)-0.795
+0.817 + 0.136
+   ----------------------------  54=____________ 
+DrU-55.(rad)   
+arcsin{
+}
+(-60.6)(-51)/(22300)
+-3240 + (78.9)(-51.2)
+   --------------------  55=____________ 
+Page 6-8 
+        Page DrV-6 
+DrV-51.  10(0.779) x 10-(0.689) + 0.388
+10(2.53 + 0.393)
+   ------------------------  51=____________ 
+DrV-52.  
+)
+99
+.
+1
+(
+e
+)
+74
+.
+3
+)(
+993
+.
+0
+(
+e
+)
+17200
+68500
+(
+−
+π
+−
+−
+ --------------------------  52=____________ 
+DrV-53.  Ln(0.0312 + 0.0314)
+0.0049
+   +  
+Ln(0.0798)
+0.0897 - 0.0841   ----------------  53=____________ 
+DrV-54.  
+1
+(0.759)(-0.533)  + (0.522 + 0.998)(0.744 - 0.288)   --------  54=____________ 
+DrV-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(2540)(0.919)
+(8.72)(18.3)   + (0.481)(1.38)  -------------  55=____________ 
+        Page DrW-6 
+DrW-51.  (84400) 10-(5.49 - 3.99)
+78400 + 51000
+   -----------------------------  51=____________ 
+DrW-52.  
+)
+89
+.
+7
+(
+e
+)
+83
+.
+3
+)(
+95
+.
+0
+(
+e
+)
+38600
+46300
+(
+π
+−
+−
+−
+ ---------------------------  52=____________ 
+DrW-53.  Ln(9.31x10-5 + 1.22x10-4)
+5.65x10-6
+   +  
+Ln(4.43x10-5)
+4.78x10-5 - 2.45x10-5   -----  53=____________ 
+DrW-54.  (6.21 + 40.1)-0.236
+(9.27)-(0.569 + 0.681)   -------------------------------  54=____________ 
+DrW-55.(rad)   
+arcsin{
+}
+(5.33x10-5)(7.09x10-6)/(5.36x10-10)
+-1.57x10-10 + (-5.85x10-5)(5.82x10-6)
+   -------  55=____________ 
+        Page DrX-6 
+DrX-51.  
+)
+637
+.
+0
+(
+10
+913
+.
+0
+)
+764
+.
+0
+(
+10
+x
+)
+319
+.
+0
+(
+10
++
+π
++
+−
+ ---------------------------  51=____________ 
+DrX-52.  (85700 - 44300) e(0.907)(3.93)
+e-(4.7 - 2.21)
+   ------------------------  52=____________ 
+DrX-53.  Ln(1730 + 3250)
+11.5
+   +  Ln(3170)
+1470 - 1460   -----------------------  53=____________ 
+DrX-54.  (-0.0264 + 0.0384)-0.375
+(0.849)-(0.394 + 0.174)    -----------------------------  54=____________ 
+DrX-55.(rad)   arctan ⎣⎢⎡
+⎦⎥⎤
+(3990)(0.803)
+(5.38)(74.2)   + (0.474)(1.19)  -------------  55=____________ 
+Page 6-9 
+        Page DrY-6 
+DrY-51.  (-686) 10-(9.9 - 7.93)
+-313 + 86.1
+   -------------------------------  51=____________ 
+DrY-52.  4.34 + e(0.997 + 0.861)
+0.365 - e-(0.805 - 0.151)   -----------------------------  52=____________ 
+DrY-53.  Ln(5.84 + 19.2)
+0.783
+   +  Ln(9.24)
+7.73 - 4.36   -----------------------  53=____________ 
+DrY-54.  (3.21)0.514 - (2.18)-0.567
+-46.9 + 7.82
+   ----------------------------  54=____________ 
+DrY-55.(rad)   
+arcsin{
+}
+(-3.28)(6.52)/(-57.7)
+0.318 + (0.416)(6.28)
+   --------------------  55=____________ 
+        Page DrZ-6 
+DrZ-51.  10+(0.76)  + 10-(0.839)  + [
+]
+10(0.537/0.205) - 10(2.31)
+1/2   51=____________ 
+DrZ-52.  
+1090 + e(3.91 + 3.21)
+0.463 - e-(0.825 - 0.732)   -----------------------------  52=____________ 
+DrZ-53.  Ln(0.659 + 0.675)
+-0.0452
+   +  
+Ln(0.165)
+0.602 - 0.0844   ------------------  53=____________ 
+DrZ-54.  
+1
+(0.815)(-0.977)  + (0.854 + 0.652)(0.943 - 0.96)   ---------  54=____________ 
+DrZ-55.(rad)   
+arctan{
+}
+1.51 + (2.05)(0.401)
+arcsin{
+}
+(0.558 + 0.384)/2.01    --------------------  55=____________ 
+ 
+Page 6-10 
+ 
+Page 7-1 
+        Page DrA-7 
+DrA-61.  Log(4.87) + Log(2.55) + Log(2.57) + Log ⎣⎢⎡
+⎦⎥⎤
+(8.97)
+(2.55)    ---------  61=____________ 
+DrA-62.  (rad) sin(0.969)
+cos(0.969)
+1 - {
+}
+sin(0.425 x 1.6) 2   ---------------  62=____________ 
+DrA-63.  (rad) (8.67)⎣⎢⎡
+⎦⎥⎤
+cos(-4.07)
+(-4.07)  + cos(3.57)
+(3.57)
+   --------------------  63=____________ 
+DrA-64.   - 
+1
+(8.69)   +  
+1
+3(8.69)3   -  
+1
+5(8.69)5   +  
+1
+7(8.69)7    -----  64=____________ 
+DrA-65.  0.692
+0.9  Ln ⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(0.238)2 + (0.00766)   + 0.0084
+7.72 + (91.8)(0.00965)
+   -----------  65=____________ 
+        Page DrB-7 
+DrB-61.  (107.48)(104.85)(100.972)
+10{
+}
+(6.52)(0.889)
+   -----------------------------  61=____________ 
+DrB-62.  (rad) cos(2.25 - 0.242) - cos(2.25 + 0.242)  --------------  62=____________ 
+DrB-63.  (rad) 
+98.2
+6(-15.2){
+}
+(-55.4) + (-38.8)sin(-7.31) 5   -----------  63=____________ 
+DrB-64.  
+1
+(0.579)    +  
+1
+3(0.579)3   +  
+1
+5(0.579)5   +  
+1
+7(0.579)7   ----  64=____________ 
+DrB-65.  
+1
+(54.8)2 - (1830)
+    Ln 
+⎩⎪
+⎨⎪⎧
+⎭⎪
+⎬⎪⎫
+(102) - (54.8)2 - (1830)
+(102) + (54.8)2 - (1830)
+     ---  65=____________ 
+        Page DrC-7 
+DrC-61.  
+{
+}
+e0.25 + e-0.25
+2
+e(89.2)(0.221) x (
+)
+1/e(2.19)
+     ---------------------  61=____________ 
+DrC-62.  (rad) sin(4.81)cos(4.14) - cos(4.81)sin(4.14)  ------------  62=____________ 
+DrC-63.  (deg) 
+1 + ⎣⎢⎡
+⎦⎥⎤
+cos(85.9°)
+sin(85.9°)
+2  x cos(-12.9°)
+sin(-12.9°)  -----------------  63=____________ 
+DrC-64.  (0.289) - (0.289)2
+2
+  + (0.289)3
+3
+  - (0.289)4
+4
+   --------------  64=____________ 
+DrC-65.  
+1
+(18.4)2 - (101)
+    Ln 
+⎩⎪
+⎨⎪⎧
+⎭⎪
+⎬⎪⎫
+(25.9) - (18.4)2 - (101)
+(25.9) + (18.4)2 - (101)
+     ----  65=____________ 
+Page 7-2 
+        Page DrD-7 
+DrD-61.  Ln ⎣⎢⎡
+⎦⎥⎤
+(7.81)(9.46)
+(12.5)
+3
+  + Ln ⎣⎢⎡
+⎦⎥⎤
+(12.5)
+(7.49)
+3
+   ----------------------  61=____________ 
+DrD-62.  (rad) sin(5.13)cos(2.24) - cos(5.13)sin(2.24)  ------------  62=____________ 
+DrD-63.  (deg) sin(-68.3°)cos(87.6°) + cos(-68.3°)sin(87.6°)  --------  63=____________ 
+DrD-64.  1 + (0.93)4
+2
+  - (0.93)6
+6
+  + (0.93)8
+24
+  - (0.93)10
+120
+   -----------  64=____________ 
+DrD-65.  
+1
+(72)2 - (4620)
+    Ln 
+⎩⎪
+⎨⎪⎧
+⎭⎪
+⎬⎪⎫
+(28) - (72)2 - (4620)
+(28) + (72)2 - (4620)
+     --------  65=____________ 
+        Page DrE-7 
+DrE-61.  
+e-(0.69 + 0.476)
+{
+}
+e(0.98 - 0.354)
+2   x 
+3
+(0.407)2   --------------------  61=____________ 
+DrE-62.  (3.26)10Log[(9.56)(0.887)]  + {
+}
+(7510)(0.926) 1/2   --------  62=____________ 
+DrE-63.  (rad) (8.67)⎣⎢⎡
+⎦⎥⎤
+cos(-0.7)
+(-0.7)  + cos(8.29)
+(8.29)
+   --------------------  63=____________ 
+DrE-64.   - 1
+(6)   +  
+1
+3(6)3   -  
+1
+5(6)5   +  
+1
+7(6)7    ----------------  64=____________ 
+DrE-65.  (rad) 
+arctan{
+}
+e-(0.205)(0.493) (18.1)/(69)
+(13.3) (46.4)(15.2)(31)
+   ------------  65=____________ 
+        Page DrF-7 
+DrF-61.  2Log 
+(3.11)(5.94)(3.85)
+(8.46)3(6.31)3
+   ----------------------------  61=____________ 
+DrF-62.  (92.8 - 89)2  + (6.39 + 7.57)eLn(0.0361)   ----------------  62=____________ 
+DrF-63.  (rad) 
+1
+(356)(0.111)  Ln{
+}
+(0.294) + (-0.08)sin(3.11)    ------  63=____________ 
+DrF-64.  
+1
+(0.31)    +  
+1
+3(0.31)3   +  
+1
+5(0.31)5   +  
+1
+7(0.31)7   --------  64=____________ 
+DrF-65.  (rad) 
+arctan{
+}
+e-(0.461)(0.624) (-0.651)/(-1.25)
+(4.41) (8.54)(3.46)(2.79)
+   --------  65=____________ 
+Page 7-3 
+        Page DrG-7 
+DrG-61.  109.24  x 
+(103.64)(100.484)
+(10-3.94)(100.598)
+   -----------------------  61=____________ 
+DrG-62.  (92.8 - 10.3)2  + (3.22 + π)eLn(73.6)   ------------------  62=____________ 
+DrG-63.  (rad) 98.2
+6(59.4){
+}
+(-72.9) + (-44.8)sin(-5.65) 5   ------------  63=____________ 
+DrG-64.  (0.92) - (0.92)2
+2
+  + (0.92)3
+3
+  - (0.92)4
+4
+   -----------------  64=____________ 
+DrG-65.  (rad) 
+(-0.422)(0.0388) - Ln{
+}
+(0.0012) + (-5.28)e(-8.64)
+arcsin{
+}
+(0.0842)/(0.404 + 0.1)
+   -  65=____________ 
+        Page DrH-7 
+DrH-61.  Log[
+]
+(1.6)-1.33   + (7.64)Log[
+]
+(1.6)(0.119)    ------------  61=____________ 
+DrH-62.  eLn[(1.64)(90.5)]  + 10Log[(0.758)(31.2)]   ---------------  62=____________ 
+DrH-63.  (deg) sin(-88.6°)cos(172°) + cos(-88.6°)sin(172°)  ----------  63=____________ 
+DrH-64.  1 + (0.74)4
+2
+  - (0.74)6
+6
+  + (0.74)8
+24
+  - (0.74)10
+120
+   -----------  64=____________ 
+DrH-65.  (rad) 
+(-9.42)(2.62) - Ln{
+}
+(0.0476) + (-1.64)e(-5.55)
+arcsin{
+}
+(2.43)/(7.23 + 15.6)
+   ----  65=____________ 
+        Page DrI-7 
+DrI-61.  Ln 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(6.05)2 - 2(6.05)(55.6) + (55.6)2
+(2600)2
+2
+   -----------------  61=____________ 
+DrI-62.  eLn[(2.16)(58.8)]  + 10Log[(0.714)(31.8)]   ---------------  62=____________ 
+DrI-63.  (deg) {
+}
+cos2(32.9°) - sin2(32.9°)   x 
+tan(32.9°)
+1 - tan2(32.9°)   -----  63=____________ 
+DrI-64.   - 
+1
+(3.4)   +  
+1
+3(3.4)3   -  
+1
+5(3.4)5   +  
+1
+7(3.4)7    ---------  64=____________ 
+DrI-65.  (rad) 
+(0.539)(-0.9) - Ln{
+}
+(1.53) + (-7)e(-2.46)
+arcsin{
+}
+(0.0702)/(0.151 + 0.0279)
+   --------  65=____________ 
+Page 7-4 
+        Page DrJ-7 
+DrJ-61.  
+(6.3)3 x {
+}
+e(3.27)(0.113)
+3
+3
+e(9.61) x e(-9.25)
+   -------------------------  61=____________ 
+DrJ-62.  (rad) sin(0.354)
+cos(0.354)
+1 - {
+}
+sin(0.271 x 6.71) 2   --------------  62=____________ 
+DrJ-63.  (rad) 
+1
+(5590)(0.111)  Ln{
+}
+(0.332) + (-0.247)sin(3.3)    ------  63=____________ 
+DrJ-64.  
+1
+(0.949)    +  
+1
+3(0.949)3   +  
+1
+5(0.949)5   +  
+1
+7(0.949)7   ----  64=____________ 
+DrJ-65.  (rad) e(5.86)
+⎣⎢⎡
+⎦⎥⎤
+(-97.5)sin(3.89) - (-83.5)cos(-2.51)
+(-41.2) (-97.5)2 + (-83.5)2
+   -------  65=____________ 
+        Page DrK-7 
+DrK-61.  (1/2)Ln 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(1.35) x (5.57) x (5.13)3
+(5.13)(0.828)2
+2
+   --------------------  61=____________ 
+DrK-62.  (rad) cos(0.963 - 0.822) - cos(0.963 + 0.822)  ------------  62=____________ 
+DrK-63.  (rad) 98.2
+6(0.39){
+}
+(-0.468) + (-0.0876)sin(-6.11) 5   ----------  63=____________ 
+DrK-64.  (0.66) - (0.66)2
+2
+  + (0.66)3
+3
+  - (0.66)4
+4
+   -----------------  64=____________ 
+DrK-65.  (rad) e(8.42)
+⎣
+⎢⎡
+⎦
+⎥⎤
+(-1.02)sin(5.43) - (-0.147)cos(-1.58)
+(-8.01) (-1.02)2 + (-0.147)2
+   ------  65=____________ 
+        Page DrL-7 
+DrL-61.  
+{
+} 3
+306
+.
+0
+10
+)
+36
+.
+1
+(
+)
+896
+.
+0
+)(
+88
+.
+7
+(
+10
+x
+)
+10
+(
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
+π
+ ------------------------------  61=____________ 
+DrL-62.  (rad) cos(1.12 - 0.601) - cos(1.12 + 0.601)  --------------  62=____________ 
+DrL-63.  (deg) 
+1 + ⎣⎢⎡
+⎦⎥⎤
+cos(55.7°)
+sin(55.7°)
+2  x cos(-47.7°)
+sin(-47.7°)  -----------------  63=____________ 
+DrL-64.  1 + (0.55)4
+2
+  - (0.55)6
+6
+  + (0.55)8
+24
+  - (0.55)10
+120
+   -----------  64=____________ 
+DrL-65.  (0.941)
+(29)   - (-87.7)
+(80.9)2  Ln ⎣⎢⎡
+⎦⎥⎤
+(-0.0262)2 + (3.49x10-4)
+(77.2) + 18000
+   --------  65=____________ 
+ 
+Page 7-5 
+        Page DrM-7 
+DrM-61.  Log(3.36) + Log(9.82) + Log(6.36) + Log ⎣⎢⎡
+⎦⎥⎤
+(3.15)
+(9.82)    ---------  61=____________ 
+DrM-62.  (rad) sin(2.55)cos(1.32) - cos(2.55)sin(1.32)  ------------  62=____________ 
+DrM-63.  (deg) {
+}
+cos2(53.2°) - sin2(53.2°)   x 
+tan(53.2°)
+1 - tan2(53.2°)   -----  63=____________ 
+DrM-64.   - 
+1
+(9.69)   +  
+1
+3(9.69)3   -  
+1
+5(9.69)5   +  
+1
+7(9.69)7    -----  64=____________ 
+DrM-65.  (-2.76)
+(5.98)   - (2.94)
+(4.2)2  Ln ⎣⎢⎡
+⎦⎥⎤
+(-0.0519)2 + (3.89x10-4)
+(-3.55) + 24.2
+   ---------  65=____________ 
+        Page DrN-7 
+DrN-61.  (104.29)(107.52)(100.521)
+10{
+}
+(7.67)(0.549)
+   -----------------------------  61=____________ 
+DrN-62.  (7.76)10
+)]
+499
+.
+0
+)(
+[(
+Log π
++ {
+}
+(3490)(0.926) 1/2   ------------  62=____________ 
+DrN-63.  (rad) (8.67)⎣⎢⎡
+⎦⎥⎤
+cos(-4.36)
+(-4.36)  + cos(3.16)
+(3.16)
+   --------------------  63=____________ 
+DrN-64.  
+1
+(0.68)    +  
+1
+3(0.68)3   +  
+1
+5(0.68)5   +  
+1
+7(0.68)7   --------  64=____________ 
+DrN-65.  -0.0559
+0.906  Ln 
+⎥
+⎥
+⎦
+⎤
+⎢
+⎢
+⎣
+⎡
++
+π
++
++
+−
+)
+00707
+.
+0
+)(
+5
+.
+12
+(
+326
+.
+0
+)
+222
+.
+0
+(
+2
+)
+535
+.
+0
+(
+ --------------  65=____________ 
+        Page DrO-7 
+DrO-61.  
+{
+}
+e0.191 + e-0.191
+2
+e(-21.5)(0.277) x (
+)
+1/e(-4)
+     ----------------------  61=____________ 
+DrO-62.  (3.82)10Log[(4.85)(0.455)]  + {
+}
+(241)(0.926) 1/2   ---------  62=____________ 
+DrO-63.  (rad) 
+1
+(18600)(0.111)  Ln{
+}
+(20.7) + (-13.7)sin(2.63)    ------  63=____________ 
+DrO-64.  (0.389) - (0.389)2
+2
+  + (0.389)3
+3
+  - (0.389)4
+4
+   --------------  64=____________ 
+DrO-65.  -5.75
+7.86  Ln ⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(6.36)2 + (5.39)   + 17
+1.62 + (20.3)(0.00895)
+   ------------------  65=____________ 
+Page 7-6 
+        Page DrP-7 
+DrP-61.  Ln ⎣⎢⎡
+⎦⎥⎤
+(0.414)(2.91)
+(32)
+3
+  + Ln ⎣⎢⎡
+⎦⎥⎤
+(32)
+(4.66)
+3
+   ---------------------  61=____________ 
+DrP-62.  (92.8 - 54.1)2  + (1.68 + π)eLn(68.7)   ------------------  62=____________ 
+DrP-63.  (deg) 
+1 + ⎣⎢⎡
+⎦⎥⎤
+cos(96.3°)
+sin(96.3°)
+2  x cos(-9.18°)
+sin(-9.18°)  -----------------  63=____________ 
+DrP-64.  1 + (0.37)4
+2
+  - (0.37)6
+6
+  + (0.37)8
+24
+  - (0.37)10
+120
+   -----------  64=____________ 
+DrP-65.  0.906
+0.478  Ln ⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(-0.192)2 + (0.0144)   + 0.0169
+0.24 + (28)(0.00183)
+   ----------  65=____________ 
+        Page DrQ-7 
+DrQ-61.  
+e-(0.632 + 0.925)
+{
+}
+e(0.136 - 0.914)
+2   x 
+3
+(9.33)2   --------------------  61=____________ 
+DrQ-62.  eLn[(6.35)(75.1)]  + 10Log[(0.369)(432)]   ----------------  62=____________ 
+DrQ-63.  (deg) sin(-73.5°)cos(80.1°) + cos(-73.5°)sin(80.1°)  --------  63=____________ 
+DrQ-64.   - 
+1
+(7.09)   +  
+1
+3(7.09)3   -  
+1
+5(7.09)5   +  
+1
+7(7.09)7    -----  64=____________ 
+DrQ-65.  
+1
+(48.9)2 - (1130)
+    Ln 
+⎩⎪
+⎨⎪⎧
+⎭⎪
+⎬⎪⎫
+(61.2) - (48.9)2 - (1130)
+(61.2) + (48.9)2 - (1130)
+     --  65=____________ 
+        Page DrR-7 
+DrR-61.  2Log 
+3
+)
+15
+.
+9
+(
+3
+)
+73
+.
+5
+(
+)
+)(
+69
+.
+1
+)(
+12
+.
+5
+(
+π  ---------------------------------  61=____________ 
+DrR-62.  eLn[(6.88)(43.4)]  + 10Log[(0.326)(323)]   ----------------  62=____________ 
+DrR-63.  (rad) (8.67)⎣⎢⎡
+⎦⎥⎤
+cos(-0.989)
+(-0.989)  + cos(7.88)
+(7.88)
+   -------------------  63=____________ 
+DrR-64.  
+1
+(0.42)    +  
+1
+3(0.42)3   +  
+1
+5(0.42)5   +  
+1
+7(0.42)7   --------  64=____________ 
+DrR-65.  
+1
+(12.5)2 - (25.7)
+    Ln 
+⎩⎪
+⎨⎪⎧
+⎭⎪
+⎬⎪⎫
+(13.7) - (12.5)2 - (25.7)
+(13.7) + (12.5)2 - (25.7)
+     --  65=____________
+Page 7-7 
+        Page DrS-7 
+DrS-61.  102.53  x 
+(103.99)(100.932)
+(10-9.75)(100.257)
+   -----------------------  61=____________ 
+DrS-62.  (rad) sin(8.04)
+cos(8.04)
+1 - {
+}
+sin(0.117 x 2.83) 2   ---------------  62=____________ 
+DrS-63.  (rad) 
+1
+(17.9)(0.111)  Ln{
+}
+(0.0533) + (-0.0123)sin(2.82)    ---  63=____________ 
+DrS-64.  1 + (0.129) + (0.129)2
+2
+  + (0.129)3
+6
+  + (0.129)4
+24
+   ----------  64=____________ 
+DrS-65.  (rad) 
+arctan{
+}
+e-(0.192)(0.523) (-1.88)/(-7.22)
+(4.47) (0.829)(0.425)(1.29)
+   ---------  65=____________ 
+        Page DrT-7 
+DrT-61.  Log[
+]
+(9.82)-6.3   + (3.43)Log[
+]
+(9.82)(2.95)    ------------  61=____________ 
+DrT-62.  (rad) cos(2.38 - 1.66) - cos(2.38 + 1.66)  ----------------  62=____________ 
+DrT-63.  (rad) 
+98.2
+6(0.931){
+}
+(-0.382) + (-0.219)sin(-4.91) 5   ----------  63=____________ 
+DrT-64.  1 + (0.81)4
+2
+  - (0.81)6
+6
+  + (0.81)8
+24
+  - (0.81)10
+120
+   -----------  64=____________ 
+DrT-65.  (rad) 
+arctan{
+}
+e-(0.448)(0.654) (24)/(46.3)
+(75.5) (30.7)(18.1)(16)
+   ------------  65=____________ 
+        Page DrU-7 
+DrU-61.  Ln 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(2.18)2 - 2(2.18)(3.91) + (3.91)2
+(7.64)2
+2
+   -----------------  61=____________ 
+DrU-62.  (rad) cos(2.53 - 0.97) - cos(2.53 + 0.97)  ----------------  62=____________ 
+DrU-63.  (deg) sin(-12.8°)cos(165°) + cos(-12.8°)sin(165°)  ----------  63=____________ 
+DrU-64.  1 + 0.439 + (0.439)2  + (0.439)4
+8
+  - (0.439)5
+15
+    -----------  64=____________ 
+DrU-65.  (rad) 
+arctan{
+}
+e-(0.704)(0.785) (-2.73)/(-3.52)
+(-9.37) (6.96)(4.65)(1.91)
+   ---------  65=____________ 
+Page 7-8 
+        Page DrV-7 
+DrV-61.  
+(5.47)3 x {
+}
+e(-9.1)(-0.09)
+3
+3
+e(3.8) x e(-2.36)
+   ------------------------  61=____________ 
+DrV-62.  (rad) sin(5.38)cos(5.79) - cos(5.38)sin(5.79)  ------------  62=____________ 
+DrV-63.  (deg) {
+}
+cos2(38.1°) - sin2(38.1°)   x 
+tan(38.1°)
+1 - tan2(38.1°)   -----  63=____________ 
+DrV-64.  
+1
+(0.15)    +  
+1
+3(0.15)3   +  
+1
+5(0.15)5   +  
+1
+7(0.15)7   --------  64=____________ 
+DrV-65.  (rad) 
+(-0.208)(0.0495) - Ln{
+}
+(0.0244) + (-4.69)e(-7.28)
+arcsin{
+}
+(0.164)/(0.493 + 0.11)
+   -  65=____________ 
+        Page DrW-7 
+DrW-61.  2Log 
+(6.88)(6.8)(3.8)
+(8.31)3(3.66)3    ------------------------------  61=____________ 
+DrW-62.  (0.773)10Log[(6.48)(0.11)]  + {
+}
+(0.677)(0.926) 1/2   -------  62=____________ 
+DrW-63.  (rad) (8.67)⎣⎢⎡
+⎦⎥⎤
+cos(-3.52)
+(-3.52)  + cos(7.03)
+(7.03)
+   --------------------  63=____________ 
+DrW-64.  1 + (0.759) + (0.759)2
+2
+  + (0.759)3
+6
+  + (0.759)4
+24
+   ----------  64=____________ 
+DrW-65.  (rad) 
+(-7.27)(0.288) - Ln{
+}
+(0.0408) + (-1.05)e(-4.19)
+arcsin{
+}
+(1.76)/(3.81 + 9.68)
+   ---  65=____________ 
+        Page DrX-7 
+DrX-61.  100.767  x 
+(104.5)(100.444)
+(10-7.17)(100.866)
+   ----------------------  61=____________ 
+DrX-62.  (83.2)10Log[(3.31)(0.967)]  + {
+}
+(1.51x105)(0.926) 1/2   ----  62=____________ 
+DrX-63.  (rad) 98.2
+6(72.7){
+}
+(-12.1) + (-1.76)sin(-5.38) 5   ------------  63=____________ 
+DrX-64.  1 + (0.629)4
+2
+  - (0.629)6
+6
+  + (0.629)8
+24
+  - (0.629)10
+120
+   --------  64=____________ 
+DrX-65.  (rad) e(5.73)
+⎣
+⎢⎡
+⎦
+⎥⎤
+(-0.746)sin(3.88) - (-0.586)cos(-0.331)
+(0.135) (-0.746)2 + (-0.586)2
+   ----  65=____________ 
+Page 7-9 
+        Page DrY-7 
+DrY-61.  Log[
+]
+(8.41)-2.19   + (4.71)Log[
+]
+(8.41)(2.53)    -----------  61=____________ 
+DrY-62.  (92.8 - 14.3)2  + (9.14 + 9.9)eLn(33.3)   -----------------  62=____________ 
+DrY-63.  (deg) 
+1 + ⎣⎢⎡
+⎦⎥⎤
+cos(66.1°)
+sin(66.1°)
+2  x cos(-44°)
+sin(-44°)  -------------------  63=____________ 
+DrY-64.  1 + 0.18 + (0.18)2  + (0.18)4
+8
+  - (0.18)5
+15
+    ---------------  64=____________ 
+DrY-65.  (rad) e(8.29)
+⎣⎢⎡
+⎦⎥⎤
+(1.28)sin(5.42) - (1.25)cos(-2.1)
+(-2.54) (1.28)2 + (1.25)2
+   ---------  65=____________ 
+        Page DrZ-7 
+DrZ-61.  Ln 
+⎣
+⎢
+⎡
+⎦
+⎥
+⎤
+(3.94)2 - 2(3.94)(4.06) + (4.06)2
+(3.45)2
+2
+   -----------------  61=____________ 
+DrZ-62.  (92.8 - 19.2)2  + (5.97 + 6.78)eLn(68)   -----------------  62=____________ 
+DrZ-63.  (deg) {
+}
+cos2(58.4°) - sin2(58.4°)   x 
+tan(58.4°)
+1 - tan2(58.4°)   -----  63=____________ 
+DrZ-64.  
+1
+(0.79)    +  
+1
+3(0.79)3   +  
+1
+5(0.79)5   +  
+1
+7(0.79)7   --------  64=____________ 
+DrZ-65.  (rad) e(1.86)
+⎣
+⎢⎡
+⎦
+⎥⎤
+(-9.98)sin(1.56) - (-2.61)cos(-1.18)
+(-6.44) (-9.98)2 + (-2.61)2
+   -------  65=____________ 
+ 
+Page 7-10 
+ 
+PAGE 1 (1-5) 
+DrA-1  = 0.667 
+ 
+= 6.67x10-1  
+DrA-2  = -0.155 
+ 
+= -1.55x10-1  
+DrA-3  = 1.72 
+ 
+= 1.72x100  
+DrA-4  = 142000 
+ 
+= 1.42x105  
+DrA-5  = 0.0119 
+ 
+= 1.19x10-2  
+DrF-1  = 0.0426 
+ 
+= 4.26x10-2  
+DrF-2  = 0.180 
+ 
+= 1.80x10-1  
+DrF-3  = -1.10 
+ 
+= -1.10x100  
+DrF-4  = -1.25x106  
+DrF-5  = -0.391 
+ 
+= -3.91x10-1  
+DrK-1  = 0.359 
+ 
+= 3.59x10-1  
+DrK-2  = 33.7 
+ 
+= 3.37x101  
+DrK-3  = -8.20x10-6  
+DrK-4  = -18.7 
+ 
+= -1.87x101  
+DrK-5  = -17.1 
+ 
+= -1.71x101  
+DrP-1  = 150 
+ 
+= 1.50x102  
+DrP-2  = -15.6 
+ 
+= -1.56x101  
+DrP-3  = -9.34 
+ 
+= -9.34x100  
+DrP-4  = 0.748 
+ 
+= 7.48x10-1  
+DrP-5  = -176 
+ 
+= -1.76x102  
+DrB-1  = 3.77 
+ 
+= 3.77x100  
+DrB-2  = -0.0835 
+ 
+= -8.35x10-2  
+DrB-3  = 4340 
+ 
+= 4.34x103  
+DrB-4  = -1090 
+ 
+= -1.09x103  
+DrB-5  = 10.9 
+ 
+= 1.09x101  
+DrG-1  = 0.0551 
+ 
+= 5.51x10-2  
+DrG-2  = 0.0926 
+ 
+= 9.26x10-2  
+DrG-3  = 0.0857 
+ 
+= 8.57x10-2  
+DrG-4  = 0.514 
+ 
+= 5.14x10-1  
+DrG-5  = 9.11x10-6  
+DrL-1  = -0.0621 
+ 
+= -6.21x10-2  
+DrL-2  = 3280 
+ 
+= 3.28x103  
+DrL-3  = -1.53 
+ 
+= -1.53x100  
+DrL-4  = 1.18 
+ 
+= 1.18x100  
+DrL-5  = -17900 
+ 
+= -1.79x104  
+DrQ-1  = 0.00430 
+ 
+= 4.30x10-3  
+DrQ-2  = -1.00 
+ 
+= -1.00x100  
+DrQ-3  = -0.297 
+ 
+= -2.97x10-1  
+DrQ-4  = -0.830 
+ 
+= -8.30x10-1  
+DrQ-5  = 5.92x106  
+DrC-1  = 12.8 
+ 
+= 1.28x101  
+DrC-2  = -63.2 
+ 
+= -6.32x101  
+DrC-3  = -6050 
+ 
+= -6.05x103  
+DrC-4  = 46.5 
+ 
+= 4.65x101  
+DrC-5  = -0.00588 
+ 
+= -5.88x10-3  
+DrH-1  = -0.316 
+ 
+= -3.16x10-1  
+DrH-2  = 4220 
+ 
+= 4.22x103  
+DrH-3  = -0.104 
+ 
+= -1.04x10-1  
+DrH-4  = 1.45 
+ 
+= 1.45x100  
+DrH-5  = 1.40x1010  
+DrM-1  = 2.17 
+ 
+= 2.17x100  
+DrM-2  = -0.0875 
+ 
+= -8.75x10-2  
+DrM-3  = -32.4 
+ 
+= -3.24x101  
+DrM-4  = -0.986 
+ 
+= -9.86x10-1  
+DrM-5  = -1380 
+ 
+= -1.38x103  
+DrR-1  = 1.25 
+ 
+= 1.25x100  
+DrR-2  = -2010 
+ 
+= -2.01x103  
+DrR-3  = -15.1 
+ 
+= -1.51x101  
+DrR-4  = -3.80 
+ 
+= -3.80x100  
+DrR-5  = -0.160 
+ 
+= -1.60x10-1  
+DrD-1  = 7.08 
+ 
+= 7.08x100  
+DrD-2  = 0.0369 
+ 
+= 3.69x10-2  
+DrD-3  = -0.637 
+ 
+= -6.37x10-1  
+DrD-4  = 92.7 
+ 
+= 9.27x101  
+DrD-5  = 8440 
+ 
+= 8.44x103  
+DrI-1  = 1890 
+ 
+= 1.89x103  
+DrI-2  = -0.0972 
+ 
+= -9.72x10-2  
+DrI-3  = -0.135 
+ 
+= -1.35x10-1  
+DrI-4  = -3800 
+ 
+= -3.80x103  
+DrI-5  = 7890 
+ 
+= 7.89x103  
+DrN-1  = 9960 
+ 
+= 9.96x103  
+DrN-2  = 1.54 
+ 
+= 1.54x100  
+DrN-3  = -0.372 
+ 
+= -3.72x10-1  
+DrN-4  = 2.17 
+ 
+= 2.17x100  
+DrN-5  = 2.11x10-5  
+DrS-1  = 129 
+ 
+= 1.29x102  
+DrS-2  = -3700 
+ 
+= -3.70x103  
+DrS-3  = -211 
+ 
+= -2.11x102  
+DrS-4  = 0.227 
+ 
+= 2.27x10-1  
+DrS-5  = -0.0462 
+ 
+= -4.62x10-2  
+DrE-1  = -238 
+ 
+= -2.38x102  
+DrE-2  = 0.117 
+ 
+= 1.17x10-1  
+DrE-3  = 0.679 
+ 
+= 6.79x10-1  
+DrE-4  = 639 
+= 
+6.39x102   
+DrJ-1  = -7.41 
+ 
+= -7.41x100  
+DrJ-2  = 1.10 
+ 
+= 1.10x100  
+DrJ-3  = 0.0568 
+ 
+= 5.68x10-2  
+DrJ-4  = -22500 
+ 
+= -2.25x104  
+DrO-1  = -0.169 
+ 
+= -1.69x10-1  
+DrO-2  = -69.9 
+ 
+= -6.99x101  
+DrO-3  = -139 
+ 
+= -1.39x102  
+DrO-4  = 1.36 
+ 
+= 1.36x100  
+DrT-1  = -1.25 
+ 
+= -1.25x100  
+DrT-2  = -25.5 
+ 
+= -2.55x101  
+DrT-3  = -0.000473 
+ 
+= -4.73x10-4  
+DrT-4  = 1.90 
+ 
+= 1.90x100  
+DrE-5  = -4.91x108  
+DrJ-5  = 0.0104 
+ 
+= 1.04x10-2  
+DrO-5  = 9.41x10-5  
+DrT-5  = -2.31x109  
+DrU-1  = -8.04 
+ 
+= -8.04x100  
+DrU-2  = 8.38 
+ 
+= 8.38x100  
+DrU-3  = 70.5 
+ 
+= 7.05x101  
+DrU-4  = 0.0935 
+ 
+= 9.35x10-2  
+DrU-5  = 330000 
+ 
+= 3.30x105  
+DrZ-1  = 0.0478 
+ 
+= 4.78x10-2  
+DrZ-2  = -132 
+ 
+= -1.32x102  
+DrZ-3  = 68.8 
+ 
+= 6.88x101  
+DrZ-4  = 9.90 
+ 
+= 9.90x100  
+DrZ-5  = 0.185 
+ 
+= 1.85x10-1  
+DrE-11  = 0.168 
+ 
+= 1.68x10-1  
+DrE-12  = 478000 
+ 
+= 4.78x105  
+DrE-13  = -12.4 
+ 
+= -1.24x101  
+DrE-14  = -8.25 
+ 
+= -8.25x100  
+DrE-15  = -1.49x10-5  
+DrJ-11  = -9.35 
+ 
+= -9.35x100  
+DrJ-12  = -0.435 
+ 
+= -4.35x10-1  
+DrJ-13  = 31.8 
+ 
+= 3.18x101  
+DrJ-14  = 0.999 
+ 
+= 9.99x10-1  
+DrJ-15  = -0.300 
+ 
+= -3.00x10-1  
+DrV-1  = -0.290 
+ 
+= -2.90x10-1  
+DrV-2  = -0.111 
+ 
+= -1.11x10-1  
+DrV-3  = -0.242 
+ 
+= -2.42x10-1  
+DrV-4  = 10.1 
+ 
+= 1.01x101  
+DrV-5  = -0.170 
+ 
+= -1.70x10-1  
+ 
+PAGE 2 (11-15) 
+DrA-11  = 0.229 
+ 
+= 2.29x10-1  
+DrA-12  = 550000 
+ 
+= 5.50x105  
+DrA-13  = 1760 
+ 
+= 1.76x103  
+DrA-14  = -122000 
+ 
+= -1.22x105  
+DrA-15  = -0.00441 
+ 
+= -4.41x10-3  
+DrF-11  = 0.000369 
+ 
+= 3.69x10-4  
+DrF-12  = 0.390 
+ 
+= 3.90x10-1  
+DrF-13  = -1.18x106  
+DrF-14  = -0.00710 
+ 
+= -7.10x10-3  
+DrF-15  = 0.000167 
+ 
+= 1.67x10-4  
+ 
+DrK-11  = 6.55x10-6  
+DrK-12  = 0.00863 
+ 
+= 8.63x10-3  
+DrK-13  = 912000 
+ 
+= 9.12x105  
+DrK-14  = -3470 
+ 
+= -3.47x103  
+DrK-15  = -7.00x10-5  
+ 
+DrW-1  = 0.672 
+ 
+= 6.72x10-1  
+DrW-2  = -0.114 
+ 
+= -1.14x10-1  
+DrW-3  = -2.16 
+ 
+= -2.16x100  
+DrW-4  = 0.0740 
+ 
+= 7.40x10-2  
+DrW-5  = 1.09 
+ 
+= 1.09x100  
+DrB-11  = 0.344 
+ 
+= 3.44x10-1  
+DrB-12  = 8760 
+ 
+= 8.76x103  
+DrB-13  = -2010 
+ 
+= -2.01x103  
+DrB-14  = -14400 
+ 
+= -1.44x104  
+DrB-15  = -0.697 
+ 
+= -6.97x10-1  
+DrG-11  = -0.00319 
+ 
+= -3.19x10-3  
+DrG-12  = 79800 
+ 
+= 7.98x104  
+DrG-13  = -16300 
+ 
+= -1.63x104  
+DrG-14  = -34.8 
+ 
+= -3.48x101  
+DrG-15  = -7.28 
+ 
+= -7.28x100  
+DrL-11  = -0.0237 
+ 
+= -2.37x10-2  
+DrL-12  = -1.44x10-8  
+DrL-13  = 650 
+ 
+= 6.50x102  
+DrL-14  = 12400 
+ 
+= 1.24x104  
+DrL-15  = -8.97 
+ 
+= -8.97x100  
+DrX-1  = 149 
+ 
+= 1.49x102  
+DrX-2  = -0.0750 
+ 
+= -7.50x10-2  
+DrX-3  = -324 
+ 
+= -3.24x102  
+DrX-4  = 74.2 
+ 
+= 7.42x101  
+DrX-5  = 978000 
+ 
+= 9.78x105  
+DrC-11  = -383000 
+ 
+= -3.83x105  
+DrC-12  = 2.00x10-7  
+DrC-13  = -1.66 
+ 
+= -1.66x100  
+DrC-14  = -0.0296 
+ 
+= -2.96x10-2  
+DrC-15  = -0.000297 
+ 
+= -2.97x10-4  
+DrH-11  = -0.145 
+ 
+= -1.45x10-1  
+DrH-12  = -15.2 
+ 
+= -1.52x101  
+DrH-13  = 2.10 
+ 
+= 2.10x100  
+DrH-14  = -0.615 
+ 
+= -6.15x10-1  
+DrH-15  = -4.36x10-6  
+DrM-11  = -0.000118 
+ 
+= -1.18x10-4  
+DrM-12  = 1.04x106  
+DrM-13  = -1330 
+ 
+= -1.33x103  
+DrM-14  = -83.2 
+ 
+= -8.32x101  
+DrM-15  = 427 
+ 
+= 4.27x102  
+DrY-1  = 0.212 
+ 
+= 2.12x10-1  
+DrY-2  = -0.387 
+ 
+= -3.87x10-1  
+DrY-3  = -0.0439 
+ 
+= -4.39x10-2  
+DrD-11  = -5260 
+ 
+= -5.26x103  
+DrD-12  = 3.85 
+ 
+= 3.85x100  
+DrD-13  = 0.0143 
+ 
+= 1.43x10-2  
+DrI-11  = -5620 
+ 
+= -5.62x103  
+DrI-12  = 693000 
+ 
+= 6.93x105  
+DrI-13  = 48700 
+ 
+= 4.87x104  
+DrN-11  = 0.292 
+ 
+= 2.92x10-1  
+DrN-12  = 40.3 
+ 
+= 4.03x101  
+DrN-13  = 0.000151 
+ 
+= 1.51x10-4  
+DrY-4  = -0.250 
+ 
+= -2.50x10-1  
+DrY-5  = -2.54x106  
+ 
+DrD-14  = -0.000463 
+ 
+= -4.63x10-4  
+DrD-15  = -3.62x10-6  
+ 
+DrI-14  = 0.0130 
+ 
+= 1.30x10-2  
+DrI-15  = -5.16x10-6  
+ 
+DrN-14  = 7.16 
+ 
+= 7.16x100  
+DrN-15  = 9090 
+ 
+= 9.09x103  
+DrO-11  = 48.5 
+ 
+= 4.85x101  
+DrO-12  = 386 
+ 
+= 3.86x102  
+DrO-13  = -3.12 
+ 
+= -3.12x100  
+DrO-14  = 1.39x106  
+DrO-15  = -5.75 
+ 
+= -5.75x100  
+DrT-11  = -529 
+ 
+= -5.29x102  
+DrT-12  = 1.40x10-6  
+DrT-13  = 35.8 
+ 
+= 3.58x101  
+DrT-14  = -98.1 
+ 
+= -9.81x101  
+DrT-15  = -0.536 
+ 
+= -5.36x10-1  
+DrY-11  = -0.0164 
+ 
+= -1.64x10-2  
+DrY-12  = -16.2 
+ 
+= -1.62x101  
+DrY-13  = 6.94x106  
+DrY-14  = -5590 
+ 
+= -5.59x103  
+DrY-15  = -503 
+ 
+= -5.03x102  
+DrD-21  = 0.0965 
+ 
+= 9.65x10-2   
+DrD-22  = 0.00107 
+ 
+= 1.07x10-3   
+DrD-23  = 1.72x108   
+DrD-24  = 0.422 
+ 
+= 4.22x10-1   
+DrD-25  = 267 
+ 
+= 2.67x102   
+DrP-11  = -5400 
+ 
+= -5.40x103  
+DrP-12  = 6.96x10-8  
+DrP-13  = -9.72x10-5  
+DrP-14  = 76.5 
+ 
+= 7.65x101  
+DrP-15  = 0.00209 
+ 
+= 2.09x10-3  
+DrU-11  = -13100 
+ 
+= -1.31x104  
+DrU-12  = -38.4 
+ 
+= -3.84x101  
+DrU-13  = 3.50x10-5  
+DrU-14  = -375000 
+ 
+= -3.75x105  
+DrU-15  = -514 
+ 
+= -5.14x102  
+DrZ-11  = 16.6 
+ 
+= 1.66x101  
+DrZ-12  = 4.74x106  
+DrZ-13  = 1.49x107  
+DrZ-14  = 0.00940 
+ 
+= 9.40x10-3  
+DrZ-15  = 3.85x107  
+DrE-21  = 4.83x10-5   
+DrE-22  = -3.50 
+ 
+= -3.50x100   
+DrE-23  = 0.422 
+ 
+= 4.22x10-1   
+DrE-24  = 11300 
+ 
+= 1.13x104   
+DrE-25  = -5.02 
+ 
+= -5.02x100   
+DrQ-11  = 0.0327 
+ 
+= 3.27x10-2  
+DrQ-12  = -0.0706 
+ 
+= -7.06x10-2  
+DrQ-13  = -0.251 
+ 
+= -2.51x10-1  
+DrQ-14  = -343 
+ 
+= -3.43x102  
+DrQ-15  = -0.00924 
+ 
+= -9.24x10-3  
+DrV-11  = 0.259 
+ 
+= 2.59x10-1  
+DrV-12  = 1.99x106  
+DrV-13  = -299 
+ 
+= -2.99x102  
+DrV-14  = -209 
+ 
+= -2.09x102  
+DrV-15  = 20100 
+ 
+= 2.01x104  
+PAGE 3 (21-25) 
+DrA-21  = 0.0541 
+ 
+= 5.41x10-2   
+DrA-22  = 0.407 
+ 
+= 4.07x10-1   
+DrA-23  = 16.4 
+ 
+= 1.64x101   
+DrA-24  = 10.1 
+ 
+= 1.01x101   
+DrA-25  = 1.56 
+ 
+= 1.56x100   
+DrF-21  = 0.00510 
+ 
+= 5.10x10-3   
+DrF-22  = 0.498 
+ 
+= 4.98x10-1   
+DrF-23  = 0.00143 
+ 
+= 1.43x10-3   
+DrF-24  = 12.2 
+ 
+= 1.22x101   
+DrF-25  = 1.34x109   
+DrR-11  = -2.19 
+ 
+= -2.19x100  
+DrR-12  = 0.0106 
+ 
+= 1.06x10-2  
+DrR-13  = -0.344 
+ 
+= -3.44x10-1  
+DrR-14  = -183 
+ 
+= -1.83x102  
+DrR-15  = 0.115 
+ 
+= 1.15x10-1  
+DrW-11  = 0.0681 
+ 
+= 6.81x10-2  
+DrW-12  = 2.01 
+ 
+= 2.01x100  
+DrW-13  = -973 
+ 
+= -9.73x102  
+DrW-14  = 416 
+ 
+= 4.16x102  
+DrW-15  = -0.456 
+ 
+= -4.56x10-1  
+DrB-21  = 3.10 
+ 
+= 3.10x100   
+DrB-22  = 0.00370 
+ 
+= 3.70x10-3   
+DrB-23  = 15.6 
+ 
+= 1.56x101   
+DrB-24  = 6.75x108   
+DrB-25  = 0.389 
+ 
+= 3.89x10-1   
+DrG-21  = -0.120 
+ 
+= -
+1.20x10-1   
+DrG-22  = 0.243 
+ 
+= 2.43x10-1   
+DrG-23  = 0.417 
+ 
+= 4.17x10-1   
+DrG-24  = 0.333 
+ 
+= 3.33x10-1   
+DrG-25  = 30.3 
+ 
+= 3.03x101   
+DrS-11  = 1.23 
+ 
+= 1.23x100  
+DrS-12  = 2.18 
+ 
+= 2.18x100  
+DrS-13  = 1.53 
+ 
+= 1.53x100  
+DrS-14  = 14300 
+ 
+= 1.43x104  
+DrS-15  = -2.66 
+ 
+= -2.66x100  
+DrX-11  = -0.0105 
+ 
+= -1.05x10-2  
+DrX-12  = 7.13x10-8  
+DrX-13  = 28800 
+ 
+= 2.88x104  
+DrX-14  = -39.9 
+ 
+= -3.99x101  
+DrX-15  = -1530 
+ 
+= -1.53x103  
+DrC-21  = 0.197 
+ 
+= 1.97x10-1   
+DrC-22  = 0.0602 
+ 
+= 6.02x10-2   
+DrC-23  = 3.56 
+ 
+= 3.56x100   
+DrC-24  = 1.43x109   
+DrC-25  = -0.189 
+ 
+= -
+1.89x10-1   
+DrH-21  = 0.301 
+ 
+= 3.01x10-1   
+DrH-22  = 0.0196 
+ 
+= 1.96x10-2   
+DrH-23  = 0.450 
+ 
+= 4.50x10-1   
+DrH-24  = 555000 
+ 
+= 5.55x105   
+DrH-25  = 132 
+ 
+= 1.32x102   
+ 
+DrI-21  = -0.211 
+ 
+= -
+2.11x10-1   
+DrI-22  = 0.261 
+ 
+= 2.61x10-1   
+DrI-23  = 936000 
+ 
+= 9.36x105   
+DrI-24  = 51.5 
+ 
+= 5.15x101   
+DrI-25  = 2.09x10-5   
+DrN-21  = 0.0492 
+ 
+= 4.92x10-2   
+DrN-22  = 0.00207 
+ 
+= 2.07x10-3   
+DrN-23  = 4.34 
+ 
+= 4.34x100   
+DrN-24  = 0.825 
+ 
+= 8.25x10-1   
+DrN-25  = 6.13x108   
+DrS-21  = 832 
+ 
+= 8.32x102   
+DrS-22  = 0.371 
+ 
+= 3.71x10-1   
+DrS-23  = 2.28x10-5   
+DrS-24  = 0.794 
+ 
+= 7.94x10-1   
+DrS-25  = 0.107 
+ 
+= 1.07x10-1   
+DrX-21  = -0.0600 
+ 
+= -
+6.00x10-2   
+DrX-22  = 0.0936 
+ 
+= 9.36x10-2   
+DrX-23  = 49.1 
+ 
+= 4.91x101   
+DrX-24  = 1.76x109   
+DrX-25  = 0.483 
+ 
+= 4.83x10-1   
+DrJ-21  = 0.0223 
+ 
+= 2.23x10-2   
+DrJ-22  = 1.99 
+ 
+= 1.99x100   
+DrJ-23  = 7250 
+ 
+= 7.25x103   
+DrJ-24  = 4.76x106   
+DrJ-25  = 0.307 
+ 
+= 3.07x10-1   
+DrO-21  = 0.533 
+ 
+= 5.33x10-1   
+DrO-22  = -5.41 
+ 
+= -5.41x100   
+DrO-23  = 258 
+ 
+= 2.58x102   
+DrO-24  = 0.825 
+ 
+= 8.25x10-1   
+DrO-25  = 13.2 
+ 
+= 1.32x101   
+DrT-21  = 0.119 
+ 
+= 1.19x10-1   
+DrT-22  = -1.20 
+ 
+= -1.20x100   
+DrT-23  = 128 
+ 
+= 1.28x102   
+DrT-24  = 9.05x109   
+DrT-25  = 62.3 
+ 
+= 6.23x101   
+DrY-21  = 0.0988 
+ 
+= 9.88x10-2   
+DrY-22  = 0.212 
+ 
+= 2.12x10-1   
+DrY-23  = 0.881 
+ 
+= 8.81x10-1   
+DrY-24  = 2.51x106   
+DrY-25  = 89.0 
+ 
+= 8.90x101   
+DrK-21  = 0.0251 
+ 
+= 2.51x10-2   
+DrK-22  = 0.232 
+ 
+= 2.32x10-1   
+DrK-23  = 241 
+ 
+= 2.41x102   
+DrK-24  = -17.7 
+ 
+= -1.77x101   
+DrK-25  = 0.0847 
+ 
+= 8.47x10-2   
+DrP-21  = -0.352 
+ 
+= -
+3.52x10-1   
+DrP-22  = 0.251 
+ 
+= 2.51x10-1   
+DrP-23  = 7.46 
+ 
+= 7.46x100   
+DrP-24  = 8.25x107   
+DrP-25  = 0.303 
+ 
+= 3.03x10-1   
+DrU-21  = 0.198 
+ 
+= 1.98x10-1   
+DrU-22  = 0.765 
+ 
+= 7.65x10-1   
+DrU-23  = 0.184 
+ 
+= 1.84x10-1   
+DrU-24  = 1.99x108   
+DrU-25  = 0.0238 
+ 
+= 2.38x10-2   
+DrZ-21  = -0.199 
+ 
+= -
+1.99x10-1   
+DrZ-22  = 0.197 
+ 
+= 1.97x10-1   
+DrZ-23  = 1.34x108   
+DrZ-24  = 5.71 
+ 
+= 5.71x100   
+DrZ-25  = 70.7 
+ 
+= 7.07x101   
+DrL-21  = 0.0626 
+ 
+= 6.26x10-2   
+DrL-22  = 0.197 
+ 
+= 1.97x10-1   
+DrL-23  = 3390 
+ 
+= 3.39x103   
+DrL-24  = 3.30x109   
+DrL-25  = 1.02 
+DrQ-21  = 3.49x10-5   
+DrQ-22  = 0.0633 
+ 
+= 6.33x10-2   
+DrQ-23  = 1.55x107   
+DrQ-24  = 144 
+ 
+= 1.44x102   
+DrQ-25  = 1.01 
+ 
+= 1.01x100   
+DrV-21  = 0.000257 
+ 
+= 2.57x10-4   
+DrV-22  = 0.378 
+ 
+= 3.78x10-1   
+DrV-23  = 5.21x107   
+DrV-24  = 208 
+ 
+= 2.08x102   
+DrV-25  = 24.9 
+PAGE 4 (31-35) 
+DrA-31  = 2.13x10-11  
+DrA-32  = 0.00165 
+ 
+= 1.65x10-3  
+DrA-33  = 0.000422 
+ 
+= 4.22x10-4  
+DrA-34  = 1.96 
+ 
+= 1.96x100  
+ 
+= 1.02x100   
+ 
+ 
+ 
+= 2.49x101   
+ 
+DrA-35  = -126 
+ 
+= -1.26x102  
+DrM-21  = 0.177 
+ 
+= 1.77x10-1   
+DrM-22  = 0.00959 
+ 
+= 9.59x10-3   
+DrM-23  = 1.33x108   
+DrM-24  = 12.3 
+ 
+= 1.23x101   
+DrM-25  = 6.01 
+ 
+= 6.01x100   
+DrR-21  = 0.0976 
+ 
+= 9.76x10-2   
+DrR-22  = 0.0510 
+ 
+= 5.10x10-2   
+DrR-23  = 5.16x108   
+DrR-24  = 0.414 
+ 
+= 4.14x10-1   
+DrR-25  = 1.95 
+ 
+= 1.95x100   
+DrW-21  = 0.0620 
+ 
+= 6.20x10-2   
+DrW-22  = 0.152 
+ 
+= 1.52x10-1   
+DrW-23  = -1.66 
+ 
+= -1.66x100   
+DrW-24  = 90.0 
+ 
+= 9.00x101   
+DrW-25  = 8.42x107   
+DrB-31  = 0.0325 
+ 
+= 3.25x10-2  
+DrB-32  = 1.01 
+ 
+= 1.01x100  
+DrB-33  = 1.07x10-8  
+DrB-34  = 320 
+ 
+= 3.20x102  
+DrB-35  = 7.28x10-8  
+ 
+ 
+ 
+DrC-31  = 1120 
+ 
+= 1.12x103  
+DrC-32  = 0.797 
+ 
+= 7.97x10-1  
+DrC-33  = 1.58 
+ 
+= 1.58x100  
+DrC-34  = 46.8 
+ 
+= 4.68x101  
+DrC-35  = -0.0134 
+ 
+= -1.34x10-2  
+DrH-31  = 11000 
+ 
+= 1.10x104  
+DrH-32  = 0.202 
+ 
+= 2.02x10-1  
+DrH-33  = 1.24 
+ 
+= 1.24x100  
+DrH-34  = 433 
+ 
+= 4.33x102  
+DrH-35  = 0.0161 
+ 
+= 1.61x10-2  
+DrM-31  = 10100 
+ 
+= 1.01x104  
+DrM-32  = 75.7 
+ 
+= 7.57x101  
+DrM-33  = 0.0622 
+ 
+= 6.22x10-2  
+DrM-34  = 16.1 
+ 
+= 1.61x101  
+DrM-35  = 13200 
+ 
+= 1.32x104  
+DrR-31  = 62200 
+ 
+= 6.22x104  
+DrR-32  = 0.163 
+ 
+= 1.63x10-1  
+DrR-33  = 1.90 
+ 
+= 1.90x100  
+DrR-34  = -0.0129 
+ 
+= -1.29x10-2  
+DrR-35  = -3.53x10-9  
+DrD-31  = 132 
+ 
+= 1.32x102  
+DrD-32  = 17.2 
+ 
+= 1.72x101  
+DrD-33  = 0.0272 
+ 
+= 2.72x10-2  
+DrD-34  = 0.842 
+ 
+= 8.42x10-1  
+DrD-35  = -1.80x10-5  
+ 
+DrI-31  = 31000 
+ 
+= 3.10x104  
+DrI-32  = 0.00364 
+ 
+= 3.64x10-3  
+DrI-33  = 1.74 
+ 
+= 1.74x100  
+DrI-34  = 0.241 
+ 
+= 2.41x10-1  
+DrI-35  = 2.06x10-14  
+ 
+DrN-31  = 0.180 
+ 
+= 1.80x10-1  
+DrN-32  = 0.00450 
+ 
+= 4.50x10-3  
+DrN-33  = -0.000221 
+ 
+= -2.21x10-4  
+DrN-34  = 50.0 
+ 
+= 5.00x101  
+DrN-35  = 479000 
+ 
+= 4.79x105  
+DrS-31  = 0.305 
+ 
+= 3.05x10-1  
+DrS-32  = 0.00338 
+ 
+= 3.38x10-3  
+DrS-33  = 724 
+ 
+= 7.24x102  
+DrS-34  = 0.482 
+ 
+= 4.82x10-1  
+DrS-35  = -0.000165 
+ 
+= -1.65x10-4  
+DrE-31  = 0.00196 
+ 
+= 1.96x10-3  
+DrE-32  = 745 
+ 
+= 7.45x102  
+DrE-33  = 0.0158 
+ 
+= 1.58x10-2  
+DrE-34  = -8.79 
+ 
+= -8.79x100  
+DrE-35  = 1.39x10-6  
+ 
+DrJ-31  = 0.00327 
+ 
+= 3.27x10-3  
+DrJ-32  = 7180 
+ 
+= 7.18x103  
+DrJ-33  = 2.94x10-7  
+DrJ-34  = 4.12 
+ 
+= 4.12x100  
+DrJ-35  = 2.64x10-9  
+ 
+DrO-31  = 10700 
+ 
+= 1.07x104  
+DrO-32  = 0.00918 
+ 
+= 9.18x10-3  
+DrO-33  = 3.81x10-7  
+DrO-34  = -0.164 
+ 
+= -1.64x10-1  
+DrO-35  = -6880 
+ 
+= -6.88x103  
+ 
+DrT-31  = 21300 
+ 
+= 2.13x104  
+DrT-32  = 0.00285 
+ 
+= 2.85x10-3  
+DrT-33  = 7.69 
+ 
+= 7.69x100  
+DrT-34  = 0.641 
+ 
+= 6.41x10-1  
+DrT-35  = 48.7 
+ 
+= 4.87x101  
+DrF-31  = 5.03x1012  
+DrF-32  = 0.00532 
+ 
+= 5.32x10-3  
+DrF-33  = -0.0176 
+ 
+= -1.76x10-2  
+DrF-34  = 14.3 
+ 
+= 1.43x101  
+DrF-35  = -0.193 
+ 
+= -1.93x10-1  
+ 
+DrK-31  = 4.72x10-5  
+DrK-32  = 1.08 
+ 
+= 1.08x100  
+DrK-33  = 3.97 
+ 
+= 3.97x100  
+DrK-34  = 0.130 
+ 
+= 1.30x10-1  
+DrK-35  = 1.45 
+ 
+= 1.45x100  
+ 
+DrP-31  = 1550 
+ 
+= 1.55x103  
+DrP-32  = 0.516 
+ 
+= 5.16x10-1  
+DrP-33  = 4.15 
+ 
+= 4.15x100  
+DrP-34  = 1.12 
+ 
+= 1.12x100  
+DrP-35  = -1150 
+ 
+= -1.15x103  
+DrU-31  = 99.1 
+ 
+= 9.91x101  
+DrU-32  = 0.00268 
+ 
+= 2.68x10-3  
+DrU-33  = -0.00159 
+ 
+= -1.59x10-3  
+DrU-34  = 6.10x10-7  
+DrU-35  = 6.42x10-9  
+ 
+DrG-31  = 6.49 
+ 
+= 6.49x100  
+DrG-32  = 6100 
+ 
+= 6.10x103  
+DrG-33  = 9.48x10-6  
+DrG-34  = 0.564 
+ 
+= 5.64x10-1  
+DrG-35  = 0.0958 
+DrL-31  = 0.0398 
+ 
+= 3.98x10-2  
+DrL-32  = 3500 
+ 
+= 3.50x103  
+DrL-33  = 0.605 
+ 
+= 6.05x10-1  
+DrL-34  = -0.00421 
+ 
+= -4.21x10-3  
+DrQ-31  = 0.00249 
+ 
+= 2.49x10-3  
+DrQ-32  = 0.328 
+ 
+= 3.28x10-1  
+DrQ-33  = 0.000982 
+ 
+= 9.82x10-4  
+DrQ-34  = 3.36 
+ 
+= 3.36x100  
+DrV-31  = 0.0281 
+ 
+= 2.81x10-2  
+DrV-32  = 245000 
+ 
+= 2.45x105  
+DrV-33  = 0.136 
+ 
+= 1.36x10-1  
+DrV-34  = 1.63 
+ 
+= 1.63x100  
+ 
+= 9.58x10-2  
+DrL-35  = 4.03x10-8  
+DrQ-35  = -14.4 
+ 
+= -1.44x101  
+DrV-35  = 2.00x10-7  
+ 
+DrW-31  = 1.09x10-7  
+DrW-32  = 3300 
+ 
+= 3.30x103  
+DrW-33  = 0.274 
+ 
+= 2.74x10-1  
+DrW-34  = -0.0363 
+ 
+= -3.63x10-2  
+DrW-35  = 3.75x10-8  
+ 
+DrB-41  = -1.18x1017  
+DrB-42  = -6.80x106  
+DrB-43  = -3.08 
+ 
+= -3.08x100  
+DrB-44  = 0.000103 
+ 
+= 1.03x10-4  
+DrB-45  = 228 
+ 
+= 2.28x102  
+ 
+DrG-41  = 1.09x109  
+DrG-42  = 1.52x10-6  
+DrG-43  = -0.643 
+ 
+= -6.43x10-1  
+DrG-44  = 20.7 
+ 
+= 2.07x101  
+DrG-45  = 0.0593 
+ 
+= 5.93x10-2  
+ 
+DrL-41  = -267 
+ 
+= -2.67x102  
+DrL-42  = 0.000664 
+ 
+= 6.64x10-4  
+DrL-43  = -0.00954 
+ 
+= -9.54x10-3  
+DrL-44  = 1280 
+ 
+= 1.28x103  
+DrL-45  = -1.02 
+ 
+= -1.02x100  
+DrX-31  = 0.0346 
+ 
+= 3.46x10-2  
+DrX-32  = 9.04x108  
+DrX-33  = 6.60x10-15  
+DrX-34  = 2.30 
+ 
+= 2.30x100  
+DrX-35  = 1.53x10-5  
+ 
+DrC-41  = -2.45x109  
+DrC-42  = 0.0180 
+ 
+= 1.80x10-2  
+DrC-43  = 29400 
+ 
+= 2.94x104  
+DrC-44  = 1060 
+ 
+= 1.06x103  
+DrC-45  = -1.01 
+ 
+= -1.01x100  
+ 
+DrH-41  = -252000 
+ 
+= -2.52x105  
+DrH-42  = -0.780 
+ 
+= -7.80x10-1  
+DrH-43  = -3300 
+ 
+= -3.30x103  
+DrH-44  = 0.160 
+ 
+= 1.60x10-1  
+DrH-45  = -2.32x10-9  
+ 
+DrM-41  = 2.63 
+ 
+= 2.63x100  
+DrM-42  = 132000 
+ 
+= 1.32x105  
+DrM-43  = 0.0763 
+ 
+= 7.63x10-2  
+DrM-44  = 13.7 
+ 
+= 1.37x101  
+DrM-45  = 0.911 
+ 
+= 9.11x10-1  
+DrY-31  = 4240 
+ 
+= 4.24x103  
+DrY-32  = 36900 
+ 
+= 3.69x104  
+DrY-33  = 0.320 
+ 
+= 3.20x10-1  
+DrY-34  = 33.1 
+ 
+= 3.31x101  
+DrY-35  = 2.04x10-11  
+ 
+DrD-41  = 1.35 
+ 
+= 1.35x100  
+DrD-42  = 1.56x10-5  
+DrD-43  = -74500 
+ 
+= -7.45x104  
+DrD-44  = 23.8 
+ 
+= 2.38x101  
+DrD-45  = -0.570 
+ 
+= -5.70x10-1  
+ 
+DrI-41  = 934 
+ 
+= 9.34x102  
+DrI-42  = -0.0988 
+ 
+= -9.88x10-2  
+DrI-43  = 0.0586 
+ 
+= 5.86x10-2  
+DrI-44  = 60.6 
+ 
+= 6.06x101  
+DrI-45  = 55.7 
+ 
+= 5.57x101  
+DrN-41  = 2.51 
+ 
+= 2.51x100  
+DrN-42  = 22.3 
+ 
+= 2.23x101  
+DrN-43  = -257 
+ 
+= -2.57x102  
+DrN-44  = 5.30x109  
+DrN-45  = -27800 
+ 
+= -2.78x104  
+ 
+DrZ-31  = 26.3 
+ 
+= 2.63x101  
+DrZ-32  = 1.25x1012  
+DrZ-33  = 0.00185 
+ 
+= 1.85x10-3  
+DrZ-34  = 74.0 
+ 
+= 7.40x101  
+DrZ-35  = 2.58x10-8  
+ 
+DrE-41  = 4.41x107  
+DrE-42  = -2.15x10-5  
+DrE-43  = -9.14 
+ 
+= -9.14x100  
+DrE-44  = 3.14x10-10  
+DrE-45  = 4390 
+ 
+= 4.39x103  
+ 
+DrJ-41  = 1.47 
+ 
+= 1.47x100  
+DrJ-42  = 0.0829 
+ 
+= 8.29x10-2  
+DrJ-43  = -1.73 
+ 
+= -1.73x100  
+DrJ-44  = 32.0 
+ 
+= 3.20x101  
+DrJ-45  = 1.73 
+ 
+= 1.73x100  
+DrO-41  = 0.00115 
+ 
+= 1.15x10-3  
+DrO-42  = -1.78x10-5  
+DrO-43  = -30.5 
+ 
+= -3.05x101  
+DrO-44  = 382 
+ 
+= 3.82x102  
+DrO-45  = -2.46 
+ 
+= -2.46x100  
+ 
+PAGE 5 (41-45) 
+DrA-41  = 1.80 
+ 
+= 1.80x100  
+DrA-42  = -1120 
+ 
+= -1.12x103  
+DrA-43  = 0.115 
+ 
+= 1.15x10-1  
+DrF-41  = 7.46 
+ 
+= 7.46x100  
+DrF-42  = -0.731 
+ 
+= -7.31x10-1  
+DrF-43  = -0.00711 
+ 
+= -7.11x10-3  
+DrF-44  = 3720 
+DrK-41  = 2.66 
+ 
+= 2.66x100  
+DrK-42  = 0.241 
+ 
+= 2.41x10-1  
+DrK-43  = 0.0198 
+ 
+= 1.98x10-2  
+DrK-44  = 0.00697 
+DrP-41  = 1.13 
+ 
+= 1.13x100  
+DrP-42  = -605 
+ 
+= -6.05x102  
+DrP-43  = -0.829 
+ 
+= -8.29x10-1  
+DrP-44  = 562 
+DrA-44  = 14.6 
+ 
+= 1.46x101  
+DrA-45  = 0.509 
+ 
+= 5.09x10-1  
+ 
+= 3.72x103  
+DrF-45  = -1.43 
+ 
+= -1.43x100  
+ 
+ 
+= 6.97x10-3  
+DrK-45  = -
+9.73x10-11  
+ 
+ 
+= 5.62x102  
+DrP-45  = 1.28 
+ 
+= 1.28x100  
+ 
+DrQ-41  = 0.0307 
+ 
+= 3.07x10-2  
+DrQ-42  = 67.6 
+ 
+= 6.76x101  
+DrQ-43  = -2260 
+ 
+= -2.26x103  
+DrQ-44  = 13.4 
+ 
+= 1.34x101  
+DrQ-45  = -166 
+ 
+= -1.66x102  
+ 
+DrV-41  = -79.1 
+ 
+= -7.91x101  
+DrV-42  = -0.493 
+ 
+= -4.93x10-1  
+DrV-43  = -47.4 
+ 
+= -4.74x101  
+DrV-44  = 428 
+ 
+= 4.28x102  
+DrV-45  = 0.0767 
+ 
+= 7.67x10-2  
+ 
+PAGE 6 (51-55) 
+DrA-51  = -0.0101 
+ 
+= -1.01x10-2  
+DrA-52  = -372000 
+ 
+= -3.72x105  
+DrA-53  = -456000 
+ 
+= -4.56x105  
+DrA-54  = 1.77 
+ 
+= 1.77x100  
+DrA-55  = 1.70 
+ 
+= 1.70x100  
+DrF-51  = 0.458 
+ 
+= 4.58x10-1  
+DrF-52  = -8250 
+ 
+= -8.25x103  
+DrF-53  = -135 
+ 
+= -1.35x102  
+DrF-54  = 1.99 
+ 
+= 1.99x100  
+DrF-55  = 0.0115 
+ 
+= 1.15x10-2  
+ 
+DrR-41  = 168 
+ 
+= 1.68x102  
+DrR-42  = 440000 
+ 
+= 4.40x105  
+DrR-43  = -19200 
+ 
+= -1.92x104  
+DrR-44  = 805 
+ 
+= 8.05x102  
+DrR-45  = -0.993 
+ 
+= -9.93x10-1  
+DrW-41  = 1.09 
+ 
+= 1.09x100  
+DrW-42  = 0.334 
+ 
+= 3.34x10-1  
+DrW-43  = 159 
+ 
+= 1.59x102  
+DrW-44  = 22.6 
+ 
+= 2.26x101  
+DrW-45  = 9.96x10-12  
+ 
+DrB-51  = 8.78 
+ 
+= 8.78x100  
+DrB-52  = 2.61x106  
+DrB-53  = -19.2 
+ 
+= -1.92x101  
+DrB-54  = 1.98 
+ 
+= 1.98x100  
+DrB-55  = 2.60 
+ 
+= 2.60x100  
+ 
+DrG-51  = 10.2 
+ 
+= 1.02x101  
+DrG-52  = -334 
+ 
+= -3.34x102  
+DrG-53  = 1.38 
+ 
+= 1.38x100  
+DrG-54  = 0.195 
+ 
+= 1.95x10-1  
+DrG-55  = 2.85 
+ 
+= 2.85x100  
+DrS-41  = 5.41x108  
+DrS-42  = 0.275 
+ 
+= 2.75x10-1  
+DrS-43  = 1.66 
+ 
+= 1.66x100  
+DrS-44  = 2790 
+ 
+= 2.79x103  
+DrS-45  = -0.159 
+ 
+= -1.59x10-1  
+DrX-41  = -1.89x1012  
+DrX-42  = -61.7 
+ 
+= -6.17x101  
+DrX-43  = 0.537 
+ 
+= 5.37x10-1  
+DrX-44  = 0.00774 
+ 
+= 7.74x10-3  
+DrX-45  = -7.71 
+ 
+= -7.71x100  
+DrC-51  = 0.0529 
+ 
+= 5.29x10-2  
+DrC-52  = 9.20x10-6  
+DrC-53  = 3.37 
+ 
+= 3.37x100  
+DrC-54  = 1730 
+ 
+= 1.73x103  
+DrC-55  = 3.37 
+ 
+= 3.37x100  
+DrH-51  = 0.0110 
+ 
+= 1.10x10-2  
+DrH-52  = -21.1 
+ 
+= -2.11x101  
+DrH-53  = 1.05 
+ 
+= 1.05x100  
+DrH-54  = -0.142 
+ 
+= -1.42x10-1  
+DrH-55  = 4.85x10-10  
+DrT-41  = -347 
+ 
+= -3.47x102  
+DrT-42  = 1820 
+ 
+= 1.82x103  
+DrT-43  = 0.0565 
+ 
+= 5.65x10-2  
+DrT-44  = 18.6 
+ 
+= 1.86x101  
+DrT-45  = -
+5.60x10-10  
+ 
+DrY-41  = 600 
+ 
+= 6.00x102  
+DrY-42  = -766 
+ 
+= -7.66x102  
+DrY-43  = 6.43 
+ 
+= 6.43x100  
+DrY-44  = 1.48 
+ 
+= 1.48x100  
+DrY-45  = -0.896 
+ 
+= -8.96x10-1  
+DrD-51  = 2.99 
+ 
+= 2.99x100  
+DrD-52  = 5.59x10-5  
+DrD-53  = 0.0369 
+ 
+= 3.69x10-2  
+DrD-54  = 0.0275 
+ 
+= 2.75x10-2  
+DrD-55  = 2.27 
+ 
+= 2.27x100  
+ 
+DrI-51  = 5.13 
+ 
+= 5.13x100  
+DrI-52  = -0.00661 
+ 
+= -6.61x10-3  
+DrI-53  = -48900 
+ 
+= -4.89x104  
+DrI-54  = -0.331 
+ 
+= -3.31x10-1  
+DrI-55  = 2.71 
+ 
+= 2.71x100  
+DrU-41  = 11.0 
+ 
+= 1.10x101  
+DrU-42  = -0.640 
+ 
+= -6.40x10-1  
+DrU-43  = -30.7 
+ 
+= -3.07x101  
+DrU-44  = 1.24x108  
+DrU-45  = -1.21 
+ 
+= -1.21x100  
+DrZ-41  = -3.94x10-9  
+DrZ-42  = 4.51x10-6  
+DrZ-43  = -0.218 
+ 
+= -2.18x10-1  
+DrZ-44  = 11.9 
+ 
+= 1.19x101  
+DrZ-45  = -31100 
+ 
+= -3.11x104  
+ 
+DrE-51  = 0.271 
+ 
+= 2.71x10-1  
+DrE-52  = -7.58x107  
+DrE-53  = -2.61x107  
+DrE-54  = 1.72 
+ 
+= 1.72x100  
+DrE-55  = 2.97 
+ 
+= 2.97x100  
+ 
+DrJ-51  = 5.35x10-10  
+DrJ-52  = 0.0452 
+ 
+= 4.52x10-2  
+DrJ-53  = -89900 
+ 
+= -8.99x104  
+DrJ-54  = 2.36 
+ 
+= 2.36x100  
+DrJ-55  = 1.01 
+ 
+= 1.01x100  
+DrK-51  = -0.00144 
+ 
+= -1.44x10-3  
+DrK-52  = -0.878 
+ 
+= -8.78x10-1  
+DrK-53  = 21.2 
+ 
+= 2.12x101  
+DrK-54  = 587 
+ 
+= 5.87x102  
+DrK-55  = 1.15 
+ 
+= 1.15x100  
+DrP-51  = 4.16 
+ 
+= 4.16x100  
+DrP-52  = -71.7 
+ 
+= -7.17x101  
+DrP-53  = 2.15 
+ 
+= 2.15x100  
+DrP-54  = 1.33x10-5  
+DrP-55  = 2.83 
+ 
+= 2.83x100  
+ 
+DrU-51  = 2.24 
+ 
+= 2.24x100  
+DrU-52  = 9.70x10-8  
+DrU-53  = -2.23 
+ 
+= -2.23x100  
+DrU-54  = 6.67 
+ 
+= 6.67x100  
+DrU-55  = -1.91x10-5  
+ 
+DrZ-51  = 20.5 
+ 
+= 2.05x101  
+DrZ-52  = -5190 
+ 
+= -5.19x103  
+DrZ-53  = -9.86 
+ 
+= -9.86x100  
+DrZ-54  = 1.81 
+ 
+= 1.81x100  
+DrZ-55  = 2.39 
+ 
+= 2.39x100  
+DrL-51  = 0.000123 
+ 
+= 1.23x10-4  
+DrL-52  = 12.6 
+ 
+= 1.26x101  
+DrL-53  = 2.89 
+ 
+= 2.89x100  
+DrL-54  = -405 
+ 
+= -4.05x102  
+DrL-55  = 46.7 
+ 
+= 4.67x101  
+ 
+DrQ-51  = 0.0837 
+ 
+= 8.37x10-2  
+DrQ-52  = -1220 
+ 
+= -1.22x103  
+DrQ-53  = 0.783 
+ 
+= 7.83x10-1  
+DrQ-54  = 122 
+ 
+= 1.22x102  
+DrQ-55  = 1.21 
+ 
+= 1.21x100  
+ 
+DrV-51  = 0.00193 
+ 
+= 1.93x10-3  
+DrV-52  = 6.65x106  
+DrV-53  = -1020 
+ 
+= -1.02x103  
+DrV-54  = 2.07 
+ 
+= 2.07x100  
+DrV-55  = 2.17 
+ 
+= 2.17x100  
+ 
+PAGE 7 (61-65) 
+DrA-61  = 2.05 
+ 
+= 2.05x100  
+DrA-62  = 1.13 
+ 
+= 1.13x100  
+DrA-63  = -0.933 
+ 
+= -9.33x10-1  
+DrA-64  = -0.115 
+ 
+= -1.15x10-1  
+DrA-65  = -1.72 
+ 
+= -1.72x100  
+DrM-51  = 0.117 
+ 
+= 1.17x10-1  
+DrM-52  = 1.79 
+ 
+= 1.79x100  
+DrM-53  = -3030 
+ 
+= -3.03x103  
+DrM-54  = -1.65x10-5  
+DrM-55  = 1.04 
+ 
+= 1.04x100  
+ 
+DrR-51  = 0.000214 
+ 
+= 2.14x10-4  
+DrR-52  = -89.1 
+ 
+= -8.91x101  
+DrR-53  = -940000 
+ 
+= -9.40x105  
+DrR-54  = 1.69 
+ 
+= 1.69x100  
+DrR-55  = 2.34 
+ 
+= 2.34x100  
+DrW-51  = 0.0206 
+ 
+= 2.06x10-2  
+DrW-52  = 3.38x107  
+DrW-53  = -1.92x106  
+DrW-54  = 6.54 
+ 
+= 6.54x100  
+DrW-55  = -1.57x109  
+ 
+DrB-61  = 3.20x107  
+DrB-62  = 0.373 
+ 
+= 3.73x10-1  
+DrB-63  = 5.81x106  
+DrB-64  = 13.1 
+ 
+= 1.31x101  
+DrB-65  = -0.0204 
+ 
+= -2.04x10-2  
+ 
+DrN-51  = 2090 
+ 
+= 2.09x103  
+DrN-52  = 2.59 
+ 
+= 2.59x100  
+DrN-53  = -1.16x107  
+DrN-54  = 1.63 
+ 
+= 1.63x100  
+DrN-55  = 12400 
+DrS-51  = 4.74 
+ 
+= 4.74x100  
+DrS-52  = -1.77x10-7  
+DrS-53  = 0.000534 
+ 
+= 5.34x10-4  
+DrS-54  = 0.288 
+ 
+= 2.88x10-1  
+DrS-55  = 1.05 
+DrX-51  = 0.000212 
+ 
+= 2.12x10-4  
+DrX-52  = 1.76x107  
+DrX-53  = 1.55 
+ 
+= 1.55x100  
+DrX-54  = 4.79 
+ 
+= 4.79x100  
+DrX-55  = 2.01 
+DrC-61  = 0.000667 
+ 
+= 6.67x10-4  
+DrC-62  = 0.621 
+ 
+= 6.21x10-1  
+DrC-63  = -4.38 
+ 
+= -4.38x100  
+DrC-64  = 0.254 
+ 
+= 2.54x10-1  
+DrC-65  = -0.0890 
+ 
+= 1.24x104  
+ 
+= 1.05x100  
+ 
+= 2.01x100  
+ 
+= -8.90x10-2  
+DrO-51  = 0.0216 
+ 
+= 2.16x10-2  
+DrO-52  = -1050 
+ 
+= -1.05x103  
+DrO-53  = 0.00536 
+ 
+= 5.36x10-3  
+DrO-54  = 255 
+ 
+= 2.55x102  
+DrO-55  = 1.18 
+ 
+= 1.18x100  
+DrT-51  = 3.60 
+ 
+= 3.60x100  
+DrT-52  = -6.40x10-8  
+DrT-53  = 2.22 
+ 
+= 2.22x100  
+DrT-54  = 0.296 
+ 
+= 2.96x10-1  
+DrT-55  = 1.55 
+ 
+= 1.55x100  
+DrY-51  = 0.0324 
+ 
+= 3.24x10-2  
+DrY-52  = -69.4 
+ 
+= -6.94x101  
+DrY-53  = 4.77 
+ 
+= 4.77x100  
+DrY-54  = -0.0302 
+ 
+= -3.02x10-2  
+DrY-55  = 0.130 
+ 
+= 1.30x10-1  
+DrD-61  = 6.87 
+ 
+= 6.87x100  
+DrD-62  = 0.249 
+ 
+= 2.49x10-1  
+DrD-63  = 0.331 
+ 
+= 3.31x10-1  
+DrD-64  = 1.29 
+ 
+= 1.29x100  
+DrD-65  = -0.105 
+ 
+= -1.05x10-1  
+DrE-61  = 0.0877 
+ 
+= 8.77x10-2  
+DrE-62  = 111 
+ 
+= 1.11x102  
+DrE-63  = -9.91 
+ 
+= -9.91x100  
+DrE-64  = -0.165 
+ 
+= -1.65x10-1  
+DrE-65  = 0.000220 
+ 
+= 2.20x10-4  
+DrJ-61  = 42.5 
+ 
+= 4.25x101  
+DrJ-62  = 0.0906 
+ 
+= 9.06x10-2  
+DrJ-63  = -0.00160 
+ 
+= -1.60x10-3  
+DrJ-64  = 1.91 
+ 
+= 1.91x100  
+DrJ-65  = 0.0694 
+ 
+= 6.94x10-2  
+DrO-61  = 11.0 
+ 
+= 1.10x101  
+DrO-62  = 23.4 
+ 
+= 2.34x101  
+DrO-63  = 0.00128 
+ 
+= 1.28x10-3  
+DrO-64  = 0.327 
+ 
+= 3.27x10-1  
+DrO-65  = -4.13 
+ 
+= -4.13x100  
+DrT-61  = 3.79 
+ 
+= 3.79x100  
+DrT-62  = 1.37 
+ 
+= 1.37x100  
+DrT-63  = -1.33 
+ 
+= -1.33x100  
+DrT-64  = 1.17 
+ 
+= 1.17x100  
+DrT-65  = 6.92x10-5  
+ 
+DrF-61  = -3.33 
+ 
+= -3.33x100  
+DrF-62  = 14.9 
+ 
+= 1.49x101  
+DrF-63  = -0.0312 
+ 
+= -3.12x10-2  
+DrF-64  = 604 
+ 
+= 6.04x102  
+DrF-65  = 0.0124 
+ 
+= 1.24x10-2  
+DrK-61  = 5.67 
+ 
+= 5.67x100  
+DrK-62  = 1.20 
+ 
+= 1.20x100  
+DrK-63  = -1.10 
+ 
+= -1.10x100  
+DrK-64  = 0.491 
+ 
+= 4.91x10-1  
+DrK-65  = -422 
+ 
+= -4.22x102  
+DrP-61  = -4.06 
+ 
+= -4.06x100  
+DrP-62  = 1830 
+ 
+= 1.83x103  
+DrP-63  = -6.23 
+ 
+= -6.23x100  
+DrP-64  = 1.01 
+ 
+= 1.01x100  
+DrP-65  = -0.547 
+ 
+= -5.47x10-1  
+DrU-61  = -5.94 
+ 
+= -5.94x100  
+DrU-62  = 0.947 
+ 
+= 9.47x10-1  
+DrU-63  = 0.466 
+ 
+= 4.66x10-1  
+DrU-64  = 1.64 
+ 
+= 1.64x100  
+DrU-65  = -0.00637 
+ 
+= -6.37x10-3  
+DrG-61  = 9.40x1012  
+DrG-62  = 7270 
+ 
+= 7.27x103  
+DrG-63  = -2.67x109  
+DrG-64  = 0.577 
+ 
+= 5.77x10-1  
+DrG-65  = 48.9 
+ 
+= 4.89x101  
+ 
+DrL-61  = 1.94x1029  
+DrL-62  = 1.02 
+ 
+= 1.02x100  
+DrL-63  = -1.10 
+ 
+= -1.10x100  
+DrL-64  = 1.04 
+ 
+= 1.04x100  
+DrL-65  = -0.131 
+ 
+= -1.31x10-1  
+ 
+DrQ-61  = 9.64 
+ 
+= 9.64x100  
+DrQ-62  = 636 
+ 
+= 6.36x102  
+DrQ-63  = 0.115 
+ 
+= 1.15x10-1  
+DrQ-64  = -0.140 
+ 
+= -1.40x10-1  
+DrQ-65  = -0.0373 
+ 
+= -3.73x10-2  
+DrV-61  = 92.4 
+ 
+= 9.24x101  
+DrV-62  = -0.399 
+ 
+= -3.99x10-1  
+DrV-63  = 0.486 
+ 
+= 4.86x10-1  
+DrV-64  = 86400 
+ 
+= 8.64x104  
+DrV-65  = 14.0 
+ 
+= 1.40x101  
+DrH-61  = -0.0859 
+ 
+= -8.59x10-2  
+DrH-62  = 172 
+ 
+= 1.72x102  
+DrH-63  = 0.993 
+ 
+= 9.93x10-1  
+DrH-64  = 1.13 
+ 
+= 1.13x100  
+DrM-61  = 1.83 
+ 
+= 1.83x100  
+DrM-62  = 0.942 
+ 
+= 9.42x10-1  
+DrM-63  = 0.480 
+ 
+= 4.80x10-1  
+DrM-64  = -0.103 
+ 
+= -1.03x10-1  
+DrR-61  = -3.72 
+ 
+= -3.72x100  
+DrR-62  = 404 
+ 
+= 4.04x102  
+DrR-63  = -4.85 
+ 
+= -4.85x100  
+DrR-64  = 84.1 
+ 
+= 8.41x101  
+DrW-61  = -2.20 
+ 
+= -2.20x100  
+DrW-62  = 1.34 
+ 
+= 1.34x100  
+DrW-63  = 3.19 
+ 
+= 3.19x100  
+DrW-64  = 2.13 
+ 
+= 2.13x100  
+DrH-65  = -202 
+ 
+= -2.02x102  
+DrM-65  = 0.555 
+ 
+= 5.55x10-1  
+DrR-65  = -0.210 
+ 
+= -2.10x10-1  
+DrW-65  = 12.2 
+ 
+= 1.22x101  
+DrI-61  = -15.8 
+ 
+= -1.58x101  
+DrI-62  = 150 
+ 
+= 1.50x102  
+DrI-63  = 0.456 
+ 
+= 4.56x10-1  
+DrI-64  = -0.286 
+ 
+= -2.86x10-1  
+DrI-65  = -1.03 
+ 
+= -1.03x100  
+DrN-61  = 1.32x108  
+DrN-62  = 69.0 
+ 
+= 6.90x101  
+DrN-63  = -2.06 
+ 
+= -2.06x100  
+DrN-64  = 6.03 
+ 
+= 6.03x100  
+DrN-65  = 0.0218 
+ 
+= 2.18x10-2  
+ 
+DrS-61  = 5.46x109  
+DrS-62  = -5.03 
+ 
+= -5.03x100  
+DrS-63  = -1.51 
+ 
+= -1.51x100  
+DrS-64  = 1.14 
+ 
+= 1.14x100  
+DrS-65  = 0.143 
+ 
+= 1.43x10-1  
+ 
+DrX-61  = 2.46x106  
+DrX-62  = 640 
+ 
+= 6.40x102  
+DrX-63  = -100000 
+ 
+= -1.00x105  
+DrX-64  = 1.07 
+ 
+= 1.07x100  
+DrX-65  = 2540 
+ 
+= 2.54x103  
+ 
+ 
+ 
+DrY-61  = 8.99 
+ 
+= 8.99x100  
+DrY-62  = 6800 
+ 
+= 6.80x103  
+DrY-63  = -1.13 
+ 
+= -1.13x100  
+DrY-64  = 1.21 
+ 
+= 1.21x100  
+DrY-65  = 299 
+ 
+= 2.99x102  
+DrZ-61  = -13.4 
+ 
+= -1.34x101  
+DrZ-62  = 6280 
+ 
+= 6.28x103  
+DrZ-63  = 0.446 
+ 
+= 4.46x10-1  
+DrZ-64  = 3.34 
+ 
+= 3.34x100  
+DrZ-65  = 0.869 
+ 
+= 8.69x10-1  
+ 
+ 
+ 
+ 

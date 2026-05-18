@@ -1666,7 +1666,7 @@ Let’s look at an example: 722 + 132.
 1. The unit’s digit of the ﬁrst number (2) is one greater than the ten’s digit of the second number (1).
 2. The sum of the ten’s digit of the ﬁrst number (7) and the unit’s digit of the second number (3) is 10.
 3. The answer will be (72 + 22) × 101 = 5353.
-It is important to arrange the numbers accordingly for this particular trick to work. For example, if you see
+It is important to arrange the nfumbers accordingly for this particular trick to work. For example, if you see
 a problem like: 342 + 642, it looks like a diﬃcult problem where this particular trick won’t apply. However,
 if you switch the order of the two numbers you get 342 + 642 = 642 + 342 = (62 + 42) × 101 = 5252.
 Generally this trick is on the third column, and it is relatively simple to notice when to apply it because if
